@@ -161,6 +161,9 @@ body {
 .layout a:focus {
   text-decoration: none;
 }
+.layout .social-icons a:hover{
+    background: inherit;
+}
 
 .layout a,
 .layout button,
@@ -186,6 +189,14 @@ body {
 .layout .section {
   padding-top: 80px;
   padding-bottom: 80px;
+}
+.layout .section.supported ul{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.layout .section.supported svg {
+    height: 100px;
 }
 
 .section-sm {

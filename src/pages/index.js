@@ -6,7 +6,9 @@ import SEO from "../components/seo"
 import 'react-animated-term/dist/react-animated-term.css'
 import Terminal from 'react-animated-term'
 import commands from "../utils/terminal-script"
+import rigoURL from "../img/rigo.jpg"
 import { Twemoji }  from "react-emoji-render"
+import render from '../components/icons'
 
 const IndexPage = () => (
   <Layout>
@@ -15,8 +17,8 @@ const IndexPage = () => (
             <div className="container">
                 <div className="row justify-content-between align-items-center">
                 <div className="col-lg-6 text-center text-lg-left">
-                    <h1 className="mb-4">Open Source Package Manager for Learning</h1>
-                    <p className="mb-4">Seamlessly build interactive tutorials and auto-graded tutorials</p>
+                    <h1 className="mb-4">Open Source Package Manager for Learning <Twemoji text="👩🏽‍🎓" /></h1>
+                    <p className="mb-4">Seamlessly build or take interactive & auto-graded tutorials, <Link to="/learn">start learning</Link> now or <Link to="/build">build a tutorial.</Link></p>
                     {/* <form className="search-wrapper" action="search.html">
                     <input id="search-by" name="s" type="search" className="form-control form-control-lg"
                         placeholder="Search Here..." />
@@ -52,6 +54,20 @@ const IndexPage = () => (
                     <LearnBox label="Javascript" icon="javascript" />
                 </div>
                 </div>
+            </div>
+        </section>
+
+        <section className="section pb-0 supported">
+            <div className="container">
+                <h2 className="section-title text-center">Supported by popular coding IDE's</h2>
+                <ul>
+                    <li>{render("visual-studio")}</li>
+                    <li>{render("gitpod")}</li>
+                    <li>{render("atom")}</li>
+                    <li>{render("sublime")}</li>
+                    <li>{render("webstorm")}</li>
+                    <li>{render("eclipse")}</li>
+                </ul>
             </div>
         </section>
 
@@ -130,12 +146,12 @@ const IndexPage = () => (
             <div className="container">
                 <div className="row align-items-center">
                 <div className="col-lg-4 text-center d-lg-block d-none">
-                    <img src="images/cta-illustration.jpg" className="img-fluid" alt="" />
+                    <img src={rigoURL} style={{ height: "200px"}} className="img-fluid" alt="" />
                 </div>
                 <div className="col-lg-8 text-lg-left text-center">
                     <h2 className="mb-3">Still Didn&rsquo;t Find Your Answer?</h2>
-                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam <br /> nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam</p>
-                    <a href="contact.html" className="btn btn-primary">Submit a ticket</a>
+                    <p>Add a ticket in the main LearnPack repository on Github and we will make sure to answer it ASAP!</p>
+                    <a href="https://github.com/learnpack/learnpack/issues/new" className="btn btn-primary">Submit a ticket</a>
                 </div>
                 </div>
             </div>

@@ -1,12 +1,12 @@
 const spinner = ['⠋', '⠙', '⠹', '⠸', '⠼', '⠴', '⠦', '⠧', '⠇', '⠏']
 
 export default [
-    { 'text': 'npm install learnpack', 'cmd': true, delay: 250 },
+    { 'text': 'npm install -g learnpack', 'cmd': true, delay: 250 },
     {
         'text': 'Successfully installed 😀',
         'cmd': false
     },
-    { 'text': 'learn react.js', 'cmd': true, delay: 250 },
+    { 'text': 'learn install react.js', 'cmd': true, delay: 250 },
     {
         text: '💻 downloading interactive exercises',
         cmd: false,
@@ -20,9 +20,9 @@ export default [
         })
     },
     {
-        'text': '🎊 Done! Type "learn now" to start learning',
+        'text': '🎊 Done! Type "learn start" to start learning',
         'cmd': false
     },
-    { 'text': 'learn now', 'cmd': true, delay: 250 },
+    { 'text': 'learn start', 'cmd': true, delay: 250 },
     { 'text': '🔥 Your tutorial is live on http://localhost:8080', 'cmd': false }
 ]

@@ -1,4 +1,5 @@
 import React from "react"
+import render from './icons'
 
 const Footer = () => {
     return <footer>
@@ -13,10 +14,9 @@ const Footer = () => {
             </div>
             <div className="col-lg-4 ml-auto">
                 <ul className="list-inline social-icons text-lg-right text-center">
-                <li className="list-inline-item"><a href="#"><i className="ti-facebook"></i></a></li>
-                <li className="list-inline-item"><a href="#"><i className="ti-twitter-alt"></i></a></li>
-                <li className="list-inline-item"><a href="#"><i className="ti-github"></i></a></li>
-                <li className="list-inline-item"><a href="#"><i className="ti-linkedin"></i></a></li>
+                    <li className="list-inline-item"><a href="https://github.com/learnpack"><i>{render("github")}</i></a></li>
+                    <li className="list-inline-item"><a href="#"><i>{render("twitter")}</i></a></li>
+                    <li className="list-inline-item"><a href="#"><i>{render("youtube")}</i></a></li>
                 </ul>
             </div>
             </div>
