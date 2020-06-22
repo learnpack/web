@@ -15,6 +15,7 @@ const Header = () => {
                 <ul className="navbar-nav mx-auto align-items-center">
                 <li className="nav-item"><Link className="nav-link" to="/quick-start">Quick Start</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/quick-start">Documentation</Link></li>
+                <li className="nav-item"><Link className="nav-link" to="/terms-and-conditions/">Terms and Conditions</Link></li>
                 </ul>
                 <a href="changelog.html" className="btn btn-sm btn-outline-primary ml-lg-4">For Teachers</a>
                 <a href="contact.html" className="btn btn-sm btn-primary ml-lg-4">contact</a>
