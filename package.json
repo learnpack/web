@@ -12,7 +12,7 @@
   "dependencies": {
     "bootstrap": "^4.4.1",
     "gatsby": "^2.18.17",
-    "gatsby-cli": "^2.11.21",
+    "gatsby-cli": "^2.12.45",
     "gatsby-plugin-prefetch-google-fonts": "^1.4.3",
     "gatsby-theme-dox": "*",
     "react": "^16.12.0",
