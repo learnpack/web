@@ -17,7 +17,7 @@ const Header = () => {
                 <li className="nav-item"><Link className="nav-link" to="/quick-start">Documentation</Link></li>
                 </ul>
                 <a href="changelog.html" className="btn btn-sm btn-outline-primary ml-lg-4">For Teachers</a>
-                <a href="contact.html" className="btn btn-sm btn-primary ml-lg-4">contact</a>
+                <a className="btn btn-sm btn-primary ml-lg-4"><Link to="/contact">Contact</Link></a>
             </div>
             </nav>
         </div>
