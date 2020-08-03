@@ -12,13 +12,12 @@ const Header = () => {
             <button className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
                 <i className="ti-align-right h4 text-dark"></i></button>
             <div className="collapse navbar-collapse text-center" id="navigation">
-                <ul className="navbar-nav mx-auto align-items-center">
+                <ul className="navbar-nav mx-4 align-items-center">
                 <li className="nav-item"><Link className="nav-link" to="/quick-start">Quick Start</Link></li>
                 <li className="nav-item"><Link className="nav-link" to="/quick-start">Documentation</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="/terms-and-conditions/">Terms and Conditions</Link></li>
                 </ul>
                 <a href="changelog.html" className="btn btn-sm btn-outline-primary ml-lg-4">For Teachers</a>
-                <a href="contact.html" className="btn btn-sm btn-primary ml-lg-4">contact</a>
+                <a className="btn btn-sm btn-primary ml-lg-4"><Link to="/contact">Contact</Link></a>
             </div>
             </nav>
         </div>
