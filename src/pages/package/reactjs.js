@@ -1,16 +1,15 @@
 import React from "react"
 import { Link } from "gatsby"
-import Layout from "../components/layout"
-import LearnBox from "../components/learn-box"
-import SEO from "../components/seo"
+import Layout from "../../components/layout"
+import LearnBox from "../../components/learn-box"
+import SEO from "../../components/seo"
 import 'react-animated-term/dist/react-animated-term.css'
 import Terminal from 'react-animated-term'
-import commands from "../utils/terminal-script"
-import rigoURL from "../img/rigo.jpg"
+import commands from "../../utils/terminal-script"
 import { Twemoji } from "react-emoji-render"
-import render from '../components/icons'
+import render from '../../components/icons'
 
-const Package = () => (
+const Reactjs = () => (
     <Layout>
         <div className="container">
             {/* Header section */}
@@ -93,4 +92,4 @@ const Package = () => (
     </Layout >
 )
 
-export default Package
+export default Reactjs
