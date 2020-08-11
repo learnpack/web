@@ -20,34 +20,74 @@ const Package = () => (
             </div>
             <hr />
             <div className="description-container row justify-content-between align-items-center mb-5">
-            {/* Package description section - L hand side */}
-            <div className="package-description col-lg-7 text-lg-left">
-                <h5>React</h5>
-                <p>
-                    React is a JavaScript library for creating user interfaces.
+                {/* Package description section - L hand side */}
+                <div className="package-description col-lg-7 text-lg-left">
+                    <h5>React</h5>
+                    <p>
+                        React is a JavaScript library for creating user interfaces.
 
-                    The react package contains only the functionality necessary to define React components. It is typically used together with a React renderer like react-dom for the web, or react-native for the native environments.
+                        The react package contains only the functionality necessary to define React components. It is typically used together with a React renderer like react-dom for the web, or react-native for the native environments.
                 </p>
 
-                <h5>Example Usage</h5>
-                <p>
-                    <code>
-                        var React = require('react');
+                    <h5>Example Usage</h5>
+                    <p>
+                        <code>
+                            var React = require('react');
                     </code>
+                    </p>
+                    <h5>Keywords</h5>
+                    <p>
+                        react, react.js, javascript
                 </p>
-                <h5>Keywords</h5>
-                <p>
-                    react, react.js, javascript
-                </p>
+                <br/>
+                <a class="btn btn-primary">Report a vulnerability</a>
+
+                </div>
+
+
+                {/* Statistics section - R hand side */}
+                <div className="package-statistics col-lg-5 text-lg-left">
+                    <p>
+                        <u>Install:</u>
+                        <br/>
+                    <code className="installation-example">
+                            $ learnpack install:exercises
+                    </code>
+                    </p>
+
+                    <p>
+                        <u>Weekly Downloads:</u>
+                        <br/>
+                        37,547
+                    </p>
+
+                    <p>
+                        <u>Version:</u>
+                        <br/>
+                        16.13.1
+                    </p>
+
+                    <p>
+                        <u>Unpacked Size:</u>
+                        <br/>
+                        204 kB
+                    </p>
+
+                    <p>
+                        <u>Repository:</u>
+                        <br/>
+
+                        <a >https://github.com/learnpack</a>
+                    </p>
+
+                    <p>
+                        <u>Last Publish:</u>
+                        <br/>
+                        7 days ago
+                    </p>
+
+                </div>
             </div>
-
-            {/* Statistics section - R hand side */}
-                <div className="row-sm-4 text-lg-right">
-                    <p>test</p>
-
-
-                </div>
-                </div>
         </div>
 
     </Layout >
