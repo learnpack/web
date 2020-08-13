@@ -27,13 +27,16 @@ const Reactjs = () => (
 
                         The react package contains only the functionality necessary to define React components. It is typically used together with a React renderer like react-dom for the web, or react-native for the native environments.
                 </p>
-
+                
+                    <hr />
                     <h5>Example Usage</h5>
                     <p>
                         <code>
                             var React = require('react');
                     </code>
                     </p>
+
+                    <hr />
                     <h5>Keywords</h5>
                     <p>
                         react, react.js, javascript
@@ -45,7 +48,7 @@ const Reactjs = () => (
 
 
                 {/* Statistics section - R hand side */}
-                <div className="package-statistics col-lg-5 text-lg-left">
+                <div className="package-statistics col-lg-5 text-lg-right">
                     <p>
                         <u>Install:</u>
                         <br/>
