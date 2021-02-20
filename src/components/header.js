@@ -1,13 +1,14 @@
 import {Link} from "gatsby"
 import React from "react"
 import { Twemoji }  from "react-emoji-render"
-
+import logoURL from "../img/learnpack-side-small.png"
 const Header = () => {
     return <header className="sticky-top navigation">
         <div className="container">
             <nav className="navbar navbar-expand-lg navbar-light bg-white">
             <Link className="navbar-brand logo" href="index.html">
                 <Twemoji text="📦"/> LearnPack
+                {/* <img src={logoURL} style={{ maxHeight: "50px" }} /> */}
             </Link>
             <button className="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
                 <i className="ti-align-right h4 text-dark"></i></button>
