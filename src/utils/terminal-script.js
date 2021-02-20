@@ -6,7 +6,7 @@ export default [
         'text': 'Successfully installed 😀',
         'cmd': false
     },
-    { 'text': 'learn install react.js', 'cmd': true, delay: 250 },
+    { 'text': 'learnpack download react.js', 'cmd': true, delay: 250 },
     {
         text: '💻 downloading interactive exercises',
         cmd: false,
@@ -20,9 +20,9 @@ export default [
         })
     },
     {
-        'text': '🎊 Done! Type "learn start" to start learning',
+        'text': '🎊 Done! Type "$ learnpack start" to start learning',
         'cmd': false
     },
-    { 'text': 'learn start', 'cmd': true, delay: 250 },
+    { 'text': 'learnpack start', 'cmd': true, delay: 250 },
     { 'text': '🔥 Your tutorial is live on http://localhost:8080', 'cmd': false }
 ]
