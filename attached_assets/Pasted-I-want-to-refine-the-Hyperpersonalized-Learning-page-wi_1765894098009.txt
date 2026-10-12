@@ -1,0 +1,37 @@
+I want to refine the Hyperpersonalized Learning page with a few layout and background fixes. Please keep the overall structure and content, and apply these changes:
+
+1) HERO POSITION
+- Move the first section ("A learning experience that adapts to every learner") higher on the page.
+- Reduce the top margin / top padding of the hero so that the headline starts much closer to the top of the viewport, similar to the homepage hero.
+- Do not change the text or the example box, only adjust vertical spacing so the hero feels like the true top of the page.
+
+2) "Support that feels personal, at scale" – RESTORE AND ENLARGE DIAGRAM
+- In this section, bring back the previous layout of the right-side diagram that showed:
+  "Different levels"
+  "Different roles"
+  "Different goals"
+  with an arrow toward "One AI Tutor experience".
+- Use that same style, but:
+  - Increase its overall size
+  - Center it vertically with the text on the left
+  - Add a soft blue glow behind the group
+- Do not change the left-side bullets, only adjust and enlarge this existing diagram.
+
+3) "What hyperpersonalization looks like in practice" – CLARIFY SCENARIOS VS RESPONSES
+- Keep the three cards horizontally aligned under the title and keep their current width, but make the structure clearer and more consistent.
+- For each card:
+  - Use a label "Scenario:" for the first sentence and keep it in normal text.
+  - Use a label "AI Tutor:" for the second line and set that second line in italic.
+- Ensure:
+  - All card titles have the same font size.
+  - Scenario and AI Tutor lines are aligned and use the same font sizes across all three cards.
+  - The whole section is centered under the heading, with equal spacing between cards.
+
+4) GLOBAL BACKGROUND BEHAVIOR AND STYLE
+- Adjust the page background so it behaves like the homepage and the End-to-End Automation page:
+  - The background should scroll together with the content, not remain fixed while content scrolls.
+- For the visual style:
+  - Keep the subtle starfield, and also add the same kind of very soft light beams / light rays used on the homepage and the End-to-End Automation page.
+  - Make sure stars and light beams are low opacity, only to give depth and texture, not to distract from the text.
+
+Apply these changes without altering the copy or section order, just improving spacing, alignment, background behavior, and visual clarity.

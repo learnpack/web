@@ -1,0 +1,75 @@
+Gotcha, I see exactly what you mean 👀
+
+Let’s tackle your three points and turn them into **very concrete prompts** you can give the Replit builder.
+
+---
+
+## 1️⃣ Make the background fluid (remove the “hard line” between hero + logos)
+
+Right now it looks like:
+
+* Hero has one background (gradient + rays)
+* Logos band has another (flat dark)
+* There’s a visible seam/line between them
+
+We want it to feel like **one continuous sky**.
+
+### Prompt for Replit
+
+Copy–paste this:
+
+> Please make the background transition between the hero section and the "Trusted by leading educational institutions" section completely seamless:
+>
+> * Use the **same background color and starfield/gradient** for both sections so there is no visible horizontal line between them.
+> * Remove any borders, top lines, or box-shadow that might be creating a divider between these two sections.
+> * Ensure the vertical spacing between the hero and the logos is handled only with `padding`, not with a different background color strip.
+>
+> The visual effect I want is: the hero and the logo band should feel like **one continuous dark space background**, with no hard edge between them.
+
+---
+
+## 2️⃣ Logos should already be visible on page load (no delayed fade-in)
+
+Right now:
+
+* The logos band starts empty
+* It fades in when you start scrolling
+* That makes it feel “late” / glitchy
+
+We want the logos **fully visible as soon as the page loads.**
+
+### Prompt for Replit
+
+> In the "Trusted by leading educational institutions" section:
+>
+> * Remove any scroll-based or delayed animation that hides the logos on initial page load (for example, fade-in, translate, or opacity transitions that depend on scroll position).
+> * The title and all logos should be **fully visible and opaque (opacity: 1)** as soon as the page loads, even before scrolling.
+> * If you want to keep a tiny animation, keep only a very subtle hover effect on each logo, but no initial fade-in on scroll.
+
+---
+
+## 3️⃣ Add background visuals to “How it Works” and “Features & Capabilities”
+
+You’re right: those two sections feel a bit “flat” compared to the hero + solution cards.
+
+We want **subtle, elegant visuals** in the background—not heavy shapes. Think:
+
+* soft radial glow behind the timeline
+* faint lines or orbits
+* extra tiny stars
+
+### Prompt for Replit
+
+> Please enrich the backgrounds of the **"How it Works"** and **"Features & Capabilities"** sections with subtle visuals that match the rest of the site:
+>
+> * Keep the same main dark background color.
+> * Add **very subtle starfield / particle dots** similar to the hero so the sections feel connected to the rest of the page.
+> * For "How it Works", add a soft circular glow or gradient behind the vertical timeline, centered on the steps, with low opacity so it doesn't distract from the text.
+> * For "Features & Capabilities", add a very soft radial gradient or a few diagonal light lines behind the icons to give depth, but keep everything low-contrast and non-intrusive.
+> * Do NOT put these visuals inside boxes; they should be **background-only**, behind the content, with plenty of negative space.
+>
+> Goal: these sections should feel visually alive and consistent with the cosmic/AI aesthetic, but still clean and easy to read.
+
+---
+
+If you want, once Replit applies these, send me another screenshot and we’ll do the **final polish round** (spacing, one more metric, and tiny wording tweaks) so the homepage is fully “done done.”

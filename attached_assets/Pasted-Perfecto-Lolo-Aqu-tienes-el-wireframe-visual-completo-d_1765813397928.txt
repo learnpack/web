@@ -1,0 +1,270 @@
+Perfecto Lolo.
+Aquí tienes **el wireframe visual completo** de la página **Hyperpersonalized Learning**, siguiendo el estilo general del sitio, manteniendo coherencia con la página de End-to-End Automation, pero con una composición diferente para evitar repetitividad.
+
+Lo presento como **estructura visual**, tal como se usa en product design: proporciones, bloques, jerarquías, espaciados y posiciones claras para pasar directo al builder.
+
+---
+
+# ⭐ WIREFRAME VISUAL: Hyperpersonalized Learning
+
+*(Diseño limpio, moderno, editorial, no repetitivo)*
+
+---
+
+```
+──────────────────────────────────────────────────────────
+                SECTION 1: HERO (full width)
+──────────────────────────────────────────────────────────
+
+[LEFT COLUMN — 55%]
+
+  H1: "A learning experience that adapts to every learner"
+
+  Subheadline:
+  "The AI Tutor understands what each learner is reading and provides 
+   real-time, contextual guidance that improves comprehension, engagement, 
+   and completion rates."
+
+  [Primary Button]  Start for Free
+  [Secondary Button] Book a Demo
+
+[RIGHT COLUMN — 45%]
+
+  Visual placeholder:
+  ┌───────────────────────────────┐
+  │     CONTENT + AI TUTOR POPUP  │
+  │   Small preview of chat/help  │
+  └───────────────────────────────┘
+
+
+Spacing: generous top and bottom padding (120–140px)
+Background: clean white
+
+
+──────────────────────────────────────────────────────────
+                SECTION 2: DEFINITION BOX
+──────────────────────────────────────────────────────────
+
+Centered box, medium width (60% of page)
+Soft gray background (#F8F9FB), subtle border radius (12px)
+
+  "Hyperpersonalized Learning in LearnPack means that every learner 
+   receives real-time adaptive support from the AI Tutor. It tailors 
+   explanations, clarifies concepts, and guides understanding directly 
+   inside the learning experience."
+
+Spacing: 80px top and bottom
+
+
+──────────────────────────────────────────────────────────
+     SECTION 3: UNIQUE VALUE PROPOSITION (NEW LAYOUT)
+──────────────────────────────────────────────────────────
+
+Layout: 2-column split with staggered bullets, NOT cards.
+
+[LEFT COLUMN]
+  H2: "Support that feels personal, at scale"
+
+  Bullet list (spacious line height):
+    • Responds to the learner’s exact confusion  
+    • Adjusts depth and clarity of explanations  
+    • Tailors examples to each role or objective  
+    • Evolves as the learner progresses  
+    • Integrates seamlessly with any content
+
+[RIGHT COLUMN]
+  Vertical illustrative graphic placeholder:
+  ┌────────────────────┐
+  │   Adaptive Blocks  │
+  │   → → personalized │
+  └────────────────────┘
+
+Spacing: 100px top/bottom
+
+
+──────────────────────────────────────────────────────────
+          SECTION 4: HOW IT WORKS (STORY FORMAT)
+──────────────────────────────────────────────────────────
+
+Background color: soft blue-tinted background (#F3F7FF)
+
+Centered layout, width 70%
+
+H2 centered: "Learning that reacts to the learner"
+
+Three horizontal story blocks (wide, editorial):
+
+  [Icon] 1. Reads the moment  
+         Brief text below:
+         "The AI Tutor interprets context: what the learner is reading, 
+          previous attempts, and moments of hesitation."
+
+  [Icon] 2. Responds intelligently  
+         "It provides clarifications, examples, or questions based on 
+          level, history, and the learner’s objective."
+
+  [Icon] 3. Guides the learning path  
+         "As the learner advances, the AI Tutor adjusts the guidance 
+          to strengthen long-term understanding."
+
+Spacing: 120px total
+
+
+──────────────────────────────────────────────────────────
+       SECTION 5: EXAMPLES (NARRATIVE MINI-SCENARIOS)
+──────────────────────────────────────────────────────────
+
+Two-column alternating layout, zig-zag:
+
+Row 1:
+  [LEFT]  Scenario text:
+          "A learner asks for a simpler explanation. 
+           The AI Tutor rewrites the paragraph instantly."
+
+  [RIGHT] Visual placeholder:
+          AI Tutor rewriting content.
+
+Row 2:
+  [LEFT] Visual placeholder:
+        Role-specific example bubble.
+
+  [RIGHT] Scenario text:
+        "A sales employee requests an industry example. 
+         The AI Tutor adapts automatically."
+
+Row 3:
+  [LEFT] Scenario text:
+        "A learner submits a wrong answer. 
+         The AI Tutor guides reasoning instead of giving the solution."
+
+  [RIGHT] Visual placeholder:
+        Socratic-style message flow.
+
+Spacing: 100px top/bottom
+
+
+──────────────────────────────────────────────────────────
+      SECTION 6: IMPACT (NOT COUNTERS, EDITORIAL STYLE)
+──────────────────────────────────────────────────────────
+
+Centered layout, 65% width
+
+H2 centered: "A measurable difference in how people learn"
+
+Paragraph style block:
+
+  "Organizations using LearnPack see learners progressing with higher 
+   confidence and fewer blockers. Training programs supported by the 
+   AI Tutor achieve up to double the completion rate and significantly  
+   lower dropout levels, with clearer understanding and stronger  
+   skill application."
+
+Underneath: small subtle note in lighter text:
+  *Metrics based on aggregated performance across training centers 
+   and enterprise environments.*
+
+Spacing: 90px top/bottom
+
+
+──────────────────────────────────────────────────────────
+           SECTION 7: USE CASES (COMPACT GRID)
+──────────────────────────────────────────────────────────
+
+4-column layout (cards muy minimalistas, altura baja):
+
+Card 1:
+  Icon  
+  "Onboarding"  
+  "Support that adapts to each new hire’s background."
+
+Card 2:
+  Icon  
+  "Technical Training"  
+  "Guidance through complex ideas and reasoning."
+
+Card 3:
+  Icon  
+  "Compliance"  
+  "AI Tutor simplifies dense rules and policies."
+
+Card 4:
+  Icon  
+  "Product & Sales Training"  
+  "Role-tailored examples inside the content."
+
+Spacing: 100px
+
+
+──────────────────────────────────────────────────────────
+      SECTION 8: MINI COMPARISON (ULTRA MINIMAL)
+──────────────────────────────────────────────────────────
+
+Two-column block, lightly bordered:
+
+Left:
+  H3: "Static learning"
+  Bullets:
+    • Same content for everyone  
+    • Learners get stuck  
+    • No real-time adaptation  
+
+Right:
+  H3: "Adaptive learning"
+  Bullets:
+    • Personalized guidance  
+    • Instant support  
+    • Each learner advances at their pace  
+
+Spacing: 80px
+
+
+──────────────────────────────────────────────────────────
+                  SECTION 9: TESTIMONIAL
+──────────────────────────────────────────────────────────
+
+Centered block:
+
+  Quote (large text, serif or italic):
+  "The AI Tutor helped our teams learn faster and stay engaged. 
+   It feels like having a personal coach inside every course."
+
+  — Name, Title, Company (optional)
+
+Spacing: 80px
+
+
+──────────────────────────────────────────────────────────
+                    SECTION 10: FINAL CTA
+──────────────────────────────────────────────────────────
+
+Background: white
+
+Two-column layout:
+
+[LEFT — text]
+  H2: "Give every learner the support they need, 
+       the moment they need it."
+
+[RIGHT — buttons]
+  [Start for Free]  (primary)
+  [Book a Demo]     (secondary)
+
+Large spacing: 120px top/bottom
+
+──────────────────────────────────────────────────────────
+```
+
+---
+
+# ✔ POR QUÉ ESTE WIREFRAME FUNCIONA
+
+* No se parece al de Automation
+* Mantiene coherencia visual
+* Tiene un estilo más editorial, más fluido, más narrativo
+* Reparte bien el contenido sin repetir patrones
+* Está optimizado para UX y para LLMs
+* Encaja perfectamente en el branding moderno que estás construyendo
+
+---
+
+¿Quieres que ahora prepare **la versión en texto para el Replit Builder**, con el layout traducido a instrucciones de secciones, divs y componentes que tú usas allá?

@@ -1,0 +1,157 @@
+**Updated Prompt for Replit Builder (paste as-is)**
+
+You are editing the LearnPack Use Cases subpage **Software & Tool Training** on **learnpack.co**.
+
+Goal
+Fix layout, spacing, background, and interactivity to match the style of the other LearnPack subpages. Keep content the same (do not add new claims or metrics). Improve component design so the page feels more premium, consistent, and interactive.
+
+Hard rules
+
+* Keep the same copy and facts already on the page. Do not introduce new metrics, claims, or examples beyond what is already present.
+* Do not use background vertical grid lines or visible guide lines behind sections.
+* Match typography scale and spacing to the other subpages. This page currently feels smaller.
+* Use the same container and margins pattern used across LearnPack pages (max width container, consistent left and right padding, consistent section spacing). The content must not feel squeezed into a narrow centered column.
+
+Implement the following changes exactly.
+
+1. Fix global container and spacing
+
+* Use the same layout wrapper used in other subpages.
+* Apply consistent max width (same as homepage and other subpages).
+* Increase base spacing between sections (more breathing room).
+* Ensure headings and body text use the same font sizes and line heights as the other subpages.
+
+2. Background stars must match other pages
+
+* Replace the current star background implementation with the existing one used across other LearnPack subpages.
+* Stars must be fewer, subtle, and blue tinted.
+* Dots must softly appear and disappear (twinkle) like the other pages.
+* The background must move naturally with scroll like the other pages.
+* Remove any dense white star look. Keep it premium and minimal.
+
+3. Remove the lines behind the content
+
+* Remove the visible vertical grid lines and any background overlay lines behind sections.
+* Keep only the star field plus subtle blue light beams.
+
+4. Rebuild the hero layout (and remove metrics from hero)
+   Current hero feels generic and the metrics are too prominent there. Change it to this structure:
+
+Hero layout: 2 column, left content, right diagram, but with a more editorial layout and stronger hierarchy.
+
+Left column
+
+* H1 stays: “Software & tool training that people actually finish.”
+* Subheadline stays, but increase font size slightly and tighten line length (limit width so it wraps nicely).
+* Add a short supporting line below subheadline (do not add new claims, only rephrase using existing ideas already on page). Keep it one sentence max and not repetitive.
+* CTA row stays: “Book a Demo” primary and “Start for Free” secondary.
+
+Remove the micro metrics row from the hero entirely. Do not show those metrics in the hero.
+
+Add the metrics later as a separate compact section (see item 4B).
+
+4B) Add a new compact “Impact metrics” strip after the definition block
+
+* Create a slim metric strip with 3 items, each styled like a small pill or compact stat row, not big cards.
+* Use the exact same 3 items currently in hero (do not change their wording):
+
+  * “Up to 80% lower content production cost”
+  * “2x higher completion with real time guidance”
+  * “50% lower disengagement with Socratic tutoring”
+* This strip should be visually consistent with other pages and not dominate the layout.
+
+5. Replace Upload -> Generate -> Practice with an interactive simple diagram
+   Right column of hero should become a minimal interactive diagram, not stacked cards.
+
+Diagram concept
+
+* Three nodes: Upload, Generate, Practice.
+* Nodes are pill shaped or soft rounded rectangles with subtle border.
+* Connect them with a simple curved line or subtle connector that highlights on hover.
+* Interaction:
+
+  * Hover or click a node highlights that node and shows its short description in a single shared detail panel below the diagram (not inside each node).
+  * Default active node is Upload.
+* Use these exact node labels and descriptions (do not change copy):
+
+  * Upload: “Add a PDF, video, or document.”
+  * Generate: “Get a production ready interactive course in seconds.”
+  * Practice: “Learners get support from the built in AI Tutor.”
+* Keep it minimalist and aligned with the rest of the site. No icons.
+
+6. Make the definition box visible and styled like other pages
+   The definition should appear as a real definition box used across other LearnPack pages.
+
+* Use the exact same visual pattern as the other pages: slightly lighter surface, subtle border, soft glow on hover, readable text.
+* The text should appear as two lines with a clear line break and proper spacing, exactly:
+
+“LearnPack is an AI powered interactive learning platform for creating and delivering training packages fast.
+
+It generates production ready courses and includes a built in AI Tutor plus real time insight into engagement and frustration.”
+
+* Increase font size so it is clearly readable and not barely visible.
+
+7. “Where tool training breaks” boxes must match Analytics design
+
+* Increase the box size and spacing.
+* Use the same box style as the section “Where this matters most” in features/analytics-compliance.
+* Each box should have a subtle glow border on hover and a slightly lighter surface than the background.
+* Keep the four items and text exactly the same.
+* Do not make them tiny or overly compact.
+
+8. Typography scale must match other pages
+
+* Increase base font size and heading sizes to match other subpages.
+* Fix the hierarchy so section titles feel consistent and not small.
+* Ensure button sizes and spacing match global components.
+
+9. Improve the stepper section size and readability
+   You said the stepper movement on scroll is good. Keep the concept but change the presentation:
+
+* Make the stepper section larger and more readable.
+* Increase step title size and spacing between steps.
+* Add a “scroll within section” behavior:
+
+  * On desktop, the left side (step list) stays visible while the right side shows the expanded content in a fixed height panel with internal scroll.
+  * The user can scroll inside that panel to read details without scrolling the entire page.
+* Keep the scroll activated active step behavior, but ensure the section does not feel tiny.
+* Keep the copy the same.
+
+10. Redesign “Designed for trainers and learners” distribution
+    Current layout feels unbalanced. Redesign it as a two lane layout with distinct weights:
+
+* Left side (trainers) should be a strong, clean checklist block inside a subtle container.
+* Right side (learners) should be the chat mock, but bigger and more central.
+* Put both inside a single shared section container with a subtle divider that is not a vertical line. Use spacing or a soft gradient separation instead.
+* Make the right chat bubbles feel more polished: slightly different bubble widths, subtle hover highlight, but keep bubble text exactly the same.
+* Ensure the “Socratic tutoring has proven to decrease disengagement by 50%.” line is readable and visually connected to the chat.
+
+11. Make “Deployment options” more obviously interactive
+    Keep the tabs but redesign so users notice they can switch:
+
+* Tabs should look like clickable segmented controls with clear active state.
+* Add a subtle animated underline or background fill transition when switching tabs.
+* Add microcopy above the tabs (very short, not a new claim) like “Choose a delivery format” or “Select a deployment method”. Keep it generic and not adding new info.
+* The detail panel should feel like a real module: larger, better padding, subtle border, and a quick fade transition.
+
+12. Examples must be emphasized and not hidden
+    Right now the example is too subtle. Do this:
+
+* Add two collapsible example sections on the page, not one.
+* Each example should be presented as a more visible component, like a featured expandable card with a label and a clear affordance to expand.
+* Example A: keep the existing one “Example: Sales training package rollout” and keep it collapsed by default, but make the header look important and clickable.
+* Example B: create a second example section with the same structure but without inventing new numbers. Title it: “Example: Tool onboarding package rollout”.
+* For both examples:
+
+  * Use the same two column comparison structure: “Without AI Tutor” and “With AI Tutor”.
+  * Only show pricing numbers if they already exist in the codebase or are already present in the current page data. If missing, show placeholders that clearly say “Insert slide pricing numbers here” and do not invent.
+  * Keep the line items exactly: Learner seats, Teacher seat, Packages one time pricing.
+
+Additional consistency checks
+
+* Remove any center aligned section layouts that make the page look narrow. Use standard left aligned content with consistent container width.
+* Keep the page shorter by tightening whitespace, but do not shrink typography.
+* Ensure all sections have consistent top and bottom padding.
+
+Deliverable
+Apply these design and UX changes to the existing Software & Tool Training page implementation in learnpack.co so it matches the other LearnPack subpages and feels more interactive, readable, and premium.

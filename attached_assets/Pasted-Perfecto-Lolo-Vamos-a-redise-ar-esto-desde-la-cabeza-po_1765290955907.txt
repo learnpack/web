@@ -1,0 +1,264 @@
+Perfecto, Lolo. Vamos a rediseñar esto desde la cabeza, porque ahora mismo la página se siente:
+
+1. **Genérica**
+2. **Llena de cajas**
+3. **Muy parecida al homepage**
+4. **Con un hero poco memorable**
+5. **Con un timeline que parece más un set de cards recicladas**
+6. **Sin una narrativa diferenciada**
+7. **Sin FAQs que cierran la venta**
+
+Aquí te dejo un plan completo para **arreglar todo**, con texto nuevo, estructura nueva, dirección visual y un prompt condensado para el builder. Y cero guiones largos.
+
+---
+
+# ✅ 1. Nuevo HERO
+
+El hero actual suena genérico y corporativo, no transmite un insight.
+Debemos convertirlo en algo que comunique:
+
+**a) Velocidad
+b) Eliminación de trabajo manual
+c) Diferenciación del producto**
+
+### Nueva propuesta (más humana y más fuerte)
+
+**Title**
+Automation that builds, updates, and delivers your training for you
+
+**Subtitle**
+Turn any process, document, or idea into interactive training in minutes. No authoring tools. No manual updates. No instructional design bottlenecks.
+
+**Buttons**
+Try LearnPack
+Book a live demo
+
+**Below hero (mini metrics row)**
+Un row pequeño de 4 números ya desde la cabecera.
+Esto hace que el usuario vea resultados sin tener que hacer scroll.
+
+Ejemplo:
+
+* 80 percent lower creation cost
+* 2 times higher completion
+* Under 1 hour to publish
+* 50 percent dropout reduction
+
+Esto evita un hero genérico y da señales claras de beneficio.
+
+---
+
+# ✅ 2. Rediseño de la sección de definición
+
+Tu definición está bien, pero visualmente se ve como otra caja más.
+Hazla tipo **pill minimalista muy fina**, centrada, borde tenue, sin fondo pesado.
+No debe competir con el contenido.
+
+---
+
+# ✅ 3. Rediseño completo de la sección "What you stop doing manually"
+
+Ahora mismo son 5 cajas iguales. Eso cansa visualmente.
+
+En lugar de cajas, usemos un layout en **tres columnas con iconos minimalistas**, texto simple debajo y sin bloques sólidos.
+
+Algo tipo Linear:
+
+ICON
+Authoring courses from scratch
+Short description...
+
+ICON
+Rebuilding content every time
+Short description...
+
+Así queda aireado y elegante.
+
+---
+
+# ✅ 4. Rediseño del bloque de features
+
+De nuevo, demasiadas cajas.
+Haz un **“feature strip”**:
+Tres features por fila, sin fondo, solo ícono azul y texto.
+Algo así:
+
+⚡ Course generation
+Creates lessons, quizzes, and activities in minutes from your files.
+
+♻ Continuous iteration
+Update content instantly with AI assistance.
+
+🌍 Instant translations
+Turn any course into any language.
+
+📊 Analytics and alerts
+Track progress and identify friction instantly.
+
+Nada de tarjetas rectangulares grandes.
+
+---
+
+# ✅ 5. Timeline nuevo sin cajas
+
+En vez de tres cards grandes, usa un timeline horizontal con:
+
+* Números redondos
+* Líneas delgadas conectando
+* Iconos pequeños
+* Texto debajo
+
+Ejemplo visual:
+
+01
+Input your content
+Small description...
+
+---
+
+02
+AI builds
+Small description...
+
+---
+
+03
+AI maintains
+Small description...
+
+Esto se verá modernísimo.
+
+---
+
+# ✅ 6. Nueva sección "What LearnPack automates vs what you control"
+
+Hazlo como una **tabla dividida limpia**, no cajas.
+
+Título:
+Automation where it saves time. Human control where it matters.
+
+Tabla:
+
+Left column title: Automated
+Right column title: You control
+
+Fila 1
+Course structure | Final adjustments
+
+Fila 2
+Translations | Tone and accuracy
+
+Fila 3
+SCORM packaging | Compliance notes
+
+Fila 4
+Learner support | Escalations
+
+Muy limpio.
+
+---
+
+# ✅ 7. Use cases
+
+Evitar cajas grandes otra vez.
+Usa grid minimalista con íconos en círculos finos y subtítulos.
+
+---
+
+# ✅ 8. Metrics al final
+
+Perfecto poner metrics aquí.
+Debería ser minimalista, no cajas: solo números gigantes con texto debajo.
+
+---
+
+# ✅ 9. FAQs (nuevo e importante)
+
+Muy necesario. Aquí tres que realmente impactan conversiones:
+
+**FAQ 1**
+How is LearnPack different from classic authoring tools like Articulate or Captivate?
+LearnPack generates and maintains training automatically. There is no need to design slides or rebuild content every time something changes.
+
+**FAQ 2**
+Do I need instructional design knowledge to use LearnPack?
+No. The system creates structure, activities, and assessments automatically. You only validate and refine the content.
+
+**FAQ 3**
+Can we export training to our existing LMS?
+Yes. You can export SCORM instantly or embed modules with a single link.
+
+---
+
+# 10. Testimonial
+
+Déjalo como está, pero reduce el bloque para que no parezca otra caja masiva.
+
+---
+
+# 11. CTA final
+
+Perfecto como está.
+
+---
+
+# 🔧 PROMPT PARA REPLIT (VERSIÓN TRANQUILA SIN CAJAS Y SIN GUIONES)
+
+Use the following redesign instructions to adjust the layout of the End-to-End Automation page.
+Avoid heavy boxes. Use minimal lines, soft separators, and icons. Make the page feel lighter and more premium.
+
+### HERO
+
+Replace hero copy with:
+Title: Automation that builds, updates, and delivers your training for you
+Subtitle: Turn any process, document, or idea into interactive training in minutes. No authoring tools. No manual updates. No instructional design bottlenecks.
+Add a mini metrics row under the subtitle with four numbers: 80 percent lower cost, 2 times completion rate, under 1 hour to publish, 50 percent dropout reduction.
+
+### DEFINITION BOX
+
+Make it a thin pill with a soft border and no heavy background.
+
+### WHAT YOU STOP DOING MANUALLY
+
+Remove card backgrounds. Create a three-column layout with icon, title, small paragraph. No rectangular boxes.
+
+### FEATURES
+
+Use a feature strip. Each feature is icon plus text. No boxes. Two rows if needed.
+
+### TIMELINE
+
+Replace cards with a clean horizontal timeline: round numbers, small icons, connecting line, descriptions below.
+
+### AUTOMATES VS CONTROL
+
+Turn this into a two-column table. No cards. Left column: what is automated. Right column: what the user controls.
+
+### USE CASES
+
+Use minimal icon circles and text. No boxes.
+
+### METRICS
+
+Move metrics to the bottom. Display as four large numbers with the label below. No boxes.
+
+### FAQ SECTION
+
+Add three FAQs at the bottom.
+FAQ 1: How is LearnPack different from classic authoring tools like Articulate or Captivate
+FAQ 2: Do I need instructional design knowledge to use LearnPack
+FAQ 3: Can we export training to our existing LMS
+
+### TESTIMONIAL
+
+Keep a single clean centered testimonial. Reduce padding so it does not feel like a big box.
+
+### CTA
+
+Keep as is.
+
+Make the entire page feel lighter and avoid repetitive box-based sections. Focus on minimal design and a premium look.
+
+---
+
+Si quieres, puedo ahora generar una **versión B del hero**, una **paleta nueva**, o una propuesta visual específica para cada bloque.

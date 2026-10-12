@@ -1,0 +1,197 @@
+{
+  "meta": {
+    "title": "Diseñador Instruccional IA | LearnPack",
+    "description": "Convierte cualquier documento, presentación o aporte de expertos en un curso interactivo completo en minutos. Regenera en lugar de parchear capacitaciones desactualizadas con el Diseñador Instruccional de LearnPack.",
+    "keywords": "diseño instruccional IA, generación de cursos, automatización de contenido de capacitación, creador de cursos IA, desarrollo rápido de cursos",
+    "ogTitle": "Diseñador Instruccional IA - Diseña capacitación más rápido que los cambios de contenido",
+    "ogDescription": "Genera cursos de capacitación completos desde material fuente. Regenera cursos más rápido y económico que mantenerlos."
+  },
+  "hero": {
+    "title": "Diseña capacitación más rápido que los cambios de contenido.",
+    "subtitle": "Convierte cualquier documento actualizado, presentación o aporte de expertos en un nuevo curso interactivo en minutos. Regenera en lugar de parchear capacitaciones desactualizadas.",
+    "ctaTry": "Prueba LearnPack Gratis",
+    "ctaDemo": "Agenda una Demo"
+  },
+  "definition": {
+    "en": "El Diseñador Instruccional de LearnPack es un asistente impulsado por IA que genera cursos de capacitación completos desde material fuente, haciendo que la regeneración sea más rápida y rentable que las actualizaciones manuales."
+  },
+  "problems": {
+    "title": "Por qué el diseño instruccional colapsa a escala",
+    "items": {
+      "updating": {
+        "title": "Actualizar es más lento que reconstruir",
+        "description": "Editar cursos viejos toma más esfuerzo que generar nuevos desde fuentes actualizadas."
+      },
+      "contentChanges": {
+        "title": "El contenido cambia más rápido que los ciclos de revisión",
+        "description": "Para cuando un curso es revisado, el material fuente ya ha cambiado."
+      },
+      "versionDebt": {
+        "title": "El mantenimiento crea deuda de versiones",
+        "description": "Parchear cursos acumula inconsistencias que se multiplican con el tiempo."
+      },
+      "patchingDesign": {
+        "title": "Los diseñadores parchean en lugar de rediseñar",
+        "description": "Los equipos optan por ediciones cuando regenerar daría resultados más limpios."
+      },
+      "legacyCourses": {
+        "title": "Los cursos legacy bloquean la velocidad",
+        "description": "Las estructuras de cursos antiguos limitan qué tan rápido se puede desplegar contenido nuevo."
+      }
+    }
+  },
+  "workflow": {
+    "title": "De fuente a curso, cada vez",
+    "subtitle": "Un proceso simple de cuatro pasos que convierte cualquier material en capacitación lista para producción.",
+    "steps": {
+      "upload": {
+        "title": "Sube material fuente nuevo",
+        "description": "Agrega documentos, diapositivas o cualquier contenido que necesite convertirse en capacitación."
+      },
+      "generate": {
+        "title": "La IA genera un curso estructurado completo",
+        "description": "Curso completo con lecciones, evaluaciones e interacciones construido automáticamente."
+      },
+      "review": {
+        "title": "Revisa y ajusta el borrador",
+        "description": "Afina el contenido con edición estilo Notion antes de publicar."
+      },
+      "publish": {
+        "title": "Publica la nueva versión, archiva la anterior",
+        "description": "Despliega el curso actualizado y retira la versión anterior limpiamente."
+      }
+    }
+  },
+  "beforeAfter": {
+    "title": "Deja de parchear. Comienza a regenerar.",
+    "before": {
+      "title": "Antes",
+      "items": [
+        "Parchear diapositivas",
+        "Editar cursos legacy",
+        "Mantener versiones",
+        "Ciclos largos de QA"
+      ],
+      "hoverText": "Los flujos tradicionales atrapan a los equipos en ciclos de revisión interminables que nunca se ponen al día."
+    },
+    "after": {
+      "title": "Después",
+      "items": [
+        "Descartar la versión anterior",
+        "Regenerar desde fuente actualizada",
+        "Revisar y publicar",
+        "Seguir adelante"
+      ],
+      "hoverText": "La regeneración entrega capacitación limpia y actual en una fracción del tiempo."
+    }
+  },
+  "capabilities": {
+    "title": "La Solución LearnPack",
+    "headline": "Genera cursos completos desde cualquier material fuente.",
+    "body": "La IA de LearnPack analiza tus documentos, diapositivas y contenido para crear capacitación estructurada automáticamente. Cuando el contenido cambia, regenera el curso completo en minutos en lugar de pasar días en actualizaciones manuales.",
+    "items": {
+      "regeneration": {
+        "title": "Regeneración instantánea de cursos",
+        "description": "Cuando tu contenido cambia, genera un nuevo curso en minutos en lugar de pasar días en actualizaciones. Descarta la versión anterior y sigue adelante."
+      },
+      "structure": {
+        "title": "Estructura y evaluaciones generadas por IA",
+        "description": "Secuenciación automática de lecciones, generación de cuestionarios y verificaciones de conocimiento. La IA aplica principios de diseño instruccional probados cada vez."
+      },
+      "editing": {
+        "title": "Edición estilo Notion para revisión rápida",
+        "description": "La edición por bloques te permite refinar el output de IA rápida e intuitivamente. Haz ajustes sin navegar constructores de cursos complejos."
+      },
+      "localization": {
+        "title": "Localización automática por generación",
+        "description": "Genera cursos en múltiples idiomas sin flujos de trabajo separados. Cada regeneración puede apuntar a un nuevo idioma o región."
+      },
+      "publishing": {
+        "title": "Publicación lista para LMS",
+        "description": "Exporta como SCORM, incrusta directamente o integra con tus sistemas existentes. Despliega a cualquier sistema de gestión de aprendizaje con un clic."
+      }
+    }
+  },
+  "examples": {
+    "title": "Ejemplos reales. De fuente a curso en minutos.",
+    "subtitle": "Mira cómo los equipos transforman sus materiales existentes en capacitación interactiva.",
+    "source": "Fuente",
+    "result": "Resultado",
+    "items": {
+      "onboarding": {
+        "title": "Onboarding",
+        "source": "Manual PDF + organigrama",
+        "result": "Programa de onboarding de 8 módulos"
+      },
+      "product": {
+        "title": "Capacitación de Producto",
+        "source": "Docs de producto + notas de versión",
+        "result": "Capacitación interactiva de producto"
+      },
+      "compliance": {
+        "title": "Cumplimiento",
+        "source": "Documentos de políticas",
+        "result": "Curso de cumplimiento con evaluaciones"
+      },
+      "internalTools": {
+        "title": "Herramientas Internas",
+        "source": "Documentación de herramientas + capturas",
+        "result": "Capacitación paso a paso de herramientas"
+      }
+    }
+  },
+  "outcomes": {
+    "title": "Resultados",
+    "metrics": {
+      "cost": {
+        "value": "80%",
+        "label": "Menor costo de producción"
+      },
+      "speed": {
+        "value": "Minutos",
+        "label": "Para publicar nuevos cursos"
+      },
+      "reaction": {
+        "value": "Más rápida",
+        "label": "Reacción al cambio"
+      },
+      "completion": {
+        "value": "Mayor",
+        "label": "Finalización con soporte de AI Tutor"
+      }
+    },
+    "link": "Ver Resultados"
+  },
+  "testimonial": {
+    "quote": "LearnPack redujo nuestro tiempo de creación de cursos de semanas a horas sin perder calidad.",
+    "attribution": "Líder de Aprendizaje y Desarrollo",
+    "outcomes": [
+      "Lanzamientos más rápidos",
+      "Iteraciones más limpias",
+      "Mejor finalización de estudiantes"
+    ],
+    "cta": "Explorar casos de estudio"
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "items": {
+      "control": {
+        "question": "¿Perderé control instruccional si los cursos son generados por IA?",
+        "answer": "No. La IA genera un borrador completo, pero tienes control total para revisar, editar y refinar antes de publicar. El editor estilo Notion hace los ajustes rápidos e intuitivos."
+      },
+      "changes": {
+        "question": "¿Cómo manejan los equipos los cambios frecuentes de contenido?",
+        "answer": "En lugar de parchear cursos existentes, los equipos suben el material fuente actualizado y regeneran una nueva versión. Esto es más rápido que editar y produce resultados más limpios."
+      },
+      "lms": {
+        "question": "¿LearnPack funciona con nuestro LMS?",
+        "answer": "Sí. LearnPack exporta paquetes SCORM compatibles con todos los principales sistemas de gestión de aprendizaje. También puedes incrustar cursos directamente o integrar vía API."
+      }
+    }
+  },
+  "finalCta": {
+    "title": "Construye tu próximo curso en minutos.",
+    "ctaStart": "Comenzar Gratis",
+    "ctaDemo": "Agenda una Demo"
+  }
+}

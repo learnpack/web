@@ -1,0 +1,219 @@
+**Prompt for Replit Builder (paste as-is)**
+
+You are editing the **Software & Tool Training** Use Case page on **learnpack.co**. The page exists already and is close, but needs these specific UX and layout fixes.
+
+Hard rules
+
+* Do not add new claims, metrics, or examples. Use the same content already on the page.
+* Keep the current diagram design and style, but improve its behavior.
+* Keep the same dark LearnPack style with the subtle blue star background.
+* Do not introduce visible background lines behind stepper elements.
+
+Now implement the changes below exactly.
+
+---
+
+## 1) Hero layout: show CTAs without scrolling
+
+Problem: the hero text block starts too low and forces a scroll to reach “Book a Demo” and “Start for Free”.
+
+Fix
+
+* Keep the hero as a 2 column layout (text left, diagram right).
+* Reduce hero top padding and overall height.
+* Move the left content block up so that on a standard laptop viewport (around 800px height) both CTA buttons are visible without scrolling.
+* Do NOT shrink the diagram. Keep it as is on the right.
+
+Implementation details
+
+* Decrease top spacing above H1.
+* Tighten spacing between H1, subheadline, and CTA row slightly.
+* Keep readable line height and do not make typography smaller.
+
+---
+
+## 2) Diagram: auto cycle through Upload, Generate, Practice
+
+Problem: diagram works on click but should softly animate by itself to show the steps without user interaction.
+
+Fix
+
+* Keep the current click behavior.
+* Add an automatic cycle that highlights each step in sequence: Upload -> Generate -> Practice -> repeat.
+* Timing: every 3.5 to 4.5 seconds.
+* Motion must be subtle: slight glow increase and tiny position/scale shift for the active node, and the connector line can gently brighten.
+* The detail text below should crossfade when the active step changes.
+* If the user clicks a step, pause the auto cycle for 10 seconds, then resume from the next step.
+
+---
+
+## 3) Metrics strip: redesign to feel clean and organized
+
+Problem: the metrics look disorganized.
+
+Fix
+
+* Keep the exact same three metric lines already present. Do not change wording.
+* Redesign the metrics into a single compact “impact strip” with clear alignment.
+
+New layout spec
+
+* Use one rounded container with subtle border and soft glow on hover.
+* Inside, make a 3 column layout on desktop and a 1 column stacked layout on mobile.
+* Each metric should have:
+
+  * a small label style (same size across all three)
+  * consistent spacing
+  * subtle separator between columns (only inside the container, not full height page lines)
+* Keep it visually calm, not loud. No big badges.
+
+---
+
+## 4) Stepper section: readable without scrolling the whole page and fix the line visibility
+
+Problem A: It feels like you must scroll the whole page to read the steps, and step 4 is hard to read in the box.
+Problem B: The connecting lines show on top of the bubble/number when scrolling. They should be behind.
+
+Fix A: make it a self contained scrollable module
+
+* Keep the title “From documentation to interactive practice”.
+* Convert the stepper into a two panel module:
+
+  * Left: the vertical step list (sticky inside the module)
+  * Right: the detail card (fixed height with internal scroll if content exceeds)
+* The whole module should fit nicely in the viewport. Users should be able to progress steps without scrolling the entire page.
+
+Interaction
+
+* Scrolling inside the module should advance the active step (or use click on steps).
+* The detail panel must have enough width and padding so step 4 is fully readable.
+
+Fix B: the connector line must stay behind bubbles
+
+* The vertical connector line and any stepper line elements must render behind the step number circles and behind the active detail bubble.
+* Use proper z-index layering:
+
+  * line layer: lowest
+  * circle numbers: above line
+  * active bubble/detail card: highest
+* When a step becomes active, the line should not overlap on top of the circle or bubble.
+
+Visual
+
+* Increase size slightly: step titles larger and with more spacing between them.
+* Keep the same overall idea and content.
+
+---
+
+## 5) Designed for trainers and learners: learners column must be on the right
+
+Problem: “What learners get” appears below. It must be side by side.
+
+Fix
+
+* Force a 2 column layout on desktop:
+
+  * Left: “What trainers get”
+  * Right: “What learners get”
+* Only stack them vertically on mobile.
+
+Also improve balance
+
+* Make the learners chat mock bigger and vertically centered with the trainer checklist so it feels intentional.
+* Keep copy exactly the same.
+
+---
+
+## 6) Real world examples: fix repeated content and improve dropdown affordance
+
+Problem A: Without AI Tutor and With AI Tutor show the same placeholder lines, so the comparison is meaningless.
+Problem B: It is not obvious the cards expand.
+
+Fix A: differentiate the two columns without inventing numbers
+
+* Keep the pricing placeholders if the real slide pricing numbers are not available, but make the two columns visually distinct and semantically different using only allowed text.
+* Do NOT invent pricing.
+
+Update the content structure inside each expanded example
+
+* Keep the two column headings:
+
+  * “Without AI Tutor”
+  * “With AI Tutor”
+* Keep the three line items:
+
+  * Learner seats
+  * Teacher seat
+  * Packages one time pricing
+* If numbers are missing, use placeholders, but change the helper text under each column (not numbers) so they are not identical:
+
+  * Without AI Tutor column helper line: “Standard delivery without real time tutoring support.”
+  * With AI Tutor column helper line: “Includes built in AI Tutor support during learning.”
+    These lines are not new claims, they simply clarify the two variants.
+
+Fix B: make expansion feel obvious without a plus icon
+
+* Remove the plus icon on the right.
+* Make the entire example header row feel interactive:
+
+  * On hover: the card subtly lifts and glows, and a small “Expand” micro label fades in on the right.
+  * On hover out: label fades out.
+* Expansion behavior:
+
+  * On hover: preview expand slightly (a small smooth height increase, not full open)
+  * On click: fully expand/collapse with a smooth animation
+* Keep it very soft and premium, no aggressive motion.
+
+---
+
+## 7) FAQs: match the exact FAQ design used on other pages
+
+Problem: the FAQ section currently does not match the consistent design.
+
+Use the uploaded FAQ reference image as the source of truth and rebuild the FAQ component to match it.
+
+FAQ design spec
+
+* Section header:
+
+  * Big “FAQs” title
+  * Small subline under it: “Last updated: December 2025”
+* FAQ container:
+
+  * One large rounded rectangle container (not separate cards per question)
+  * Subtle border, slightly lighter surface than background
+  * Soft inner glow or gradient like other pages
+* Each FAQ row:
+
+  * Full width clickable row
+  * Question text left
+  * Chevron icon on right
+  * Divider line between rows inside the container (very subtle)
+* Open state:
+
+  * Answer expands below the question with smooth animation
+  * Chevron rotates
+  * Keep spacing generous like the reference
+* Typography:
+
+  * Match font sizes from the reference image (questions larger than body text)
+* Ensure the 3 FAQs on this page remain exactly:
+
+  1. How fast can we turn tool documentation into a course?
+  2. What does the built in AI Tutor do during training?
+  3. How do we deploy training to our LMS?
+
+---
+
+## Final QA checks
+
+* CTAs visible in hero without scrolling.
+* Diagram cycles automatically, pauses after user click, then resumes.
+* Metrics strip looks aligned and intentional.
+* Stepper module is readable without scrolling the entire page and connector lines are always behind circles/bubbles.
+* Trainers and learners are side by side on desktop.
+* Examples feel interactive on hover and comparison columns are not identical.
+* FAQs look identical to the reference design across pages.
+
+Deliverable
+Implement these changes in the existing page code so the page feels consistent with the rest of LearnPack and more polished.

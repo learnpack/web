@@ -1,0 +1,58 @@
+FIX ONE SPECIFIC SECTION ONLY. DO NOT change any other section.
+
+SECTION TO FIX (ONLY THIS ONE):
+- The role switcher panel that sits NEXT TO the HERO title (right side of the hero).
+- It has role tabs: Sales, Support, Operations, Manager, New Hire
+- It currently shows translation keys like:
+  - ROLESWITCHER.LABELS.SCENARIO
+  - roles.support.scenario
+  - roles.support.practice
+  - roles.support.quiz
+
+GOAL:
+- Restore the original visible copy for this hero-side role switcher.
+- It must display real text (not i18n keys) for the labels and the three lines per role.
+- Keep the exact same design, layout, spacing, background, glow, and interactions.
+
+DO NOT TOUCH:
+- The LOWER section titled “One course. Multiple role paths.”
+- Any other copy on the page (hero headline/subtitle/metrics/buttons)
+- Any other sections, components, or styling
+
+LABELS:
+Replace the labels with the original ones:
+- SCENARIO
+- PRACTICE
+- QUIZ
+
+ROLE CONTENT (restore exactly):
+
+Sales
+SCENARIO: Handle pricing objections for a new product line
+PRACTICE: Write a 4-step discovery script
+QUIZ: Which question best reveals budget constraints?
+
+Support
+SCENARIO: Troubleshoot a 'login loop' incident
+PRACTICE: Build a decision tree from the knowledge base
+QUIZ: What is the safest first diagnostic step?
+
+Operations
+SCENARIO: Standardize a handoff process across locations
+PRACTICE: Map the workflow and flag failure points
+QUIZ: Which step reduces rework the most?
+
+Manager
+SCENARIO: Coach performance after training
+PRACTICE: Use a rubric to evaluate applied skills
+QUIZ: Which metric signals real learning vs clicking?
+
+New Hire
+SCENARIO: First-week onboarding walkthrough
+PRACTICE: Complete a guided checklist with milestones
+QUIZ: What should you do if you get stuck mid-task?
+
+IMPORTANT IMPLEMENTATION NOTE:
+- If the section is wired to translations, update the translation source so these strings render correctly.
+- Ensure the UI never renders raw keys like “roles.support.scenario” anywhere.
+- Keep the tab switching and transitions exactly as currently implemented.

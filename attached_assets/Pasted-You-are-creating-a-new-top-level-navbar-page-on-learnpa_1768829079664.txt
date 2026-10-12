@@ -1,0 +1,241 @@
+You are creating a new top-level navbar page on learnpack.co: /instructional-designer
+
+This is a MAIN PILLAR PAGE.
+It must feel as polished, interactive, and important as the homepage.
+Do NOT treat this as a feature subpage.
+
+━━━━━━━━━━━━━━━━━━━━
+CORE POSITIONING (DO NOT DEVIATE)
+━━━━━━━━━━━━━━━━━━━━
+
+This page is about the Instructional Designer AI.
+NOT the AI Tutor.
+
+The Instructional Designer is the AI that helps teams GENERATE complete courses from source material.
+The core idea is:
+- Course regeneration is faster and cheaper than course maintenance.
+- When content changes, you regenerate a new course.
+- Courses are disposable and versioned, not patched.
+
+The AI Tutor is SECONDARY and must only appear as a consequence of publishing a course, never as the hero or main value.
+
+Do NOT use language about “maintaining courses”.
+Do NOT position ongoing updates as a workflow.
+Always frame updates as regeneration from new source material.
+
+Do NOT use em dashes in any text.
+
+━━━━━━━━━━━━━━━━━━━━
+DESIGN & INTERACTION RULES
+━━━━━━━━━━━━━━━━━━━━
+
+Use the SAME design system as the homepage:
+- Dark mode
+- Starfield background with subtle blue light beams
+- Soft glow borders
+- Modern SaaS typography
+- Consistent spacing and padding
+
+Reuse homepage interaction patterns ONLY:
+- Cards with subtle blue glow borders on hover
+- Horizontal steppers or carousels (no autoplay)
+- Hover reveal micro interactions
+- Scroll-based fade and translate animations for metrics
+
+Do NOT invent new interaction styles.
+Avoid repetitive grid after grid layouts.
+Alternate section layouts to keep visual rhythm.
+
+━━━━━━━━━━━━━━━━━━━━
+PAGE STRUCTURE
+━━━━━━━━━━━━━━━━━━━━
+
+1) HERO (Homepage-level, large)
+Headline:
+“Design training faster than content changes.”
+
+Subheadline:
+“Turn any updated document, deck, or SME input into a brand new interactive course in minutes.
+Regenerate instead of patching outdated training.”
+
+Primary CTA: “Try LearnPack Free”
+Secondary CTA: “Book a Demo”
+
+Hero visual:
+- Interactive workflow preview with subtle motion:
+  Upload source → AI generates course → Review → Publish → Archive old version
+- Glow and motion consistent with homepage hero components
+
+━━━━━━━━━━━━━━━━━━━━
+
+2) DEFINITION BOX (Directly under hero)
+
+EN:
+“The LearnPack Instructional Designer is an AI-powered assistant that generates complete training courses from source material, making regeneration faster and more cost effective than manual updates.”
+
+ES (smaller text below):
+“El Instructional Designer de LearnPack es una IA que genera cursos completos a partir de material fuente, haciendo que recrearlos sea más rápido y rentable que mantenerlos.”
+
+━━━━━━━━━━━━━━━━━━━━
+
+3) WHY INSTRUCTIONAL DESIGN BREAKS AT SCALE
+(Use homepage-style glow cards with hover interaction)
+
+Create 4 to 5 cards with subtle blue glow borders on hover.
+Short, sharp copy.
+
+Examples:
+- Updating courses is slower than rebuilding them
+- Content changes faster than review cycles
+- Maintenance creates version debt
+- Designers patch instead of redesigning
+- Legacy courses block speed
+
+━━━━━━━━━━━━━━━━━━━━
+
+4) FROM SOURCE TO COURSE, EVERY TIME
+(Horizontal stepper or carousel, no autoplay)
+
+4 steps, interactive:
+1. Upload new source material
+2. AI generates a full structured course
+3. Review and adjust the draft
+4. Publish the new version and archive the old one
+
+Each step:
+- Minimal icon or visual
+- Short explanation
+- Active state glow
+
+━━━━━━━━━━━━━━━━━━━━
+
+5) BEFORE VS AFTER
+(Split layout with hover reveal)
+
+Left: BEFORE
+- Patch slides
+- Edit legacy courses
+- Maintain versions
+- Long QA cycles
+
+Right: AFTER
+- Drop the old version
+- Regenerate from updated source
+- Review and publish
+- Move on
+
+Hover reveal:
+On hover, show a short 2-line explanation reinforcing regeneration over maintenance.
+
+━━━━━━━━━━━━━━━━━━━━
+
+6) CORE CAPABILITIES
+(Mixed layout, avoid repetitive grids)
+
+Feature spotlight (larger card):
+“Instant course regeneration from updated material”
+
+Supporting tiles:
+- AI-generated structure and assessments
+- Notion-style editing for fast review
+- Automatic localization per generation
+- LMS-ready publishing (SCORM and embed)
+
+Each tile uses subtle hover glow.
+
+━━━━━━━━━━━━━━━━━━━━
+
+7) QUALITY WITHOUT MAINTENANCE
+(Reassurance section)
+
+Headline:
+“AI speeds up creation. You keep instructional control.”
+
+Three points:
+- Clean structure on every new version
+- Faster reviews without legacy baggage
+- Consistent instructional quality per generation
+
+No language about long-term maintenance.
+
+━━━━━━━━━━━━━━━━━━━━
+
+8) WHERE THIS WORKS BEST
+(Compact grid)
+
+Use cases:
+- Onboarding
+- Product training
+- Sales enablement
+- Compliance
+- Internal tools training
+- Rapid upskilling
+
+━━━━━━━━━━━━━━━━━━━━
+
+9) OUTCOMES
+(Scroll-based reveal animation)
+
+Metrics row:
+- Up to 80% lower production cost
+- Publish new courses in minutes
+- Faster reaction to change
+- Higher completion with built-in AI Tutor support
+
+Small link:
+“See Results” → /results
+
+The AI Tutor is mentioned ONLY here as a learning experience benefit.
+
+━━━━━━━━━━━━━━━━━━━━
+
+10) TESTIMONIAL
+(Single featured card)
+
+Quote:
+“LearnPack cut our course creation time from weeks to hours without losing quality.”
+
+Attribution:
+“Learning and Development Lead”
+
+3 outcome bullets:
+- Faster launches
+- Cleaner iterations
+- Better learner completion
+
+CTA:
+“Explore case studies”
+
+━━━━━━━━━━━━━━━━━━━━
+
+11) FAQ
+(Consistent with other pages)
+
+3 questions:
+- Will I lose instructional control if courses are AI generated?
+- How do teams handle frequent content changes?
+- Does LearnPack work with our LMS?
+
+━━━━━━━━━━━━━━━━━━━━
+
+12) FINAL CTA
+(Homepage-style closing)
+
+Headline:
+“Build your next course in minutes.”
+
+Buttons:
+“Start for Free”
+“Book a Demo”
+
+Keep footer unchanged.
+
+━━━━━━━━━━━━━━━━━━━━
+FINAL CHECK
+━━━━━━━━━━━━━━━━━━━━
+
+This page must feel:
+- As important as the homepage
+- Interactive but restrained
+- Focused on regeneration, not maintenance
+- Clear about the Instructional Designer role

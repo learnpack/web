@@ -1,0 +1,135 @@
+**Prompt for Replit Builder (paste as-is)**
+
+You are editing the **Software & Tool Training** Use Case page on **learnpack.co**. Keep the current overall design and layout, but we will update two areas:
+
+1. The **Real world examples** section
+2. The **definition text** inside the “What is LearnPack” definition box (keep the same design)
+
+Hard rules
+
+* Use only facts already used across this page (no new metrics or claims).
+* Do not invent pricing or add new numbers.
+* Do not display any text that says “hover to preview”.
+* Examples must expand on hover (desktop) with no click required. On mobile keep tap-to-toggle.
+
+---
+
+# 1) Replace the Real world examples content so it actually shows the difference
+
+## Problem
+
+Current examples are meaningless because both “Without AI Tutor” and “With AI Tutor” repeat the same placeholder pricing lines and do not show the practical difference in learning experience.
+
+## Fix: Change example format from pricing comparison to experience comparison
+
+We will keep the section title **“Real world examples”** and keep two examples (Sales training package rollout, Tool onboarding package rollout), but change the internal layout:
+
+### New layout inside each expanded example
+
+Two columns remain:
+
+* Left: **Without AI Tutor**
+* Right: **With AI Tutor**
+
+But instead of showing pricing placeholders, each side must show two blocks:
+
+Block A: “During learning” (3 bullet points)
+Block B: “What gets tracked” (2 bullet points)
+
+Use this exact copy (do not change wording):
+
+#### Without AI Tutor
+
+During learning
+
+* “Learners follow static content.”
+* “Help depends on external support.”
+* “Confusion often leads to drop off.”
+
+What gets tracked
+
+* “Mostly clicks and progress.”
+* “Little visibility into frustration.”
+
+#### With AI Tutor
+
+During learning
+
+* “Learners get contextual support.”
+* “Guidance is proactive and available 24/7.”
+* “Socratic questions reduce disengagement.”
+
+What gets tracked
+
+* “Engagement beyond clicking through.”
+* “Signals of learner frustration.”
+
+Important: These bullets use only concepts already present on the page: contextual support, proactive guidance, 24/7, Socratic approach decreases disengagement, engagement vs clicking, frustration insight. Do not add anything else.
+
+### Optional small footer line inside each example (one line only)
+
+At the bottom of the expanded panel, add one subtle line:
+
+* “Publishing: unique URL, iFrame embed, SCORM export.”
+  This is already on the page, so it’s allowed.
+
+### Remove pricing placeholders entirely
+
+* Delete the 3 pricing placeholder rows (Learner seats, Teacher seat, Packages one time pricing) from both examples.
+  They are causing repetition and confusion and we do not have real numbers.
+
+---
+
+## Hover expand behavior (desktop)
+
+* Each example card expands smoothly when the user moves the cursor over it.
+* No click required on desktop.
+* On mouse leave, collapse smoothly.
+
+Timing
+
+* 220ms to 320ms transition, ease out.
+* Use opacity + height animation. Keep it premium, not bouncy.
+
+Important
+
+* Do not show any hover helper text at all. No “hover to preview”, no tooltip.
+* The card itself must imply interactivity through subtle lift and glow on hover.
+
+Mobile behavior
+
+* On touch devices, keep tap-to-toggle expand/collapse.
+
+No layout jump
+
+* Avoid big page jumps when the card expands:
+
+  * Use reserved collapsed height and smooth expand within the card
+  * Keep spacing consistent between example cards
+
+---
+
+# 2) Update the “What is LearnPack” definition copy (keep the design)
+
+Keep the definition box design exactly as it is now. Only change the text.
+
+Replace the text with this (exactly):
+
+**Title inside the box (small label):**
+“What is LearnPack”
+
+**Main text:**
+“LearnPack turns any idea or documentation into interactive training packages. 
+
+It generates production ready courses and includes a built in AI Tutor plus real time insight into engagement and frustration.”
+
+Rules
+
+* Keep it 2 short paragraphs like this.
+* Do not add any extra sentences.
+* Keep the tone simple and direct.
+
+---
+
+Deliverable
+Implement these changes so the examples finally demonstrate the difference between training with and without the AI Tutor, hover expansion works without instructions, and the definition text feels clearer while keeping the same visual style.

@@ -1,0 +1,69 @@
+
+
+# ✅ **PROMPT FINAL PARA REPLIT BUILDER**
+
+Quiero que apliques estos ajustes específicos a la página **Adaptive Course Intelligence**. Mantén la paleta de azules, el fondo de estrellas, la tipografía y el estilo actual. No uses em dash.
+
+---
+
+## **1. Diferenciar mejor las secciones “Static learning cannot keep up” y “Your content evolves with every interaction”**
+
+### Static learning cannot keep up
+
+Déjala con las tres tarjetas como está, pero mejora el espaciado para que se vean más ordenadas y limpias.
+
+### Your content evolves with every interaction
+
+Rediseña esta sección para que ya no use tarjetas. Quiero un diseño tipo flujo:
+
+* Tres iconos circulares grandes alineados horizontalmente: Detects, Adjusts, Guides.
+* Conecta los iconos con una línea horizontal fina en azul.
+* Debajo de cada icono, coloca solo el título y debajo una frase corta.
+* Nada de cajas rectangulares, tarjetas ni fondos.
+* Debe sentirse ligera y distinta a la sección anterior.
+
+---
+
+## **2. Clarificar la sección “What adaptation looks like in practice”**
+
+Mantén el diseño actual, pero mejora la comprensión.
+
+* Encima de la lista de opciones agrega esta frase centrada:
+  **Select an adaptation to see its impact on key metrics.**
+
+* La opción “Extra example added” debe estar en azul más brillante porque es la opción activa.
+
+* Las demás (“Difficulty adjusted”, “Concept reinforced”, “Translation triggered”) deben verse como opciones inactivas más oscuras.
+
+* Ajusta la gráfica para que represente claramente impactos en métricas con labels como:
+
+  * Engagement
+  * Completion Rate
+  * Difficulty Match
+
+* Asegúrate de que la gráfica refleje el cambio según la opción seleccionada.
+
+---
+
+## **3. Corregir el centrado de “How LearnPack adapts instruction in real time”**
+
+El contenido actualmente no está centrado con respecto al título.
+
+* Agrupa la lista de pasos (Observe, Interpret, Act, Validate) y el mockup como un solo bloque.
+* Centra este bloque completo horizontalmente bajo el título.
+* Alinea ambos lados para que tengan equilibrio visual.
+* Mantén la distancia vertical correcta entre título, pasos y mockup.
+
+---
+
+## **4. Ajustes adicionales de espaciado y consistencia**
+
+* Reduce un poco el espacio vertical entre la “Definition Box” y la sección “Static learning cannot keep up”.
+* Asegura que todas las secciones respeten el mismo ancho máximo.
+* Revisa que la composición visual de toda la página se mantenga centrada y balanceada.
+
+---
+
+No cambies el resto de la página. Mantén toda la estética existente, la paleta azul, el fondo de estrellas y el estilo LearnPack.
+
+

@@ -1,0 +1,116 @@
+CRITICAL: UPDATE ONE SPECIFIC SECTION ONLY.
+DO NOT modify the hero section or any content adjacent to the page title.
+
+SECTION TO UPDATE (ONLY THIS ONE):
+- Section title: “One course. Multiple role paths.”
+- Location: the LOWER section of the page, positioned AFTER the hero section.
+- This is the section with:
+  - A centered title “One course. Multiple role paths.”
+  - A subtitle explaining role switching
+  - A tab-based interface (Sales, Support, Operations, Manager, New Hire)
+  - A large dark panel below the tabs
+- This section appears WELL BELOW the hero and its side content.
+
+DO NOT TOUCH:
+- The hero section at the top of the page
+- The role preview panel that appears next to the hero title
+- Any content positioned beside or aligned with the hero headline
+- The hero metrics, buttons, or role tabs near the hero
+
+KEEP UNCHANGED:
+- Layout
+- Background (same global starfield + blue light beams)
+- Typography
+- Spacing
+- Animations
+- Tab interactions and hover states
+- Section title and subtitle text
+
+CHANGE ONLY:
+- The INTERNAL CONTENT of the tab panels inside the LOWER “One course. Multiple role paths.” section.
+
+CONTENT STRUCTURE (same for every tab):
+Replace the existing “Scenario / Practice / Quiz” blocks with exactly three text blocks:
+1) Common training challenge
+2) How LearnPack adapts the course
+3) Expected outcome
+
+Use the same small uppercase label style currently used for “SCENARIO / PRACTICE / QUIZ”.
+Do NOT add new containers, cards, or icons.
+
+-------------------------
+TAB CONTENT:
+
+SALES
+
+Common training challenge  
+Sales teams struggle to apply product knowledge in real conversations. Training is often theoretical, outdated, or disconnected from real objections and deal scenarios.
+
+How LearnPack adapts the course  
+The same product training course is reframed around sales conversations:
+- Real objection-handling scenarios  
+- Discovery and qualification frameworks  
+- Practice focused on decision-making, not memorization  
+
+Expected outcome  
+Reps gain confidence faster, apply knowledge in live calls, and shorten ramp-up time without adding extra training programs.
+
+-------------------------
+SUPPORT
+
+Common training challenge  
+Support teams receive large amounts of documentation but lack structured guidance on how to troubleshoot issues under pressure.
+
+How LearnPack adapts the course  
+LearnPack restructures the course around problem resolution:
+- Incident-based learning paths  
+- Step-by-step diagnostic thinking  
+- Reinforcement of safe-first actions and escalation criteria  
+
+Expected outcome  
+Faster issue resolution, fewer escalations, and more consistent support quality across the team.
+
+-------------------------
+OPERATIONS
+
+Common training challenge  
+Operational teams need consistency. Training often explains processes but fails to show how small deviations create bottlenecks and rework.
+
+How LearnPack adapts the course  
+The course is adapted to focus on workflows and execution:
+- Visual process breakdowns  
+- Identification of failure points  
+- Decision-making at handoff moments  
+
+Expected outcome  
+More predictable execution, reduced operational errors, and smoother cross-team collaboration.
+
+-------------------------
+MANAGER
+
+Common training challenge  
+Managers are expected to reinforce training outcomes but are rarely trained on how to evaluate real learning versus completion.
+
+How LearnPack adapts the course  
+The course shifts from execution to evaluation:
+- Coaching frameworks  
+- Skill assessment rubrics  
+- Signals that indicate applied learning, not just progress  
+
+Expected outcome  
+Managers can coach more effectively, identify gaps early, and ensure training translates into performance.
+
+-------------------------
+NEW HIRE
+
+Common training challenge  
+New hires are overwhelmed by information and often lack clarity on priorities during their first weeks.
+
+How LearnPack adapts the course  
+The onboarding course is structured around guidance and progression:
+- Clear first-week paths  
+- Guided checklists with milestones  
+- Context-aware support when learners get stuck  
+
+Expected outcome  
+Faster onboarding, higher confidence, and earlier autonomy without increasing training workloa

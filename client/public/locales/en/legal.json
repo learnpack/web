@@ -1,0 +1,24 @@
+{
+  "terms": {
+    "meta": {
+      "title": "Terms and Conditions - LearnPack",
+      "description": "Read LearnPack's terms and conditions. Learn about our service terms, user responsibilities, and legal agreements for using our AI-powered learning platform.",
+      "keywords": "terms and conditions, service terms, user agreement, legal terms, LearnPack terms",
+      "ogTitle": "Terms and Conditions - LearnPack",
+      "ogDescription": "Read LearnPack's terms and conditions. Learn about our service terms, user responsibilities, and legal agreements.",
+      "twitterTitle": "Terms and Conditions - LearnPack",
+      "twitterDescription": "Read LearnPack's terms and conditions. Learn about our service terms, user responsibilities, and legal agreements."
+    }
+  },
+  "privacy": {
+    "meta": {
+      "title": "Privacy Policy - LearnPack",
+      "description": "Learn how LearnPack protects your privacy. Our privacy policy explains data collection, usage, security measures, and your rights regarding personal information.",
+      "keywords": "privacy policy, data protection, user privacy, data security, personal information",
+      "ogTitle": "Privacy Policy - LearnPack",
+      "ogDescription": "Learn how LearnPack protects your privacy. Our privacy policy explains data collection, usage, security measures, and your rights.",
+      "twitterTitle": "Privacy Policy - LearnPack",
+      "twitterDescription": "Learn how LearnPack protects your privacy. Our privacy policy explains data collection, usage, security measures, and your rights."
+    }
+  }
+}

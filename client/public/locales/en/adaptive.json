@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "title": "Adaptive Course Intelligence | LearnPack",
+    "description": "AI-powered adaptive learning that adjusts content difficulty, depth and guidance based on real learner behavior in real time.",
+    "keywords": "adaptive learning, course intelligence, AI training, real-time learning adaptation, personalized education, learning analytics",
+    "ogTitle": "Adaptive Course Intelligence | LearnPack",
+    "ogDescription": "Courses that adapt in real time. LearnPack analyzes behavior, frustration, progress and intent to reshape content instantly."
+  },
+  "hero": {
+    "title": "Courses that adapt in real time. Automatically.",
+    "subtitle": "Your training no longer stays static. LearnPack analyzes behavior, frustration, progress and intent to reshape content instantly and guide every learner with precision.",
+    "ctaTry": "Try Adaptive Intelligence",
+    "ctaDemo": "Book a Demo",
+    "mockup": {
+      "stuck": "Learner stuck at concept 3",
+      "extraExample": "Added extra example automatically",
+      "difficultyAdjusted": "Difficulty adjusted"
+    }
+  },
+  "definition": {
+    "label": "DEFINITION",
+    "text": "Adaptive Course Intelligence is LearnPack's AI system that adjusts content difficulty, depth and guidance based on real learner behavior."
+  },
+  "problem": {
+    "title": "Static learning cannot keep up.",
+    "subtitle": "Traditional training never reacts to what learners need in the moment.",
+    "cards": {
+      "oneSize": {
+        "title": "One size fits all",
+        "description": "Every learner gets the same content regardless of experience, pace, or learning style."
+      },
+      "noSignals": {
+        "title": "No real-time signals",
+        "description": "Courses cannot detect confusion, frustration, or when someone is struggling."
+      },
+      "outdated": {
+        "title": "Content quickly becomes outdated",
+        "description": "Static materials cannot evolve with changing requirements or learner feedback."
+      }
+    }
+  },
+  "whatItDoes": {
+    "title": "Your content evolves with every interaction.",
+    "blocks": {
+      "detects": {
+        "title": "Detects",
+        "description": "Identifies patterns in learner behavior and frustration signals."
+      },
+      "adjusts": {
+        "title": "Adjusts",
+        "description": "Modifies content difficulty and pacing automatically."
+      },
+      "guides": {
+        "title": "Guides",
+        "description": "Provides real-time support based on learner needs."
+      }
+    }
+  },
+  "engine": {
+    "title": "How LearnPack adapts instruction in real time.",
+    "steps": {
+      "observe": "Observe",
+      "interpret": "Interpret",
+      "act": "Act",
+      "validate": "Validate"
+    }
+  },
+  "examples": {
+    "title": "What adaptation looks like in practice.",
+    "instruction": "Select an adaptation to see its impact on key metrics.",
+    "cards": {
+      "extraExample": "Extra example added",
+      "difficulty": "Difficulty adjusted",
+      "reinforced": "Concept reinforced",
+      "translation": "Translation triggered"
+    }
+  },
+  "analytics": {
+    "title": "Where adaptive intelligence makes the biggest impact.",
+    "metrics": {
+      "dropout": {
+        "value": "50%",
+        "label": "Dropout Reduction"
+      },
+      "completion": {
+        "value": "2x",
+        "label": "Completion Increase"
+      },
+      "heatmaps": {
+        "label": "Real-Time Frustration Heatmaps"
+      },
+      "prediction": {
+        "label": "Skill Mastery Prediction"
+      }
+    }
+  },
+  "useCases": {
+    "title": "Where adaptive intelligence makes the biggest impact.",
+    "items": {
+      "onboarding": "Onboarding",
+      "compliance": "Compliance",
+      "software": "Software Training",
+      "customer": "Customer Education",
+      "sales": "Sales Enablement"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "questions": {
+      "q1": {
+        "question": "What is Adaptive Course Intelligence in LearnPack?",
+        "answer": "Adaptive Course Intelligence is LearnPack's AI-powered system that automatically adjusts course content based on real-time learner behavior. It monitors signals like time spent, errors made, and frustration patterns to modify difficulty, add examples, or reinforce concepts exactly when needed."
+      },
+      "q2": {
+        "question": "How does LearnPack personalize training automatically?",
+        "answer": "LearnPack analyzes each learner's interaction patterns in real time. When the system detects that a learner is struggling, it can automatically insert additional examples, adjust difficulty levels, revisit key concepts, or even adapt content to the learner's preferred language—all without any manual intervention."
+      },
+      "q3": {
+        "question": "Is Adaptive Course Intelligence useful for corporate training?",
+        "answer": "Absolutely. Corporate training often suffers from one-size-fits-all content that fails to engage diverse teams. Adaptive Intelligence ensures each employee receives personalized pacing and support, leading to higher completion rates, better knowledge retention, and reduced training time across onboarding, compliance, and skills development programs."
+      }
+    }
+  },
+  "cta": {
+    "title": "Build training that improves itself.",
+    "ctaStart": "Start for Free",
+    "ctaDemo": "See Adaptive Intelligence Demo"
+  }
+}

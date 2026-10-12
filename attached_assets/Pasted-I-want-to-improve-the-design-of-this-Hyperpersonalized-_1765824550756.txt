@@ -1,0 +1,121 @@
+I want to improve the design of this Hyperpersonalized Learning page without changing the structure or deleting content. Please apply the following updates section by section:
+
+1. HERO – Update the right card
+
+Replace the current card content with a more contextual AI Tutor message.
+
+Add a small block of course text at the top, highlight one sentence, and show a chat bubble on the right from “the AI Tutor” that says:
+“I see you are working on REST endpoints. Do you want a simpler explanation or an example for a banking API?”
+
+Keep the styling consistent with the current visual language.
+
+2. DEFINITION BOX – Make it feel more like a definition
+
+Add a small label above the box that says:
+“DEFINITION · HYPERPERSONALIZED LEARNING”.
+
+Slightly reduce the max width of the white box so it feels like an editorial block rather than a banner.
+
+Keep the text inside unchanged.
+
+3. SUPPORT SECTION – Replace the decorative graphic
+
+On the right side of “Support that feels personal, at scale”, replace the current decorative graphic.
+
+Use a simple diagram with three chips stacked vertically:
+“Different levels”, “Different roles”, “Different goals”.
+
+Add an arrow pointing toward a box labeled “One AI Tutor experience”.
+
+4. HOW IT WORKS – Make steps visually consistent
+
+Ensure each step shows:
+
+A circular numbered icon
+
+A short bold title on a single line
+
+A short paragraph below
+
+Increase vertical spacing between the three steps so they don’t read like one long block.
+
+5. EXAMPLES SECTION – Convert into rows with two columns
+
+Replace the current block layout with three horizontal rows, each containing two columns:
+
+Row 1
+Left:
+
+Title: “Simpler explanations”
+
+Text: “A learner asks for a simpler explanation. The AI Tutor rewrites the paragraph instantly.”
+Right:
+
+A simple visual placeholder that shows a paragraph and a simplified version.
+
+Row 2
+Left:
+
+Title: “Role-based examples”
+
+Text: “A sales employee requests an industry example. The AI Tutor adapts automatically.”
+Right:
+
+A small visual showing a generic message turning into a sales-specific example.
+
+Row 3
+Left:
+
+Title: “Guided reasoning”
+
+Text: “The AI Tutor guides reasoning instead of just giving the solution.”
+Right:
+
+A simple visual representing guiding questions after a wrong answer.
+
+Keep visual consistency across all rows.
+
+6. IMPACT SECTION – Improve readability
+
+Slightly increase the font size and line-height of the main paragraph so it’s easier to read on dark background.
+
+Keep the metrics note as a separate line below in a smaller, lighter font.
+
+7. USE CASES – Shorten text inside cards
+
+Update each card to use shorter descriptions (maximum two lines):
+
+Onboarding: “Support adapted to each new hire’s background.”
+
+Technical Training: “Guidance through complex ideas and reasoning.”
+
+Compliance: “AI Tutor clarifies dense rules and policies.”
+
+Product & Sales Training: “Role-tailored examples inside the content.”
+
+8. COMPARISON – Add subtle divider and icons
+
+Add a thin vertical divider between the two columns.
+
+Add a small check icon before each adaptive-learning bullet.
+
+Optionally add subtle “x” icons for static-learning bullets.
+
+Increase bottom margin to separate this section from the testimonial.
+
+9. TESTIMONIAL – Improve elegance
+
+Make the quote text slightly larger or italic for emphasis.
+
+Move the attribution to a separate line in a smaller, lighter font:
+“Training Director, Enterprise client”.
+
+10. FINAL CTA – Make “Start for Free” dominant
+
+Make the “Start for Free” button slightly wider and use the primary filled style.
+
+Keep “Book a Demo” as an outlined secondary button.
+
+Add comfortable vertical padding to make the CTA feel like a strong closing section.
+
+Please apply all these adjustments without altering the page structure or removing any existing content. Just improve clarity, layout, visual hierarchy, and contextual storytelling

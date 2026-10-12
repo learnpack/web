@@ -1,0 +1,207 @@
+Aquí tienes **el Prompt 2**, dividido, limpio y optimizado para que Replit Builder lo procese sin romperse.
+Este prompt continúa donde quedó el Prompt 1 y ajusta TODAS las secciones restantes: features, timeline, feature table, use cases, metrics, testimonial, FAQ y final CTA.
+
+Sin guiones largos, sin adornos, y con instrucciones claras para diseño y contenido.
+
+---
+
+# **PROMPT 2 PARA REPLIT BUILDER**
+
+(Para pegar inmediatamente después de que hayas aplicado el Prompt 1)
+
+Quiero que edites las secciones restantes de la página End to End Automation siguiendo estas instrucciones. Mantén un diseño ligero, evita las cajas repetitivas, reduce sombras y usa más espacios abiertos.
+
+---
+
+## **5. Features section**
+
+Título
+**Automation across the training lifecycle**
+
+Subtitulo
+From the first version of a course to ongoing updates and learner support.
+
+Cambia el layout a solo cuatro bloques en dos filas, sin cajas oscuras.
+Cada bloque debe tener icono pequeño, título y descripción. Sin fondo. Sin sombras.
+
+Contenido de los cuatro features:
+
+1. Course generation
+   Turn PDFs, videos, and SOPs into structured interactive courses in minutes.
+
+2. Continuous iteration
+   Use AI to rewrite, simplify, or expand content block by block.
+
+3. Instant translations
+   Translate the full course into any language instantly.
+
+4. Analytics and alerts
+   Track learner progress and see where users struggle in real time.
+
+---
+
+## **6. How It Works section**
+
+Haz que esta sección se vea como una línea del tiempo horizontal, no como cajas.
+
+Título
+**How end to end automation works**
+
+Subtitulo
+Three simple steps. Everything else is handled by LearnPack.
+
+Pasos:
+
+1. Input your content or idea
+   Upload documents or answer four guided questions about topic, audience and goals.
+
+2. AI builds the course
+   LearnPack generates lessons, quizzes and activities automatically.
+
+3. AI maintains it over time
+   Rigobot helps refine content, adjust examples and add new material without rebuilding.
+
+CTA
+Watch the sixty second demo
+
+Estilo:
+
+* Elimina las cajas sombreadas.
+* Usa bordes finos o líneas muy suaves para conectar los tres pasos.
+* Fondo limpio.
+
+---
+
+## **7. Feature Table section**
+
+Cambia esta sección para que se vea como una tabla de dos columnas, no como tarjetas.
+Sin fondos oscuros y sin bordes gruesos.
+
+Título
+**What LearnPack automates vs what you control**
+
+Subtitulo
+Automation where it saves time. Human control where it matters.
+
+Filas:
+
+1. Course structure
+   Automated. LearnPack proposes lessons and assessments. You approve or tweak.
+
+2. Content wording
+   Co created. AI suggests text. Humans keep accuracy and tone.
+
+3. Learner support
+   Automated. Rigobot answers questions and guides learners contextually.
+
+4. SCORM and LMS delivery
+   Automated. Packages export in one click.
+
+5. Localization
+   Automated. You adjust terminology and compliance notes.
+
+---
+
+## **8. Use Cases**
+
+Título
+**Where end to end automation shines**
+
+Subtitulo
+The same engine adapts to many training needs.
+
+Cuatro tarjetas simples, sin sombra. Distribución en dos filas. Iconos suaves.
+
+1. Employee onboarding
+   Launch consistent onboarding across locations without rebuilding material.
+
+2. Product and sales training
+   Keep modules updated as products evolve.
+
+3. Technical and tools training
+   Turn documentation into interactive content that updates with each release.
+
+4. Compliance and policies
+   Update a policy once and reflect changes across every course.
+
+---
+
+## **9. Metrics section**
+
+Haz esta sección mínima y elegante. Cifras grandes, sin cajas. Solo tipografía.
+
+Título
+**Measured impact of automation**
+
+Subtitulo
+Based on deployments with training centers and corporate teams.
+
+Métricas centradas:
+
+1. 80 percent lower course production cost
+2. 2 times higher completion rates
+3. Under 1 hour to publish a new course
+4. 50 percent reduction in learner dropout with Rigobot
+
+---
+
+## **10. Testimonial section**
+
+Mantén una sola cita centrada, en un contenedor ligero sin fondo oscuro.
+
+Cita
+“LearnPack cut our course creation time from weeks to hours without losing quality.”
+
+Autor
+HR Director, Grovear
+
+CTA
+See the full case study
+
+---
+
+## **11. FAQ section (añadir)**
+
+Agrega una nueva sección antes del final. Usa un acordeón simple.
+Tres preguntas y respuestas.
+
+Título
+**Frequently asked questions**
+
+FAQ 1
+What formats can I upload
+You can start from PDFs, videos, Word files, slide decks or simply describe your idea.
+
+FAQ 2
+Does it work with our LMS
+Yes. You can export SCORM or embed the course directly with an iframe.
+
+FAQ 3
+How often can I update a course
+As often as you want. Rigobot helps refine or rewrite content instantly.
+
+---
+
+## **12. Final CTA**
+
+Título
+**Ready to automate your training lifecycle**
+
+Subtitulo
+Generate your first AI powered course and let LearnPack handle the heavy lifting.
+
+Botones
+Start for free
+Book a demo
+
+Estilo:
+
+* Fondo limpio
+* No usar cajas alrededor de los botones
+* Mucho espacio en blanco
+
+---
+
+Cuando termines este Prompt 2, la página debe sentirse profesional, más ligera, menos repetitiva y visualmente distinta al homepage.
+
+¿Quieres ahora que trabajemos un prompt específico para retocar la paleta de colores, iconografía y tipografía?

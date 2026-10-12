@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Hyperpersonalized Learning | Adaptive Training System | LearnPack",
+    "description": "A hyperpersonalization system that turns one training course into unique learning experiences for each employee. Built for organizations, tailored to every learner.",
+    "keywords": "hyperpersonalized learning, adaptive training, personalized learning system, corporate training, learner profiling, adaptive course experience",
+    "ogTitle": "Hyperpersonalized Learning System | LearnPack",
+    "ogDescription": "Turn a single training course into personalized learning experiences for each employee. Adapt content, examples, and explanations to how every person learns."
+  },
+  "hero": {
+    "title": "Hyperpersonalized learning, built for organizations and tailored to every learner",
+    "subtitle": "LearnPack turns a single training course into a unique learning experience for each employee, adapting content, examples, and explanations to how every person learns.",
+    "ctaStart": "Start for Free",
+    "ctaDemo": "Book a Demo"
+  },
+  "system": {
+    "title": "How hyperpersonalized learning actually works",
+    "subtitle": "A clear process, no smoke.",
+    "step1": {
+      "title": "Build the base course for your organization",
+      "description": "Organizations create one training course aligned with company goals, tools, language, and internal guidelines."
+    },
+    "step2": {
+      "title": "Understand each learner as an individual",
+      "description": "Before starting, LearnPack asks each learner a small set of questions to understand their background, role, experience level, and learning preferences."
+    },
+    "step3": {
+      "title": "Adapt the course to each person",
+      "description": "LearnPack dynamically adapts examples, explanations, and references so every learner receives the same knowledge, explained in a way that makes sense to them."
+    }
+  },
+  "example": {
+    "title": "One course. Many ways to understand it.",
+    "intro": "A company delivers a course on internal tools and workflows.",
+    "marco": {
+      "name": "Marco",
+      "profile": "learns better through sports analogies",
+      "result": "LearnPack explains processes using examples related to teamwork, strategy, and game flow."
+    },
+    "laura": {
+      "name": "Laura",
+      "profile": "works in design and branding",
+      "result": "LearnPack adapts the same concepts using visual, creative, and fashion-related analogies."
+    },
+    "conclusion": "Same course. Same objectives. Different explanations. Better retention."
+  },
+  "aiTutor": {
+    "title": "The AI Tutor supports hyperpersonalization in real time",
+    "subtitle": "The AI Tutor helps learners during the course by answering questions, clarifying concepts, and guiding understanding. It works on top of the personalized experience, reinforcing learning without replacing instructors.",
+    "featuresTitle": "What the AI Tutor does during learning",
+    "features": [
+      {
+        "icon": "zap",
+        "title": "Instant Help",
+        "description": "On-demand assistance inside the course, right when learners need it most"
+      },
+      {
+        "icon": "focus",
+        "title": "Context-Aware",
+        "description": "Explanations tailored to exactly what the learner is reading at that moment"
+      },
+      {
+        "icon": "brain",
+        "title": "Memory & Progress",
+        "description": "Remembers each learner's journey, building on past interactions"
+      },
+      {
+        "icon": "compass",
+        "title": "Socratic Guidance",
+        "description": "Guides understanding through questions rather than just giving answers"
+      },
+      {
+        "icon": "sliders",
+        "title": "Adaptive Level",
+        "description": "Adjusts complexity and tone to match each learner's background"
+      },
+      {
+        "icon": "globe",
+        "title": "Multilingual",
+        "description": "Supports learners in their preferred language seamlessly"
+      },
+      {
+        "icon": "clock",
+        "title": "Always Available",
+        "description": "24/7 support without increasing instructor workload"
+      }
+    ]
+  },
+  "whyMatters": {
+    "title": "Why this level of personalization matters",
+    "bullets": [
+      "Higher retention and understanding",
+      "Faster onboarding and upskilling",
+      "Less frustration during training",
+      "Same course quality, personalized at scale"
+    ]
+  },
+  "useCases": {
+    "title": "Where hyperpersonalization makes the difference",
+    "items": {
+      "onboarding": {
+        "title": "Corporate onboarding",
+        "description": "Adapt training to each new hire's background and role."
+      },
+      "tools": {
+        "title": "Internal tools and processes",
+        "description": "Explain systems using familiar contexts for each team."
+      },
+      "compliance": {
+        "title": "Compliance and policies",
+        "description": "Clarify regulations with examples relevant to each department."
+      },
+      "technical": {
+        "title": "Technical and role-specific training",
+        "description": "Tailor complexity and examples to experience levels."
+      }
+    }
+  },
+  "faq": {
+    "title": "FAQs",
+    "lastUpdated": "Last updated: December 2025",
+    "questions": {
+      "q1": {
+        "question": "What is hyperpersonalized learning in LearnPack?",
+        "answer": "Hyperpersonalized learning in LearnPack is a system that adapts a single training course to each individual learner. It combines organization-specific base content with learner profiling and dynamic adaptation of examples and explanations."
+      },
+      "q2": {
+        "question": "How does learner profiling work?",
+        "answer": "Before starting a course, LearnPack asks each learner around 5 questions about their role, experience, background, and learning preferences. This information is used to personalize the entire learning experience."
+      },
+      "q3": {
+        "question": "Is the AI Tutor the same as hyperpersonalization?",
+        "answer": "No. The AI Tutor is one component that supports the hyperpersonalization system. It provides real-time guidance within the personalized experience but is not the whole system."
+      },
+      "q4": {
+        "question": "Does the AI Tutor replace instructors?",
+        "answer": "No. The AI Tutor supports learners between instructor interactions by clarifying concepts and reducing frustration. Instructors keep control of the learning experience while gaining better visibility into learner progress."
+      }
+    }
+  },
+  "cta": {
+    "title": "Give every learner the experience they need to succeed.",
+    "ctaStart": "Start for Free",
+    "ctaDemo": "Book a Demo"
+  }
+}

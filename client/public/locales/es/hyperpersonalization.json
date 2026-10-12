@@ -1,0 +1,145 @@
+{
+  "meta": {
+    "title": "Aprendizaje Hiperpersonalizado | Sistema de Capacitación Adaptativa | LearnPack",
+    "description": "Un sistema de hiperpersonalización que convierte un curso de capacitación en experiencias únicas para cada empleado. Diseñado para organizaciones, adaptado a cada estudiante.",
+    "keywords": "aprendizaje hiperpersonalizado, capacitación adaptativa, sistema de aprendizaje personalizado, capacitación corporativa, perfilado de estudiantes, experiencia de curso adaptativo",
+    "ogTitle": "Sistema de Aprendizaje Hiperpersonalizado | LearnPack",
+    "ogDescription": "Convierte un solo curso de capacitación en experiencias de aprendizaje personalizadas para cada empleado. Adapta contenido, ejemplos y explicaciones a cómo aprende cada persona."
+  },
+  "hero": {
+    "title": "Aprendizaje hiperpersonalizado, diseñado para organizaciones y adaptado a cada estudiante",
+    "subtitle": "LearnPack convierte un solo curso de capacitación en una experiencia de aprendizaje única para cada empleado, adaptando contenido, ejemplos y explicaciones a cómo aprende cada persona.",
+    "ctaStart": "Comenzar Gratis",
+    "ctaDemo": "Reservar Demo"
+  },
+  "system": {
+    "title": "Cómo funciona realmente el aprendizaje hiperpersonalizado",
+    "subtitle": "Un proceso claro, sin humo.",
+    "step1": {
+      "title": "Construir el curso base para tu organización",
+      "description": "Las organizaciones crean un curso de capacitación alineado con los objetivos, herramientas, lenguaje y directrices internas de la empresa."
+    },
+    "step2": {
+      "title": "Entender a cada estudiante como individuo",
+      "description": "Antes de comenzar, LearnPack hace a cada estudiante un pequeño conjunto de preguntas para entender su contexto, rol, nivel de experiencia y preferencias de aprendizaje."
+    },
+    "step3": {
+      "title": "Adaptar el curso a cada persona",
+      "description": "LearnPack adapta dinámicamente ejemplos, explicaciones y referencias para que cada estudiante reciba el mismo conocimiento, explicado de una manera que tenga sentido para ellos."
+    }
+  },
+  "example": {
+    "title": "Un curso. Muchas formas de entenderlo.",
+    "intro": "Una empresa imparte un curso sobre herramientas internas y flujos de trabajo.",
+    "marco": {
+      "name": "Marco",
+      "profile": "aprende mejor a través de analogías deportivas",
+      "result": "LearnPack explica los procesos usando ejemplos relacionados con trabajo en equipo, estrategia y dinámica de juego."
+    },
+    "laura": {
+      "name": "Laura",
+      "profile": "trabaja en diseño y branding",
+      "result": "LearnPack adapta los mismos conceptos usando analogías visuales, creativas y relacionadas con la moda."
+    },
+    "conclusion": "Mismo curso. Mismos objetivos. Diferentes explicaciones. Mejor retención."
+  },
+  "aiTutor": {
+    "title": "El AI Tutor apoya la hiperpersonalización en tiempo real",
+    "subtitle": "El AI Tutor ayuda a los estudiantes durante el curso respondiendo preguntas, aclarando conceptos y guiando la comprensión. Funciona sobre la experiencia personalizada, reforzando el aprendizaje sin reemplazar a los instructores.",
+    "featuresTitle": "Qué hace el AI Tutor durante el aprendizaje",
+    "features": [
+      {
+        "icon": "zap",
+        "title": "Ayuda Instantánea",
+        "description": "Asistencia bajo demanda dentro del curso, justo cuando más lo necesitan"
+      },
+      {
+        "icon": "focus",
+        "title": "Contextual",
+        "description": "Explicaciones adaptadas a lo que el estudiante está leyendo en ese momento"
+      },
+      {
+        "icon": "brain",
+        "title": "Memoria y Progreso",
+        "description": "Recuerda el viaje de cada estudiante, construyendo sobre interacciones pasadas"
+      },
+      {
+        "icon": "compass",
+        "title": "Guía Socrática",
+        "description": "Guía la comprensión a través de preguntas en lugar de solo dar respuestas"
+      },
+      {
+        "icon": "sliders",
+        "title": "Nivel Adaptativo",
+        "description": "Ajusta complejidad y tono según el contexto de cada estudiante"
+      },
+      {
+        "icon": "globe",
+        "title": "Multilingüe",
+        "description": "Apoya a los estudiantes en su idioma preferido sin problemas"
+      },
+      {
+        "icon": "clock",
+        "title": "Siempre Disponible",
+        "description": "Soporte 24/7 sin aumentar la carga de trabajo del instructor"
+      }
+    ]
+  },
+  "whyMatters": {
+    "title": "Por qué importa este nivel de personalización",
+    "bullets": [
+      "Mayor retención y comprensión",
+      "Onboarding y upskilling más rápido",
+      "Menos frustración durante la capacitación",
+      "Misma calidad de curso, personalizado a escala"
+    ]
+  },
+  "useCases": {
+    "title": "Donde la hiperpersonalización marca la diferencia",
+    "items": {
+      "onboarding": {
+        "title": "Onboarding corporativo",
+        "description": "Adapta la capacitación al contexto y rol de cada nuevo empleado."
+      },
+      "tools": {
+        "title": "Herramientas y procesos internos",
+        "description": "Explica sistemas usando contextos familiares para cada equipo."
+      },
+      "compliance": {
+        "title": "Cumplimiento y políticas",
+        "description": "Aclara regulaciones con ejemplos relevantes para cada departamento."
+      },
+      "technical": {
+        "title": "Capacitación técnica y específica del rol",
+        "description": "Ajusta la complejidad y ejemplos a los niveles de experiencia."
+      }
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "lastUpdated": "Última actualización: Diciembre 2025",
+    "questions": {
+      "q1": {
+        "question": "¿Qué es el aprendizaje hiperpersonalizado en LearnPack?",
+        "answer": "El aprendizaje hiperpersonalizado en LearnPack es un sistema que adapta un solo curso de capacitación a cada estudiante individual. Combina contenido base específico de la organización con perfilado de estudiantes y adaptación dinámica de ejemplos y explicaciones."
+      },
+      "q2": {
+        "question": "¿Cómo funciona el perfilado de estudiantes?",
+        "answer": "Antes de comenzar un curso, LearnPack hace a cada estudiante alrededor de 5 preguntas sobre su rol, experiencia, contexto y preferencias de aprendizaje. Esta información se usa para personalizar toda la experiencia de aprendizaje."
+      },
+      "q3": {
+        "question": "¿El AI Tutor es lo mismo que la hiperpersonalización?",
+        "answer": "No. El AI Tutor es un componente que apoya al sistema de hiperpersonalización. Proporciona orientación en tiempo real dentro de la experiencia personalizada pero no es todo el sistema."
+      },
+      "q4": {
+        "question": "¿El AI Tutor reemplaza a los instructores?",
+        "answer": "No. El AI Tutor apoya a los estudiantes entre las interacciones con el instructor, aclarando conceptos y reduciendo la frustración. Los instructores mantienen el control de la experiencia de aprendizaje mientras obtienen mejor visibilidad del progreso del estudiante."
+      }
+    }
+  },
+  "cta": {
+    "title": "Dale a cada estudiante la experiencia que necesita para tener éxito.",
+    "ctaStart": "Comenzar Gratis",
+    "ctaDemo": "Reservar Demo"
+  }
+}

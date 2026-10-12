@@ -1,0 +1,122 @@
+Claro, Lolo. Aquí tienes un **prompt de mejora** para pegar en Replit Builder, enfocado exactamente en tus 7 puntos, manteniendo coherencia con el resto del sitio y reforzando SEO/LLMs (definition box estática + “Last updated” como parte del estándar). 
+
+---
+
+## Replit Builder Prompt: Improve “Analytics & Compliance” page (layout + visuals)
+
+We already have the “Analytics & Compliance” page implemented. Now improve it with these requirements. Keep the same global layout system and side containers as the rest of LearnPack pages. Do not add new product claims or fake metrics. Do not use em dashes in any text.
+
+### 1) Fix background behavior
+
+Right now the background looks static while content scrolls above it. Update it so the background scrolls naturally with the page like the other LearnPack pages.
+
+Implementation guidance:
+
+* Ensure the starfield background is attached to the page flow (not fixed).
+* If you use a background layer, make it `absolute` inside a wrapper that scrolls with content rather than `position: fixed`.
+
+### 2) Match the global LearnPack background style
+
+Update the visuals so this page matches the other pages:
+
+* Stars should be blue (not white/gray).
+* Add subtle light beams (the same soft “rays” effect used across the site).
+* Keep it subtle, premium, and consistent with the existing theme.
+
+### 3) Improve the “Most training analytics…” boxes
+
+Those 4 boxes are too simple. Restyle them to match the homepage “Why corporate training still fails” card quality:
+
+* Add a subtle glowy border and soft inner fill contrast.
+* Increase padding and improve hierarchy.
+* Add a small icon that feels consistent (minimal line icon).
+* Keep the layout 2x2 on desktop, stacked on mobile.
+
+### 4) Fix “Analytics designed for learning quality…” section (too small and messy)
+
+This section should feel like a real anchor section, not a small filler.
+
+* Increase its vertical spacing and text size.
+* Re-layout it so it feels intentional:
+
+  * Left: Title + 1 short supporting paragraph.
+  * Right: the signal chips/list, aligned and evenly spaced.
+* Ensure the chips look like a designed system (consistent spacing, sizes, and line breaks).
+
+### 5) Replace the “See how learners progress…” distribution with a rubric layout
+
+I do not like the current two-column bullet distribution. Replace it with a rubric like the “Automation vs Control” rubric style used on the End-to-End Automation page.
+Rubric structure:
+
+* A header row with 2 columns:
+
+  * Column A: “Signals LearnPack observes”
+  * Column B: “What teams can act on”
+* 4 rubric rows underneath, each row pairing a signal with the outcome.
+  Example pairings (keep wording, do not invent features):
+
+1. Engagement signals → Identify disengagement early
+2. Retries, pauses, hesitation → Detect friction before dropout
+3. Drop-off points inside content → See exactly where learners abandon
+4. AI Tutor interactions → Understand when learners request help and why
+
+Make it visually strong and clear, with good spacing and a premium border style.
+
+### 6) Remove micro-sections that feel incomplete and merge them into one stronger section
+
+The sections:
+
+* “From raw data to actionable insight.”
+* “Deploy LearnPack in regulated environments with confidence.”
+  feel too small and generic.
+
+Merge them into ONE consolidated section with a clear title, and a layout that explains the story in one place.
+
+New section:
+
+* H2: “Actionable insight, compliant deployment.”
+* Short intro paragraph (2 lines max).
+* Then a 3-part layout (no tiny boxes):
+
+  1. “Insight layer” (AI assisted interpretation of learning signals)
+  2. “Portability layer” (SCORM export and LMS embedding)
+  3. “Compliance layer” (compatible with ISO 27001, SOC 2, HIPAA, FedRAMP-aligned environments)
+
+Important:
+
+* The SCORM export, LMS embedding, infrastructure independence items must have a real heading and explanation. Right now the circles look like floating items without context. Fix that by giving the section a clear title and placing the 3 items under it with proper hierarchy.
+
+### 7) Redesign “Where this matters most” so it is not repetitive cards again
+
+Avoid another standard card grid. Use a different layout to vary the page:
+Pick ONE option and implement it:
+Option A) Alternating rows:
+
+* Each use case is a row with icon, title, 1 sentence, and a subtle divider.
+  Option B) Left sticky list + right details:
+* Left: list of use cases
+* Right: a larger detail panel that changes on hover (or static if hover is too complex)
+
+Use cases to keep:
+
+* Corporate training
+* Financial institutions
+* Healthcare and regulated industries
+* Training centers and academies
+
+### Keep SEO/LLM structure intact
+
+* Keep ONE H1 only.
+* Keep the definition box as static HTML text under the hero.
+* Keep FAQ section with “Last updated: December 2025” near the FAQ header.
+
+### Final quality checks
+
+* Consistent spacing across sections.
+* No vertical light divider lines.
+* No new claims, no numbers, no testimonials added.
+* Ensure mobile layout remains clean and not cramped.
+
+---
+
+Si quieres, en el próximo mensaje te lo divido en **micro-prompts por sección** (para que el builder no se trabe) y en el orden exacto que suele funcionar mejor.

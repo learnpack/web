@@ -21,8 +21,8 @@ export default function FinalCTA() {
   };
 
   return (
-    <section className="py-24 px-4 bg-primary/5" data-testid="section-final-cta">
-      <div className="container mx-auto">
+    <section className="py-24 bg-primary/5" data-testid="section-final-cta">
+      <div className="content-container">
         <div className="text-center space-y-8 max-w-4xl mx-auto">
           <h2 
             className="text-4xl md:text-5xl font-bold"

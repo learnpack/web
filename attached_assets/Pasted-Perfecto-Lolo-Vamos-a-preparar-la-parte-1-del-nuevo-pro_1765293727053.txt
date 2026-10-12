@@ -1,0 +1,61 @@
+Perfecto Lolo. Vamos a preparar **la parte 1 del nuevo prompt**, con el hero corregido y sin mencionar que LearnPack “updates” nada automáticamente.
+Todo limpio, claro, y sin usar guiones largos.
+
+Aquí está la **Parte 1** para pegar en Replit:
+
+---
+
+# **PROMPT PARTE 1 PARA REPLIT BUILDER**
+
+Quiero que ajustes el HERO y el estilo visual base de la página End to End Automation usando estas instrucciones.
+Mantén el estilo del homepage y evita que la página se sienta genérica.
+
+### **HERO**
+
+Reemplaza el hero por este contenido:
+
+**hero.title**
+Create training at scale with AI powered automation
+
+**hero.subtitle**
+Turn any document or idea into interactive training in minutes. LearnPack builds structure, creates activities, translates content, analyzes learner progress and Rigobot the AI tutor keeps learners supported at every step.
+
+Importante
+No decir que LearnPack se actualiza solo o que se mantiene al día sin intervención humana.
+Enfatizar creación rápida, soporte del tutor y funcionalidades asistidas, no automatizaciones completas sin control.
+
+Botones
+Try LearnPack
+Watch sixty second demo
+
+### **Hero design instructions**
+
+* Recupera las estrellas del homepage en el fondo
+* Añade dos glows suaves en tonos azulados como en el homepage
+* Mantén el hero centrado y amplio
+* Usa tipografía más grande que el resto de la página
+* No usar cajas ni fondos cuadrados detrás del texto
+
+### **Ajustes visuales globales**
+
+* Quita cualquier contenedor invisible que haga que las secciones parezcan tarjetas
+* Reduce la altura vertical de cada sección
+* Aumenta el espacio en blanco entre los elementos
+* Asegura que nada tenga bordes rectangulares
+* Mantén el fondo con textura similar al homepage
+* Usa iconos más pequeños y livianos
+
+---
+
+Cuando termines esta parte, me avisas y generamos **la Parte 2** con:
+
+* Rediseño total de la sección Automation vs Control
+* Ajustes al timeline
+* Ajustes al bloque de features
+* Ajustes a use cases
+* Ajustes a metrics
+* Ajustes a testimonial
+* Ajustes a FAQs
+* Correcciones de consistencia visual y copy
+
+Dime cuando estés lista.

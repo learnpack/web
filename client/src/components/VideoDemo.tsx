@@ -3,7 +3,7 @@ import { analytics } from '@/lib/analytics';
 import { useTranslation } from 'react-i18next';
 
 export default function VideoDemo() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('home');
   const handleVideoLoad = () => {
     analytics.ctaClick('watch_demo', 'video_demo');
   };

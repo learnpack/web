@@ -1,0 +1,228 @@
+Perfect, this is exactly the right moment to **lock the system** before inconsistencies keep multiplying.
+Below is a **single global prompt** you can give to Replit Builder to unify typography, spacing, motion, colors, FAQs, and background **across the entire LearnPack website**.
+
+This is written so the builder treats it as a **design system normalization task**, not a page redesign.
+
+---
+
+## Prompt for Replit Builder (paste as-is)
+
+You are applying a **global visual and interaction unification pass** across the entire **learnpack.co** website.
+
+This is not a redesign.
+This is a **system consistency task** to standardize typography, spacing, color palette, background, motion, and FAQ structure across all pages.
+
+Do not change copy or layout intent.
+Do not add new sections or features.
+Only normalize styles and behaviors.
+
+---
+
+## 1) Typography system (global, strict)
+
+### Headings
+
+* All **H1** across the website must use the same:
+
+  * font family
+  * font weight
+  * font size
+  * line height
+* All **H2** across the website must use the same size and style.
+* All **H3** across the website must use the same size and style.
+
+No page may override heading sizes individually.
+
+### Sub-headings
+
+* All sub-headings (section subtitles, helper titles, small section intros) must:
+
+  * use the same font size
+  * use the same font weight
+  * use the same color tone
+* Do not mix multiple sub-heading scales.
+
+### Body text
+
+* All paragraph text must use:
+
+  * the same font family
+  * the same base font size
+  * the same line height
+* No page may use smaller or larger body text unless it is a label or microcopy.
+
+### Labels & microcopy
+
+* Labels, pills, helper text, and captions must use:
+
+  * one single smaller text size
+  * one muted color token
+* Do not introduce additional micro text sizes.
+
+---
+
+## 2) Global spacing and padding rules
+
+Problem: pages currently use different paddings and section spacing.
+
+Fix:
+
+* Define one **standard vertical section spacing** and apply it everywhere.
+* The spacing between sections must be identical from:
+
+  * top of page
+  * middle sections
+  * bottom CTA
+* No page may introduce custom section spacing.
+
+Container rules:
+
+* Use the same max-width container on all pages.
+* Use the same horizontal padding left and right on all pages.
+* Content should never feel squeezed or overly wide compared to other pages.
+
+---
+
+## 3) FAQs: one unified component for the whole site
+
+All FAQ sections must use **one single shared component**.
+
+### FAQ structure (must match reference image)
+
+* Section header:
+
+  * Large “FAQs” title
+  * Small subline below: “Last updated: Month Year”
+* One main rounded container (not separate cards per question).
+* Subtle border and soft inner glow.
+* Background slightly lighter than the page background.
+
+### FAQ rows
+
+* Full-width clickable rows
+* Question text on the left
+* Chevron icon on the right
+* Very subtle divider line between rows
+
+### Open state
+
+* Smooth expand animation
+* Chevron rotates
+* Answer text appears with generous spacing
+* Same animation timing on all pages
+
+No page may implement FAQs differently.
+
+---
+
+## 4) Scroll-based appearance animations (global)
+
+All pages must use the **same scroll appearance behavior** used on the page:
+
+> “Software & tool training that people actually finish.”
+
+Rules:
+
+* Sections fade in softly as they enter the viewport.
+* Use a subtle upward motion (very small).
+* No aggressive animations.
+* Timing and easing must be consistent across pages.
+
+This effect must apply to:
+
+* section headers
+* content blocks
+* cards
+* diagrams
+* CTAs
+
+---
+
+## 5) Color palette unification
+
+### Global rule
+
+* The entire website must use **one shared blue-based palette**.
+
+Allowed:
+
+* Primary blue
+* Secondary blue
+* Muted blue
+* Dark background blue
+* Soft glow blue
+
+Not allowed:
+
+* Multiple unrelated box background colors
+* Random darker or lighter blues per page
+
+### Homepage exception
+
+* The homepage is allowed to use **additional blue variations** for visual impact.
+* All other pages must stick to the shared palette.
+
+Boxes & cards:
+
+* Use one primary surface color for cards.
+* Use one hover glow style.
+* Avoid mixing multiple box color styles on the same page.
+
+---
+
+## 6) Background and stars (global, mandatory)
+
+All pages must use the **same background system**.
+
+Rules:
+
+* Blue-toned star field
+* Fewer stars, not dense
+* Stars softly appear and disappear (twinkle)
+* Subtle movement on scroll
+* Soft light shadows or beams
+* No white stars
+* No different background implementations per page
+
+The background must be shared across:
+
+* homepage
+* use cases
+* features
+* pricing
+* docs
+* all marketing pages
+
+---
+
+## 7) Final consistency checks (must pass)
+
+Before finishing, ensure:
+
+* All headings are visually the same size site-wide.
+* All sub-headings are visually the same size site-wide.
+* All body text matches across pages.
+* Section spacing is identical from page to page.
+* FAQ sections are indistinguishable across pages.
+* Scroll-in animations feel consistent everywhere.
+* Cards and boxes use the same color language.
+* Background stars and lighting are identical on all pages.
+
+---
+
+## Deliverable
+
+Apply a **global style normalization** so LearnPack feels like a single, coherent product system instead of multiple individually styled pages.
+
+Do not redesign content.
+Do not change copy.
+Only enforce consistency.
+
+---
+
+If you want, next we can:
+
+* Turn this into a **design tokens checklist** (font sizes, spacing units, colors)
+* Or split it into **one-time global refactor + per-page QA checklist**
+
+But what you asked for here is exactly right, and this prompt is the correct way to enforce it.

@@ -1,0 +1,116 @@
+Create a new LearnPack feature page titled “Role-Based Development” using the exact same global design system already used across LearnPack pages:
+
+GLOBAL VISUAL CONSISTENCY (MANDATORY)
+- Background must be identical to the rest of LearnPack pages: same starfield density, same star color, same blue light beams/axes of light, same subtle gradient and glow behavior.
+- Do not create any new background variants, patterns, or star colors. No “special” background for this page.
+- Background must scroll normally (no fixed background).
+
+TYPOGRAPHY + SPACING (MANDATORY)
+- Same typography, same heading sizes, same body sizes, same line heights, same button styles, same paddings and section spacing rhythm as the other LearnPack pages.
+- Do not introduce new card colors. Keep the same limited card styles already used across the site.
+- Avoid stacking many boxed sections in a row. Use composition and layout variety instead (split layouts, interactive preview, matrix table, steppers).
+
+ANIMATION + INTERACTIONS (MANDATORY)
+- Use the same entrance animations used across the other pages:
+  - On initial page load and on scroll, text and components should subtly rise (translateY up) and fade in.
+  - Maintain the same duration/easing as existing LearnPack pages.
+- Add basic user interactions in key components:
+  - Hover states: subtle glow border, soft elevation, and micro-highlight on interactive elements.
+  - Tabs: smooth transitions, active indicator, and animated content swap.
+  - Table/matrix: row hover highlight for readability.
+  - Buttons: existing hover/press states consistent with the design system.
+- Keep interactions minimal and functional. No gimmicky animations.
+
+CONTENT RULES (MANDATORY)
+- Avoid empty sections. Every section must add meaningful information.
+- Include concrete, congruent examples (role-based scenarios/practice/quiz).
+- Keep claims and wording aligned with LearnPack positioning: Rigobot is “the AI Tutor”; do not introduce new product names.
+
+PAGE STRUCTURE + COPY:
+
+1) HERO
+H1: “Role-based training that feels built for each person.”
+Sub: “Create one course, then automatically adapt it for Sales, Ops, Support, Managers, or any job function, without rebuilding content.”
+Metrics row (small): “Up to 80% lower content cost · 10× faster launch · 2× higher completion”
+Buttons: primary “Book a Demo” and secondary “Start for Free”
+Definition box under hero (EN + ES):
+EN: “LearnPack is the AI platform that turns any document, video, or idea into interactive training in minutes, then adapts it by role with measurable learning analytics.”
+ES: “LearnPack convierte cualquier material en capacitación interactiva en minutos y la adapta por rol con analíticas reales.”
+Hero visual: build an original “Role Switcher + Live Preview” component (tabs). When switching roles, update the preview content (scenario, practice, quiz) with smooth transitions.
+
+2) PROBLEM SECTION (no card grid)
+Title: “One course cannot train five job realities.”
+Body: “Most training is written for ‘everyone’ so it lands as ‘no one.’ Teams click through, managers cannot tell who is learning, and updates become expensive.”
+Layout: 2 columns. Left is text. Right is a minimal diagram: “One course → 5 role variants” with subtle glow lines and micro-hover emphasis on each role label.
+
+3) ROLE SWITCHER (CORE SECTION)
+Title: “One course. Multiple role paths.”
+Sub: “Switch the role and watch the same module transform: examples, exercises, quizzes, and feedback.”
+Component: tabs for Sales, Support, Operations, Manager, New Hire
+For each role show:
+- Scenario
+- Practice
+- Quiz question
+Use these exact examples:
+Sales:
+Scenario: “Handle pricing objections for a new product line”
+Practice: “Write a 4-step discovery script”
+Quiz: “Which question best reveals budget constraints?”
+Support:
+Scenario: “Troubleshoot a ‘login loop’ incident”
+Practice: “Build a decision tree from the knowledge base”
+Quiz: “What is the safest first diagnostic step?”
+Operations:
+Scenario: “Standardize a handoff process across locations”
+Practice: “Map the workflow and flag failure points”
+Quiz: “Which step reduces rework the most?”
+Manager:
+Scenario: “Coach performance after training”
+Practice: “Use a rubric to evaluate applied skills”
+Quiz: “Which metric signals real learning vs clicking?”
+New Hire:
+Scenario: “First-week onboarding walkthrough”
+Practice: “Complete a guided checklist with milestones”
+Quiz: “What should you do if you get stuck mid-task?”
+
+4) HOW IT WORKS (stepper, not stacked boxes)
+Title: “How role-based development happens in minutes.”
+Three steps with a clean horizontal stepper and subtle motion:
+Step 1: “Generate the baseline course” (upload file or describe goal, AI generates lessons/quizzes/challenges)
+Step 2: “Define roles and outcomes”
+Step 3: “Refine by chatting with the Editing Agent” with inline examples:
+“Make this example for Support.”
+“Add a role-specific quiz.”
+“Translate for LATAM.”
+
+5) ROLE MATRIX (table style)
+Title: “What changes by role.”
+Build a sleek matrix/table (not a card list).
+Rows: Examples, Exercises, Difficulty, Language, Compliance notes, Analytics signals
+Columns: Baseline, Sales, Support, Operations, Manager
+Interactions: row hover highlight + subtle column focus when hovering the column header.
+Responsive behavior: on mobile, convert to stacked grouped sections per role while keeping the same visual style.
+
+6) OUTCOMES (not a generic KPI grid)
+Title: “Role-based personalization drives completion.”
+Show 3 metrics with restrained typography:
+- “2× higher completion”
+- “Lower update cost with a single source of truth”
+- “Visibility into who learned vs who clicked”
+Layout: one continuous band with separators and subtle animation on scroll.
+
+7) FAQ (3 questions)
+- “Is role-based training separate courses?”
+- “Does the AI Tutor change by role too?”
+- “Can we export role-based training to our LMS?”
+Use the same FAQ component styling as the rest of the site.
+
+FINAL CTA
+Title: “Make training feel job-ready.”
+Buttons: “Book a Demo” and “Start for Free”
+
+IMPORTANT IMPLEMENTATION NOTES
+- Use the same reveal-on-scroll animation already used in LearnPack pages: content rises slightly and fades in.
+- Preserve existing animation timing/easing.
+- Keep layout original without creating new color variants.
+- Minimal icon usage (only if already standard across the site).

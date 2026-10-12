@@ -1,0 +1,153 @@
+You are updating “Compliance & Certification” using the exact same design system already used across LearnPack feature pages:
+- Same palette, same typography, same heading sizes, same spacing scale.
+- Do not introduce new box color variants. Reuse the existing card styles and subtle blue glow borders only.
+- Avoid repetitive layouts (do not stack multiple “card sections” one after another). Alternate layouts: split sections, timelines, interactive toggles, comparison strips, annotated diagrams, and one or two card clusters maximum.
+- No empty sections. Every section must add specific value, with concrete examples tied to compliance training and certification workflows.
+- Keep the starfield + light beams background behavior consistent with other pages (background moves while scrolling, not static).
+- Use the Rigobot naming rule: refer to it as “the AI Tutor” when describing learner support.
+
+Page goal:
+Explain how LearnPack helps organizations deliver compliance training, maintain certification readiness, and integrate with regulated environments. All claims must be accurate and careful: do not claim LearnPack is ISO/SOC2/HIPAA/FedRAMP certified. Instead say it supports compliance requirements and can fit into environments that require standards like ISO 27001, SOC 2, HIPAA, FedRAMP through portability, hosting control, SCORM export, audit-friendly workflows, and analytics.
+
+CONTENT AND STRUCTURE
+1) HERO (high, not too tall)
+- H1: “Compliance training that stays audit ready.”
+- Subheadline: “Turn any policy, SOP, or regulation into an interactive course in minutes, export to SCORM, and track learning quality, not just clicks.”
+- Micro-metrics row (same style used across site):
+  - “Up to 80% lower content cost”
+  - “2× completion rates”
+  - “SCORM export + LMS compatible”
+  - “Real-time learning analytics”
+- Primary CTA: “Book a Demo”
+- Secondary CTA: “See Results”
+- Right side: a simple animated diagram (not a video) showing:
+  “Policy PDF → AI builds course → Learner practice + quizzes → Reports + SCORM → LMS / Archive”
+
+2) DEFINITION BOX (under hero, same component)
+- English: “LearnPack helps teams convert compliance materials into interactive training packages with measurable outcomes, exports, and update control.”
+- Spanish (smaller line below): “LearnPack convierte materiales de compliance en cursos interactivos con métricas, control de cambios y exportación lista para LMS.”
+
+3) SECTION: “Why compliance training fails in real life” (do NOT do a card grid)
+Use a left narrative + right “signal list” layout:
+Left: short paragraph explaining typical issues:
+- Content becomes outdated
+- Training is checkbox-only
+- Audits require evidence and version history
+- Global teams need multilingual delivery
+Right: 4 vertical signals with icons (no boxes):
+- “Version drift”
+- “Low completion”
+- “No proof of understanding”
+- “Manual updates”
+
+4) SECTION: “What ‘certification-ready’ looks like in LearnPack” (interactive toggle)
+Create a two-tab or toggle component:
+Tab A: “Before LearnPack”
+Tab B: “With LearnPack”
+Each tab shows the same 4 rows in a clean table-like layout (not boxed cards):
+Rows:
+- Content updates
+- Evidence for audits
+- Learner support
+- Deployment to LMS
+Write concise, concrete outcomes:
+Before: “Manual edits, long cycles, inconsistent versions”
+With: “Fast updates, controlled publishing, trackable evidence, SCORM export”
+Add one short line under the toggle:
+“LearnPack is designed to fit compliance-oriented environments by giving teams portability, exports, and measurable training signals.”
+
+5) SECTION: “Compliance workflows teams actually run” (timeline, not boxes)
+A horizontal timeline with 5 steps, each step expands on hover (or click on mobile):
+Step 1: “Import your policy”
+- Example: “Upload an AML policy PDF, OSHA safety SOP, or internal Code of Conduct.”
+Step 2: “Generate training package”
+- “Lessons + scenario practice + quizzes are created automatically.”
+Step 3: “Approve and publish”
+- “Internal reviewers validate content before distribution.”
+Step 4: “Deliver through your LMS”
+- “Export via SCORM or embed via iFrame.”
+Step 5: “Prove training quality”
+- “See completion, attempts, and frustration signals.”
+Important: keep text short but specific, avoid generic claims.
+
+6) SECTION: “Built for regulated environments” (split layout with an “assurance strip”)
+Left side: short bullets (no box):
+- “Portability and infrastructure independence”
+- “SCORM export for standard LMS workflows”
+- “Role separation: creators vs learners”
+- “Audit-friendly reporting signals”
+- “Multilingual delivery for distributed teams”
+Right side: a compact “Assurance Strip” component with badges. Badges must be phrased carefully:
+- “Supports compliance needs”
+- “Fits ISO 27001 / SOC 2 aligned environments”
+- “HIPAA-ready workflows (when deployed in compliant infrastructure)”
+- “FedRAMP-aligned deployments (environment dependent)”
+Also include: “SCORM 1.2 / 2004”
+Do not claim official certifications.
+
+7) SECTION: “Examples by department” (one controlled card cluster, max 3 cards)
+Only here we can use cards, but keep them consistent and not too dark.
+Three cards with real examples:
+Card 1: Banking
+Title: “AML and KYC refresh training”
+Example outcomes:
+- “Turn a regulatory update into an interactive package in minutes”
+- “Track quiz attempts and where learners struggle”
+- “Export to SCORM for LMS assignment evidence”
+Card 2: Healthcare
+Title: “Privacy and data handling”
+Outcomes:
+- “Scenario-based practice instead of pure reading”
+- “Multilingual delivery for frontline teams”
+- “AI Tutor support to reduce confusion”
+Card 3: Manufacturing
+Title: “Safety SOPs and incident prevention”
+Outcomes:
+- “Micro-assessments per procedure”
+- “Spot frustration signals before failures”
+- “Fast updates when SOP changes”
+Each card includes a tiny “Input → Output” line:
+Input: “PDF/SOP” → Output: “Interactive package + analytics + export”
+
+8) SECTION: “Analytics designed for evidence, not vanity metrics” (diagram style)
+Do a central diagram with 3 columns (no cards):
+Column 1: “What was assigned”
+Column 2: “What was understood”
+Column 3: “What can be proven”
+Under each column add 3 bullets. Examples:
+Assigned: “Seats enrolled, modules opened”
+Understood: “Quiz attempts, wrong-answer patterns, time-on-task”
+Proven: “Completion logs, exportable reports, package version”
+Add a single callout line:
+“Real-time insight into engagement and frustration, not just clicks.”
+
+9) SECTION: Mini case story (no testimonials carousel)
+A single story block with a structured layout:
+Title: “Example: Compliance rollout inside a bank”
+3 columns:
+- Challenge: “Policy updates happen frequently, proof is required, learners disengage”
+- LearnPack approach: “Generate package from updated policy, publish, deliver through SCORM, AI Tutor supports learners”
+- Outcome (careful wording): “Faster updates, clearer evidence signals, improved completion tendency”
+Add a footnote-style note:
+“Metrics vary by deployment. See Results for methodology.”
+
+10) FAQs (3 questions for positioning, at the end)
+FAQ 1: “Does LearnPack export to SCORM for compliance tracking?”
+Answer: “Yes. Export packages to SCORM 1.2/2004 and deliver through your LMS.”
+FAQ 2: “Is LearnPack certified for ISO 27001, SOC 2, HIPAA, or FedRAMP?”
+Answer: “LearnPack is designed to fit regulated environments through portability and deployment control. Certification depends on the infrastructure and organization running the deployment.”
+FAQ 3: “How do updates work when regulations change?”
+Answer: “You can regenerate or refine content quickly, publish the new version, and keep training consistent across teams.”
+
+11) FINAL CTA (same style as other pages)
+Headline: “Make compliance training measurable and maintainable.”
+Buttons: “Book a Demo” and “Start for Free”
+Short line: “Turn policies into interactive training packages in minutes.”
+
+DESIGN NOTES
+- Keep hero high and clean.
+- No repeated “card grids” beyond the one 3-card cluster.
+- Consistent paddings and section spacing.
+- Use subtle glowy borders only, no new colors.
+- Maintain the same scroll reveal effects used on the Software & Tool Training page.
+- Ensure the background moves with the scroll like the rest of the site.

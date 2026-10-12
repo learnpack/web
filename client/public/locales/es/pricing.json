@@ -1,0 +1,62 @@
+{
+  "meta": {
+    "title": "Precios - LearnPack | Planes de Precios Transparentes",
+    "description": "Elige el plan perfecto de LearnPack para tus necesidades. Precios transparentes para estudiantes, profesores y escuelas. Reduce los costos de creación de entrenamiento en un 80% con creación de cursos impulsada por IA.",
+    "keywords": "precios LearnPack, precios creación cursos, precios LMS, precios plataforma educativa, costo plataforma entrenamiento",
+    "ogTitle": "Precios - LearnPack | Planes de Precios Transparentes",
+    "ogDescription": "Elige el plan perfecto de LearnPack para tus necesidades. Precios transparentes para estudiantes, profesores y escuelas. Reduce los costos en un 80%.",
+    "twitterTitle": "Precios - LearnPack | Planes de Precios Transparentes",
+    "twitterDescription": "Elige el plan perfecto de LearnPack para tus necesidades. Precios transparentes para estudiantes, profesores y escuelas. Reduce los costos en un 80%."
+  },
+  "pricing": {
+    "title": "Precios Transparentes",
+    "subtitle": "Elige los componentes que necesitas. Escala a medida que creces.",
+    "learner": {
+      "title": "Plan Aprendiz",
+      "price": "$55",
+      "period": "/mes",
+      "annualPrice": "$528",
+      "annualPeriod": "/año",
+      "description": "Ideal para estudiantes individuales o pruebas pequeñas. Incluye 5 paquetes interactivos, 1 creador y 1 asiento de estudiante. Comienza con el aprendizaje impulsado por IA a un precio accesible.",
+      "packages": "5 paquetes incluidos",
+      "creators": "1 creador",
+      "seats": "1 asiento de estudiante"
+    },
+    "teacher": {
+      "title": "Plan Profesor",
+      "price": "$110",
+      "period": "/mes",
+      "annualPrice": "$1,060",
+      "annualPeriod": "/año",
+      "description": "Diseñado para aulas pequeñas o equipos. Incluye 10 paquetes interactivos, 1 creador y 10 asientos de estudiantes. Impulsa a tu grupo con cursos creados con IA.",
+      "packages": "10 paquetes incluidos",
+      "creators": "1 creador",
+      "seats": "10 asientos de estudiantes"
+    },
+    "school": {
+      "title": "Plan Escuela",
+      "price": "$267",
+      "period": "/mes",
+      "annualPrice": "$2,560",
+      "annualPeriod": "/año",
+      "description": "La mejor opción para escuelas u organizaciones más grandes. Incluye 25 paquetes interactivos, 2 creadores y 25 asientos de estudiantes. Escala la educación con IA en toda tu institución.",
+      "packages": "25 paquetes incluidos",
+      "creators": "2 creadores",
+      "seats": "25 asientos de estudiantes"
+    },
+    "features": {
+      "export_zip_markdown": "Exportar y descargar paquetes como archivo zip con markdown",
+      "convert_to_ebook": "Convertir tus cursos en un eBook para estudiar sin conexión",
+      "podcast_generation": "Crear pódcasts automáticamente a partir de tus lecciones",
+      "ide_integrations_vscode_cursor_windsurf": "Integraciones con VSCode, Cursor y el plugin Windsurf",
+      "marketplace_access": "Acceso al marketplace de LearnPack para compartir y descubrir cursos",
+      "agentic_ai_edits": "Ediciones fáciles y agentivas del curso con herramientas de IA"
+    },
+    "getStarted": "Comenzar",
+    "contactSales": "Contactar Ventas",
+    "pricingDetails": "Ver detalles de precios",
+    "choosePlan": "Elegir este plan",
+    "everythingInLearner": "Todo lo incluido en el plan Estudiante",
+    "everythingInTeacher": "Todo lo incluido en el plan Docente"
+  }
+}

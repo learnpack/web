@@ -1,0 +1,194 @@
+Perfecto, esto ya está **muy cerca**, pero tienes razón: hay 3 puntos clave que ahora mismo rompen claridad y ritmo visual. Te dejo **instrucciones muy concretas** (tipo prompt para el builder o para el dev) centradas solo en esas secciones, sin tocar lo que ya funciona.
+
+Voy por partes.
+
+---
+
+## 1) “Analytics designed for learning quality, not vanity metrics.”
+
+**Problema:**
+
+* Se ve pequeña, tímida, sin jerarquía.
+* No se entiende rápido qué está afirmando LearnPack.
+* Parece un subtítulo perdido, no una sección estratégica.
+
+### Objetivo de la sección
+
+Esta sección debería responder, de forma clara y visual, a:
+**“Qué hace diferente a los analytics de LearnPack”**
+
+### Cambio de enfoque (importante)
+
+No la trates como una sección secundaria.
+Debe ser una **section statement** fuerte, similar en peso a un “principle section”.
+
+### Rediseño propuesto
+
+**Layout nuevo:**
+
+* Full-width dentro del contenedor
+* Fondo ligeramente distinto (overlay azul más claro o gradiente muy sutil)
+* Mucho aire vertical
+
+**Estructura:**
+
+**H2 (más grande):**
+Analytics designed for learning quality, not vanity metrics.
+
+**Subheadline (1 línea clara):**
+LearnPack measures how people learn, not just what they click.
+
+**Debajo, una estructura visual clara (elige una):**
+
+**Opción A: 3 columnas grandes (no chips pequeños)**
+Cada columna con:
+
+* Icono
+* Título corto
+* 1 frase clara
+
+Ejemplo:
+
+* **Observable**
+  Every interaction inside a LearnPack course can be seen and analyzed.
+* **Measurable**
+  Engagement, friction, retries, and progression are tracked in real time.
+* **Exportable**
+  Insights travel with your course through standard LMS integrations.
+
+**Opción B: Diagrama central**
+
+* Centro: “Learning quality”
+* Alrededor: Observable / Measurable / Exportable
+  Más conceptual, menos texto.
+
+**Quita completamente**:
+
+* Chips pequeños
+* Texto comprimido
+* Layout tipo “afterthought”
+
+Esta sección debe sentirse como un **pilar conceptual**.
+
+---
+
+## 2) “Most training analytics tell you what was clicked…”
+
+**Problema:**
+
+* Las cajas están demasiado oscuras.
+* Se mezclan con el fondo y pierden legibilidad.
+* No generan contraste emocional ni visual.
+
+### Objetivo de la sección
+
+Esta sección es crítica. Es donde el usuario dice:
+“Ok, entiendo por qué lo actual no funciona”.
+
+### Cambios visuales concretos
+
+**Ajustes obligatorios:**
+
+* Aclarar el fondo interno de las cajas (más contraste con el background)
+* Añadir:
+
+  * Borde sutil luminoso (glow suave)
+  * Un ligero gradiente interno
+* Más padding vertical
+
+**Referencia clara:**
+Usa exactamente la lógica visual de las cajas de
+**Homepage → “Why corporate training still fails”**
+
+### Micro-ajustes de contenido
+
+* Mantén 2x2
+* Icono más visible
+* El título debe resaltar más que el texto
+
+Ejemplo de jerarquía:
+
+* Icono
+* Title (bold, más grande)
+* Sentence (más legible)
+
+Ahora mismo se sienten como “warning notes”, deberían sentirse como **bloques de insight**.
+
+---
+
+## 3) “Where this matters most”
+
+**Problema:**
+
+* Es demasiado larga verticalmente.
+* Requiere demasiado scroll para algo que debería entenderse rápido.
+* El usuario pierde el mapa mental.
+
+### Objetivo de la sección
+
+Mostrar **variedad de contextos**, no contar historias largas.
+
+### Rediseño recomendado (elige uno, yo recomiendo A)
+
+### Opción A (RECOMENDADA): 2x2 compacto + texto corto
+
+* 2 columnas x 2 filas
+* Cada bloque:
+
+  * Icono
+  * Título
+  * **Una sola frase**, no más
+
+Ejemplo:
+
+* **Corporate training**
+  Track engagement while meeting internal audit requirements.
+* **Financial institutions**
+  Deploy standardized learning with measurable outcomes.
+* **Healthcare and regulated industries**
+  Ensure consistency without slowing updates.
+* **Training centers and academies**
+  Prove learning effectiveness to partners and accrediting bodies.
+
+Reduce:
+
+* Altura de cada bloque
+* Line-height
+* Padding innecesario
+
+Debe verse **de un vistazo**.
+
+### Opción B: Lista vertical + resumen lateral
+
+* Izquierda: lista de industrias
+* Derecha: un panel que resume el valor común
+  Más complejo, solo si quieren algo más interactivo.
+
+---
+
+## Regla general para esta página (muy importante)
+
+Esta subpágina **no es para contar todo**, es para:
+
+* Definir
+* Diferenciar
+* Dar confianza
+
+Si una sección:
+
+* Es muy pequeña → parece relleno
+* Es muy larga → cansa
+* No tiene jerarquía clara → confunde
+
+Tu intuición aquí es correcta: ahora mismo el problema no es el contenido, es **peso visual y ritmo**.
+
+---
+
+### Próximo paso recomendado
+
+Si quieres, en el próximo mensaje puedo:
+
+* Reescribirte **solo** esas 3 secciones ya con el texto exacto optimizado
+* O darte un **micro-prompt por sección** para que el builder no vuelva a romper el diseño
+
+Tú dime cómo prefieres seguir.

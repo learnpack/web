@@ -1,0 +1,167 @@
+
+
+# ✅ **PROMPT PARTE 2 PARA REPLIT BUILDER**
+
+(ajusta Features, Automation vs Control, Use cases, Metrics, Testimonial y FAQs)
+
+Quiero que sigas refinando la página End to End Automation con los siguientes cambios.
+Evita tarjetas, bordes gruesos y layouts rígidos. Mantén coherencia visual con el homepage.
+
+---
+
+## **1. Automation across the training lifecycle**
+
+Rediseñar esta sección para que sea más original.
+
+Instrucciones:
+
+* Cambiar el layout a un feature strip horizontal
+* Colocar los cuatro features en una sola fila
+* Separarlos con líneas verticales muy finas
+* Iconos pequeños y minimalistas
+* No usar cajas ni fondos
+* Mucho espacio en blanco
+* Texto centrado
+
+Features a mostrar:
+
+Course generation
+Turn PDFs, videos and SOPs into structured interactive courses in minutes.
+
+AI assisted iteration
+Refine or expand content block by block with AI assisted editing.
+
+Multilingual output
+Generate complete versions of any training in multiple languages.
+
+Analytics and learner insights
+Track learner progress and identify where users struggle.
+
+---
+
+## **2. Automation vs Control section**
+
+Esta sección debe quedar perfectamente centrada y más elegante.
+
+Instrucciones:
+
+* Crear dos columnas equilibradas
+* Títulos de columnas: Automated y You control
+* Agregar un divisor vertical delgado
+* Sin fondos, sin cajas
+* Espacio amplio entre cada fila
+* Iconos muy sutiles
+* Centrar toda la sección respecto al ancho del hero
+
+Contenido:
+
+Course structure
+LearnPack proposes lessons and assessments. You approve and refine.
+
+Content wording
+AI drafts text. You ensure tone and correctness.
+
+Learner support
+Rigobot the AI tutor answers learner questions and identifies who needs help.
+
+SCORM and LMS delivery
+One click export.
+
+Localization
+AI generates variants. You review terminology and compliance notes.
+
+---
+
+## **3. Use cases**
+
+Instrucciones:
+
+* Eliminar cualquier apariencia de tarjetas
+* Usar iconos circulares sutiles
+* Texto centrado
+* Más espacio horizontal entre ellos
+* Mostrar los cuatro en dos filas limpias
+
+Contenido:
+
+Employee onboarding
+Launch consistent onboarding modules across locations.
+
+Product and sales training
+Keep product knowledge aligned without rebuilding content.
+
+Technical and tools training
+Turn documentation into interactive materials and guided exercises.
+
+Compliance and policies
+Express policy changes across training fast and clearly.
+
+---
+
+## **4. Metrics section**
+
+Haz esta sección más ligera y minimalista.
+
+Instrucciones:
+
+* No usar cajas
+* Cifras grandes, centradas
+* Agregar un glow suave detrás de cada número
+* Mucho espacio entre cada métrica
+
+Contenido:
+
+80 percent lower production cost
+2 times higher completion rates
+Under 1 hour to publish a new course
+50 percent reduction in dropout with Rigobot the AI tutor
+
+---
+
+## **5. Testimonial**
+
+Instrucciones:
+
+* Reducir padding
+* Centrar el contenido y el ancho
+* Usar un fondo muy sutil, casi transparente
+* Icono de comillas pequeño
+
+Contenido:
+
+“LearnPack cut our course creation time from weeks to hours without losing quality.”
+HR Director, Grovear
+CTA: See the full case study
+
+---
+
+## **6. FAQ section**
+
+Reescribir para evitar cualquier referencia a updates.
+
+Instrucciones:
+
+* Espaciar más las preguntas
+* Alinear texto centrado
+* No usar fondos
+
+Contenido:
+
+What formats can I upload
+You can upload PDFs, videos, presentations, written documents or describe your idea.
+
+Does it work with our LMS
+Yes. You can export SCORM or embed modules directly.
+
+How fast can I create new courses
+Most courses can be generated and refined in a short time using the same source materials.
+
+---
+
+## **7. Consistencia final**
+
+* Mantener el look del homepage con estrellas y glows
+* Asegurar que todo se siente fluido y no como secciones independientes
+* Siempre referirse a Rigobot como Rigobot the AI tutor
+
+

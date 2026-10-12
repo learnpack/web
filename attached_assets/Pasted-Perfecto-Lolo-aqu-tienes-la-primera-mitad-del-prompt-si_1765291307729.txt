@@ -1,0 +1,70 @@
+Perfecto Lolo, aquí tienes **la primera mitad del prompt**, sin guiones largos, limpio, corto y listo para pegar en Replit.
+Vamos a dividir todo en **Prompt 1** y **Prompt 2** para que el builder no se sobrecargue.
+
+AQUÍ VIENE EL **PROMPT 1**
+(Hero, definición, primer bloque y cambios visuales globales)
+
+---
+
+### **PROMPT 1 PARA REPLIT BUILDER**
+
+**Objetivo**: Rediseñar la página End to End Automation para que no se vea genérica, reducir cajas, mejorar diseño, y reescribir el hero.
+
+Quiero que edites esta página con las siguientes instrucciones:
+
+### **1. Ajustes globales de diseño**
+
+* Reduce el uso de cajas en toda la página.
+* Cambia el fondo oscuro por un fondo más limpio. Puede ser un azul muy sutil o un degradado suave sin textura.
+* Evita sombras intensas.
+* Reduce el uso de borders en las secciones estilo card.
+* La página debe sentirse más ligera que la homepage.
+
+### **2. Nuevo HERO (más fuerte y menos genérico)**
+
+Reemplaza el hero por este contenido:
+
+**hero.title**
+Create training that updates itself
+
+**hero.subtitle**
+Turn any document or idea into an interactive course with built in automation for updates, analytics, and learner support. Launch content ten times faster while keeping everything aligned.
+
+Botones:
+**Try LearnPack** (primario)
+**Watch sixty second demo** (secundario)
+
+Diseño del hero:
+
+* Quita las estrellas del fondo.
+* Haz el hero más limpio y más corporativo.
+* Mantén todo centrado.
+* No usar cajas.
+
+### **3. Definition Box**
+
+Reemplaza el bloque de definición con un estilo más elegante sin borde y sin fondo oscuro.
+Debe ser solo un texto centrado:
+
+**LearnPack automates the full lifecycle of corporate training, from content creation to updates, delivery, analytics, and learner support.
+LearnPack automatiza todo el ciclo de entrenamiento corporativo, desde creación hasta actualizaciones, entrega, análisis y tutoría.**
+
+### **4. Primer bloque: What you stop doing manually**
+
+Evita que este bloque se vea como cinco cajas iguales. Cambia el diseño a un **layout tipo lista en tres columnas** sin bordes y con iconos más pequeños.
+
+Título
+**What you stop doing manually**
+
+Subtitulo
+LearnPack removes repetitive work and keeps training aligned over time.
+
+Estilo:
+
+* No poner cajas sombreadas
+* No usar fondos oscuros
+* Cada item debe verse como una línea de lista con icono, título y descripción.
+
+---
+
+Cuando termines esto, me avisas y te doy el **PROMPT 2** para continuar con las secciones de Features, How it works, Feature Table, Use Cases, Metrics, Testimonial, FAQs y Final CTA.

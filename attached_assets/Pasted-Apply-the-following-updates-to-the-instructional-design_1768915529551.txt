@@ -1,0 +1,51 @@
+Apply the following updates to the /instructional-designer page.
+Do NOT rewrite the whole page. Only apply the changes listed below.
+
+1) Definition box
+- Increase visual prominence: stronger blue glow border, higher contrast background.
+- Remove bilingual content from the same box.
+- Keep ONLY the English definition in this page.
+- Slightly increase text size to match homepage definition boxes.
+
+2) “Why instructional design breaks at scale”
+- Replace current cards with the SAME component used on the homepage section “Why corporate training still fails”.
+- Use identical card background color, border glow hover effect, and spacing.
+- Keep the existing copy, only change the component style.
+
+3) “From source to course, every time”
+- Replace the current thin line diagram.
+- Use the same “How it Works” component style from the homepage:
+  - Larger cards
+  - Brighter visuals
+  - Stronger glow
+- Keep the same 4 steps and copy, only change the visual component.
+
+4) “Core capabilities”
+- Replace this section with the existing homepage component “The LearnPack Solution”.
+- Use the same sliding / auto-moving cards behavior.
+- Update the card content to reflect:
+  - Instant course regeneration from updated material
+  - AI-generated structure and assessments
+  - Notion-style editing for fast review
+  - Automatic localization per generation
+  - LMS-ready publishing
+
+5) Merge sections
+- Remove the sections:
+  - “AI speeds up creation. You keep instructional control.”
+  - “Where this works best”
+- Replace them with ONE new section:
+  Title: “Real examples. From source to course in minutes.”
+
+- Build this section using example-based cards inspired by:
+  https://docs.learnpack.co/getting-started/create-your-first-course-in-5-minutes
+
+- Each card should show:
+  - Type of training (Onboarding, Product, Compliance, Internal tools)
+  - Source material used
+  - Resulting course generated
+
+General rules:
+- Reuse homepage components whenever possible.
+- Keep this page visually at the same level as the homepage.
+- Do not introduce new interaction styles.

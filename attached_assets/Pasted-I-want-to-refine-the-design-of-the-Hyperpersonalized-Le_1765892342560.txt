@@ -1,0 +1,71 @@
+I want to refine the design of the "Hyperpersonalized Learning" page. Please keep the current structure and content, but improve the visuals and layout with the following changes, section by section:
+
+1) HERO - AI Tutor example on the right
+- Replace the current “Chapter 3: Building Web APIs…” example with a styled example box similar to the "Why corporate training still fails" cards from the homepage.
+- The box should have:
+  - Dark navy background (#0A1125)
+  - White text
+  - Rounded corners
+  - Soft glow
+  - Comfortable padding
+- Inside the box include:
+  - Small label at the top-left: "Example · Context-aware help"
+  - A short course excerpt (2 lines)
+  - Below it, a highlighted line
+  - On the right side, a chat bubble from "the AI Tutor" that says:
+    "I see you are working on REST endpoints. Do you want a simpler explanation or an example for a banking API?"
+
+2) DEFINITION - HYPERPERSONALIZED LEARNING
+- Keep the label "DEFINITION · HYPERPERSONALIZED LEARNING" but redesign the box under it.
+- Remove the white box style and replace it with:
+  - Dark navy background (#0E1629)
+  - White text
+  - Rounded corners
+  - Thin blue border (#304FFE)
+  - Very subtle blue glow behind the box
+- Keep the definition text exactly the same, just change the visual style so it feels elegant and aligned with the LearnPack colors.
+
+3) "Support that feels personal, at scale" - right side diagram
+- In this section, redesign the right side content as a larger, more central diagram.
+- Use four stacked rounded chips or boxes with these labels:
+  - "Different levels"
+  - "Different roles"
+  - "Different goals"
+  - "One AI Tutor experience" (this last one slightly larger or visually emphasized)
+- Center this group vertically with the text on the left.
+- Add a soft blue glow behind the group so it feels important and visually balanced with the left column.
+
+4) "Learning that reacts to the learner" section
+- Remove the white background for this section.
+- Apply the same background color, padding, and general style as the "How it Works" section of the homepage (same tones, same feeling).
+- Keep the three steps stacked vertically with icons 1, 2, 3, but make sure they use the same icon style, spacing, and alignment used in the homepage How it Works section.
+
+5) "What hyperpersonalization looks like in practice" section
+- Rebuild this section so it is clear, aligned, and consistent.
+- Create three equal horizontal cards, centered under the title, with consistent font sizes.
+
+Each card should have:
+  Card 1:
+    - Title: "Simpler explanations"
+    - Description: "A learner asks for a simpler explanation. The AI Tutor rewrites the paragraph instantly."
+    - Add a short second line in italic representing the Tutor response.
+  Card 2:
+    - Title: "Role-based examples"
+    - Description: "A sales employee requests an industry example. The AI Tutor adapts automatically."
+    - Add a short second line in italic for the adapted sales example.
+  Card 3:
+    - Title: "Guided reasoning"
+    - Description: "The AI Tutor guides reasoning instead of just giving the solution."
+    - Add a short second line in italic showing a guiding question.
+
+- Make sure:
+  - All three cards have the same width and are centered under the section heading.
+  - The font size is consistent across all cards.
+  - Use a subtle border or glow on each card.
+  - Optionally add a small arrow or visual connector inside each card that reinforces "situation → AI Tutor response".
+
+6) Starfield background
+- Add the same subtle starfield background used on the homepage behind this entire feature page.
+- The stars should be low opacity and soft, only to give texture, not to distract from the content.
+
+Please apply all of these visual updates while keeping the existing text, hierarchy, and section order. Focus on improving clarity, alignment, and LearnPack brand consistency.

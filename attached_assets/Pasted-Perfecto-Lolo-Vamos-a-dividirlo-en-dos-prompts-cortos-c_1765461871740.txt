@@ -1,0 +1,59 @@
+Perfecto Lolo. Vamos a dividirlo en **dos prompts cortos**, claros y ligeros para que Replit Builder los pueda procesar sin romperse.
+
+Estos dos prompts están pensados para ejecutarse **en orden**:
+
+* **Parte 1**: Fondo, definición, secciones superiores
+* **Parte 2**: Features strip, Automation vs Control, Use cases, Metrics, Testimonial y FAQs
+
+Todo sin guiones largos, limpio y directo.
+
+---
+
+# ✅ **PROMPT PARTE 1 PARA REPLIT BUILDER**
+
+(ajusta fondo, definición y primera sección)
+
+Quiero que apliques los siguientes cambios a la página End to End Automation.
+El objetivo es hacer que el diseño sea más coherente con el homepage y evitar que las secciones se sientan como grids o tarjetas.
+
+### **1. Extender el fondo del hero al resto de la página**
+
+* Usa el mismo estilo del homepage
+* Añade estrellas tenues en todas las secciones
+* Añade dos glows azules suaves distribuidos a lo largo del scroll
+* Mantén un gradiente profundo y limpio que continúe desde el hero
+
+### **2. Reubicar la definición**
+
+El texto de definición no debe quedar como un bloque atravesado.
+Haz lo siguiente:
+
+* Muévelo más abajo
+* Añade más espacio superior e inferior
+* No usar fondo ni caja
+* Debe verse como una frase editorial simple
+
+Reemplaza su contenido por:
+LearnPack handles creation, delivery, multilingual output, analytics and learner support in one unified workflow.
+
+(No mencionar updates.)
+
+### **3. Rediseñar “What you stop doing manually”**
+
+Eliminar la estructura de columnas que hace que parezcan cajas.
+Usar un formato más fluido.
+
+Instrucciones:
+
+* Crea un flow horizontal con ítems conectados por una línea curva
+* Cada ítem debe tener un círculo con icono, título y descripción
+* Todos los ítems deben estar unidos por una línea suave y continua
+* No usar card layout
+* Dejar suficiente aire entre cada punto
+* Un look más narrativo y menos de cuadrícula
+
+---
+
+Cuando termines esta parte y el builder la aplique, te doy la **Parte 2** con los cambios al resto de la página.
+
+Avísame cuando estés lista.

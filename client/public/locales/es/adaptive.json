@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "title": "Inteligencia Adaptativa de Cursos | LearnPack",
+    "description": "Aprendizaje adaptativo impulsado por IA que ajusta la dificultad, profundidad y guia del contenido basandose en el comportamiento real del estudiante en tiempo real.",
+    "keywords": "aprendizaje adaptativo, inteligencia de cursos, entrenamiento IA, adaptacion de aprendizaje en tiempo real, educacion personalizada, analiticas de aprendizaje",
+    "ogTitle": "Inteligencia Adaptativa de Cursos | LearnPack",
+    "ogDescription": "Cursos que se adaptan en tiempo real. LearnPack analiza comportamiento, frustracion, progreso e intencion para reorganizar el contenido al instante."
+  },
+  "hero": {
+    "title": "Cursos que se adaptan en tiempo real. Automaticamente.",
+    "subtitle": "Tu formacion ya no es estatica. LearnPack analiza comportamiento, frustracion, progreso e intencion para reorganizar el contenido al instante y guiar a cada estudiante con precision.",
+    "ctaTry": "Probar Inteligencia Adaptativa",
+    "ctaDemo": "Agendar Demo",
+    "mockup": {
+      "stuck": "Estudiante atascado en concepto 3",
+      "extraExample": "Ejemplo extra agregado automaticamente",
+      "difficultyAdjusted": "Dificultad ajustada"
+    }
+  },
+  "definition": {
+    "label": "DEFINICION",
+    "text": "Inteligencia Adaptativa de Cursos es el sistema de IA de LearnPack que ajusta la dificultad, profundidad y guia del contenido basandose en el comportamiento real del estudiante."
+  },
+  "problem": {
+    "title": "El aprendizaje estatico no puede seguir el ritmo.",
+    "subtitle": "La formacion tradicional nunca reacciona a lo que los estudiantes necesitan en el momento.",
+    "cards": {
+      "oneSize": {
+        "title": "Una solucion para todos",
+        "description": "Cada estudiante recibe el mismo contenido sin importar su experiencia, ritmo o estilo de aprendizaje."
+      },
+      "noSignals": {
+        "title": "Sin senales en tiempo real",
+        "description": "Los cursos no pueden detectar confusion, frustracion o cuando alguien esta teniendo dificultades."
+      },
+      "outdated": {
+        "title": "El contenido se vuelve obsoleto rapidamente",
+        "description": "Los materiales estaticos no pueden evolucionar con los requisitos cambiantes o el feedback de los estudiantes."
+      }
+    }
+  },
+  "whatItDoes": {
+    "title": "Tu contenido evoluciona con cada interaccion.",
+    "blocks": {
+      "detects": {
+        "title": "Detecta",
+        "description": "Identifica patrones en el comportamiento del estudiante y senales de frustracion."
+      },
+      "adjusts": {
+        "title": "Ajusta",
+        "description": "Modifica la dificultad y ritmo del contenido automaticamente."
+      },
+      "guides": {
+        "title": "Guia",
+        "description": "Proporciona soporte en tiempo real basado en las necesidades del estudiante."
+      }
+    }
+  },
+  "engine": {
+    "title": "Como LearnPack adapta la instruccion en tiempo real.",
+    "steps": {
+      "observe": "Observar",
+      "interpret": "Interpretar",
+      "act": "Actuar",
+      "validate": "Validar"
+    }
+  },
+  "examples": {
+    "title": "Como se ve la adaptacion en la practica.",
+    "instruction": "Selecciona una adaptacion para ver su impacto en las metricas clave.",
+    "cards": {
+      "extraExample": "Ejemplo extra agregado",
+      "difficulty": "Dificultad ajustada",
+      "reinforced": "Concepto reforzado",
+      "translation": "Traduccion activada"
+    }
+  },
+  "analytics": {
+    "title": "Donde la inteligencia adaptativa tiene el mayor impacto.",
+    "metrics": {
+      "dropout": {
+        "value": "50%",
+        "label": "Reduccion de Abandono"
+      },
+      "completion": {
+        "value": "2x",
+        "label": "Aumento de Finalizacion"
+      },
+      "heatmaps": {
+        "label": "Mapas de Calor de Frustracion en Tiempo Real"
+      },
+      "prediction": {
+        "label": "Prediccion de Dominio de Habilidades"
+      }
+    }
+  },
+  "useCases": {
+    "title": "Donde la inteligencia adaptativa tiene el mayor impacto.",
+    "items": {
+      "onboarding": "Incorporacion",
+      "compliance": "Cumplimiento",
+      "software": "Formacion de Software",
+      "customer": "Educacion al Cliente",
+      "sales": "Habilitacion de Ventas"
+    }
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "questions": {
+      "q1": {
+        "question": "Que es la Inteligencia Adaptativa de Cursos en LearnPack?",
+        "answer": "La Inteligencia Adaptativa de Cursos es el sistema impulsado por IA de LearnPack que ajusta automaticamente el contenido del curso basandose en el comportamiento del estudiante en tiempo real. Monitorea senales como el tiempo empleado, errores cometidos y patrones de frustracion para modificar la dificultad, agregar ejemplos o reforzar conceptos exactamente cuando se necesita."
+      },
+      "q2": {
+        "question": "Como personaliza LearnPack la formacion automaticamente?",
+        "answer": "LearnPack analiza los patrones de interaccion de cada estudiante en tiempo real. Cuando el sistema detecta que un estudiante esta teniendo dificultades, puede insertar automaticamente ejemplos adicionales, ajustar los niveles de dificultad, revisar conceptos clave o incluso adaptar el contenido al idioma preferido del estudiante, todo sin intervencion manual."
+      },
+      "q3": {
+        "question": "Es util la Inteligencia Adaptativa de Cursos para formacion corporativa?",
+        "answer": "Absolutamente. La formacion corporativa a menudo sufre de contenido unico que no logra involucrar a equipos diversos. La Inteligencia Adaptativa asegura que cada empleado reciba un ritmo y soporte personalizado, lo que lleva a mayores tasas de finalizacion, mejor retencion de conocimientos y tiempo de formacion reducido en programas de incorporacion, cumplimiento y desarrollo de habilidades."
+      }
+    }
+  },
+  "cta": {
+    "title": "Construye formacion que mejora sola.",
+    "ctaStart": "Comenzar Gratis",
+    "ctaDemo": "Ver Demo de Inteligencia Adaptativa"
+  }
+}

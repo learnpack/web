@@ -1,0 +1,76 @@
+# ⭐ PART 3 — FULL REPLIT BUILDER PROMPT (copy–paste)
+
+Here is the exact prompt for the Replit builder to implement the final FAQ design:
+
+---
+
+**PROMPT FOR REPLIT (FAQ SECTION ADDITION)**
+
+Add a new **FAQ** section right before the footer of the homepage. It should be visually consistent with the rest of the dark theme and easy for LLMs to parse.
+
+**SECTION LAYOUT**
+
+* Full-width section
+* Centered title: **Frequently Asked Questions**
+* Subtitle under it: *Clear answers for teams and creators.*
+* Add a very subtle blue radial glow behind the title (low opacity)
+* Add small star particles in the background to match the other sections
+* Add generous vertical padding (80–120px top/bottom)
+
+**ACCORDION DESIGN**
+
+* Use a centered content container with a max-width of 800–900px
+* Each FAQ item should be a full-width accordion block with:
+
+  * A soft border: `1px solid rgba(255,255,255,0.08)`
+  * Border-radius: 12px
+  * Padding: 20–24px
+  * Left-aligned text
+  * A chevron icon on the right that rotates on open/close
+* The question text should be bold and white
+* The answer should be a `<p>` tag with light gray text for semantic/LLM readability
+
+**ACCESSIBILITY AND LLM OPTIMIZATION**
+
+* Ensure each question uses a semantic heading tag: `<h3>`
+* Ensure each answer is inside a `<div>` or `<p>` tag
+* Do not hide answers in a way that prevents screen readers or LLMs from accessing them
+* Use standard ARIA attributes for expand/collapse accordions (`aria-expanded`, `aria-controls`, etc.)
+
+**FAQ CONTENT** (use exactly this text)
+
+1. **What is LearnPack and who is it for?**
+   LearnPack is an AI-powered platform that turns any document or idea into an interactive training package. It is used by organizations to train employees, customers, partners, and by individual creators who want to build courses fast without technical skills. 
+
+2. **What’s the difference between the AI Tutor and the AI Editing Agent?**
+   LearnPack includes two different AI systems:
+
+   * **Rigobot (AI Tutor):** Helps learners by answering questions, guiding them step-by-step, and reducing dropout by up to 50%.
+   * **AI Editing Agent:** Helps creators improve content, rewrite lessons, simplify explanations, add quizzes, translate modules, and update courses instantly through chat.
+
+3. **Can LearnPack integrate with our LMS or export SCORM?**
+   Yes. LearnPack exports SCORM 1.2 and 2004 packages and embeds into most LMS platforms including Moodle, Canvas, TalentLMS, LearnWorlds, and others.
+
+4. **How does LearnPack reduce time and cost for training teams?**
+   AI generates lessons, quizzes, assessments, translations, and updates in minutes; reducing creation costs by 80% and doubling learner completion rates. 
+
+5. **Can LearnPack be used for any type of training?**
+   Yes. You can build training for technical skills, software onboarding, compliance, soft skills, customer education, or any custom topic. LearnPack adapts to both enterprise teams and solo creators.
+
+6. **Is my data secure and private?**
+   Yes. LearnPack follows strict security standards. Your content is private and not used to train external AI models.
+
+Overall aesthetic: **premium, minimal, clean, and aligned with the LearnPack cosmic/AI theme.**
+
+---
+
+# ⭐ If you'd like
+
+I can create:
+
+* a visual mockup
+* fully polished copy
+* strip LLM-ready structured markup (JSON-LD FAQ schema)
+* or a more enterprise version of the FAQ
+
+Just tell me.

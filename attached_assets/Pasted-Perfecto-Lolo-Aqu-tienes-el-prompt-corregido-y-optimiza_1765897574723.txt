@@ -1,0 +1,161 @@
+Perfecto Lolo. Aquí tienes **el prompt corregido y optimizado** para que el Builder use **tu paleta de azules**, **el mismo fondo con estrellas**, **los mismos haces de luz suaves**, y **mantenga coherencia visual con las páginas anteriores**, SIN repetir layout.
+
+Este es el prompt definitivo para pegar en Replit Builder:
+
+---
+
+# ✅ PROMPT FINAL PARA EL BUILDER
+
+**Título:** Build the Adaptive Course Intelligence Page (LearnPack Brand Theme)
+
+Quiero que construyas una página nueva llamada **Adaptive Course Intelligence** para LearnPack. Debe mantener la misma esencia visual que las páginas que ya hicimos, usando:
+
+* **La misma paleta de azules** del sitio LearnPack (azul profundo, azul eléctrico, gradientes suaves).
+* **El mismo fondo con estrellas suaves** como textura.
+* **Los mismos haces de luz verticales** que usamos en Hyperpersonalized Learning y End-to-End Automation.
+* Estilo premium, profesional, futurista, limpio y sin usar el mismo layout de las otras subpáginas.
+* No uses em dash.
+* Debe ser 100 percent responsive.
+
+---
+
+# 📌 PALETA DE COLOR (usar siempre)
+
+* Azul profundo primario (fondo): `#0A1A2F`
+* Azul acento luminoso: `#1F6FEB`
+* Azul intermedio: `#102C4C`
+* Azul eléctrico para highlights: `#3A8DFF`
+* Blanco con opacidad suave para textos secundarios
+
+**Aplica gradientes verticales oscuros** y **acentos luminosos** igual que las otras páginas.
+
+**Usa el mismo fondo global:**
+
+* Stars texture
+* Soft glowing beams of light behind the content
+* Brillo muy sutil alrededor de bloques importantes
+* Profundidad tipo “AI systems”
+
+---
+
+# 🧩 ESTRUCTURA A DESARROLLAR
+
+## 1. HERO
+
+* Fondo: mismo estilo que Hyperpersonalized, con estrellas y 2 haces de luz verticales.
+* Headline: **Courses that adapt in real time. Automatically.**
+* Subheadline: Your training no longer stays static. LearnPack analyzes behavior, frustration, progress and intent to reshape content instantly and guide every learner with precision.
+* CTA primario: Try Adaptive Intelligence
+* CTA secundario: Book a Demo
+* Visual a la derecha: mockup de un curso cuyos módulos cambian dinámicamente.
+* Colores: texto blanco, highlights en azul eléctrico.
+
+---
+
+## 2. DEFINITION BOX
+
+* Caja horizontal centrada con fondo azul muy oscuro `#0A1A2F` con un borde sutil en azul eléctrico.
+* Texto:
+  Adaptive Course Intelligence is LearnPack’s AI system that adjusts content difficulty, depth and guidance based on real learner behavior.
+* Sombra suave en azul.
+
+---
+
+## 3. STATIC LEARNING PROBLEM
+
+* Fondo: gradiente azul oscuro + estrellas.
+* Tres tarjetas diagonales para no repetir layouts.
+* Título: Static learning cannot keep up.
+* Subtítulo: Traditional training never reacts to what learners need in the moment.
+
+Tarjetas:
+
+1. One size fits all
+2. No real-time signals
+3. Content quickly becomes outdated
+
+Cada tarjeta debe usar un borde lineal en azul eléctrico.
+
+---
+
+## 4. WHAT ADAPTIVE INTELLIGENCE DOES
+
+* Diseño con dos capas: rectángulos superpuestos con glow azul.
+* Título: Your content evolves with every interaction.
+* Tres bloques horizontales: Detects, Adjusts, Guides.
+* Usa íconos minimalistas en azul.
+
+---
+
+## 5. THE ADAPTIVE ENGINE
+
+* Fondo: más luminoso que las otras secciones, con un rayo de luz claro detrás del mockup.
+* Layout split screen.
+* Izquierda: timeline vertical con puntos conectados usando azul eléctrico.
+* Derecha: mockup estático del curso.
+
+Título: How LearnPack adapts instruction in real time.
+Pasos: Observe, Interpret, Act, Validate.
+
+---
+
+## 6. INTERACTIVE ADAPTATION EXAMPLES
+
+* Tarjetas apiladas (stack) con efecto hover y glow azul.
+* Fondo: estrellas + gradiente azul profundo.
+* Título: What adaptation looks like in practice.
+
+Tarjetas:
+
+* Extra example added
+* Difficulty adjusted
+* Concept reinforced
+* Translation triggered
+
+---
+
+## 7. ADAPTIVE ANALYTICS
+
+* Sección con números flotantes en blanco, acentos en azul eléctrico.
+* Indicadores:
+  50 percent dropout reduction
+  2x completion increase
+  Real-time frustration heatmaps
+  Skill mastery prediction
+
+---
+
+## 8. USE CASES
+
+* Grid limpio, bordes con opacidad, sombra azul suave.
+* Título: Where adaptive intelligence makes the biggest impact.
+
+Items:
+Onboarding
+Compliance
+Software training
+Customer education
+Sales enablement
+
+---
+
+## 9. FINAL CTA
+
+* Fondo azul profundo con estrellas.
+* Título: Build training that improves itself.
+* Botones: Start for Free, See Adaptive Intelligence Demo
+* Mantener bordes y hover en azul eléctrico.
+
+---
+
+# 🎨 ESTILO GLOBAL
+
+* Usa la misma atmósfera visual que las otras páginas ya hechas.
+* El fondo SIEMPRE debe mantener estrellas y haces de luz verticales.
+* Todos los elementos importantes deben tener un glow suave azul eléctrico.
+* No uses layouts repetidos de otras subpáginas.
+* Usa spacing amplio y animaciones suaves.
+
+---
+
+Lolo, este prompt ya está listo para usarlo directamente en Replit Builder tal cual. Si lo quieres dividido en versiones más pequeñas para módulos, te lo preparo.
