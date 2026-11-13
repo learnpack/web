@@ -36,8 +36,8 @@ function AnimatedNumber({ target, suffix = '' }: { target: number; suffix?: stri
 
 export default function StatsBand() {
   return (
-    <section className="py-16 px-4 border-y bg-card/50" data-testid="section-stats">
-      <div className="container mx-auto">
+    <section className="py-16 border-y bg-card/50" data-testid="section-stats">
+      <div className="content-container">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
           {stats.map((stat, index) => (
             <div key={index} className="space-y-2" data-testid={`stat-item-${index}`}>

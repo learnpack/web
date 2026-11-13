@@ -1,0 +1,212 @@
+**Prompt for Replit Builder (paste as-is)**
+
+You are editing the LearnPack marketing site **learnpack.co**.
+
+Create a new navbar subpage under **Use Cases** titled **Software & Tool Training**.
+
+Non negotiables
+
+* Use ONLY the information explicitly provided below in this prompt (it comes from the LearnPack slides). Do not add any other claims, industries, integrations, feature names, customer logos, new metrics, or new numbers.
+* Do not repeat the same idea across multiple sections. If a point is stated once, do not restate it elsewhere with different words.
+* Keep the same premium dark visual language as the other LearnPack subpages: minimal, subtle star field background, soft blue glows, clean typography, lots of breathing room.
+* Avoid generic repeated card grids. Mix components so the page feels original.
+* Add basic transitions only: fade in on scroll, gentle hover glow, small motion on active state. No heavy animations.
+
+Page goal
+Position LearnPack as the best way to turn tool documentation (PDFs, videos, docs) into interactive training with a built in AI Tutor and real time insight into engagement and frustration.
+
+Content you are allowed to use
+
+* Turn any PDF, video, document, or learning material into a fully interactive, production ready course in seconds.
+* Cut training costs by up to 80%.
+* Building course content costs $10,000 to $50,000+ and a 1 hour interactive e learning module averages 184 hours to develop.
+* Low training ROI: 20 to 30% completion rates.
+* Real time guidance and tracked feedback makes employees 2x more likely to complete and demonstrate skills on the job.
+* Teachers: 2 minute setup answering 4 guided questions (topic, duration, objectives). Notion style editing with AI. Rewrite, simplify, expand. Add quizzes, coding challenges, multimedia, file or URL deliverables. Instant translations. One click publishing.
+* Learners: Built in AI Tutor provides contextual support, remembers progress, proactive guidance, multilingual assistance, 24/7. Socratic approach decreases disengagement by 50%.
+* Publishing options: unique URL, embed via iFrame, export using SCORM.
+* Real time insight into engagement vs clicking through, and insight about learner frustration.
+
+Global design system for this page
+
+* Background: animated star field that moves with scroll (same behavior as other subpages) plus subtle blue light beams.
+* Surfaces: panels should be slightly lighter than the page background. No pure black blocks.
+* Borders: thin, subtle, with a soft blue glow on hover only.
+* Typography: confident headings but not oversized. Keep lines short and readable.
+* Spacing: reduce scroll length. Each section should be compact and intentional.
+* Interactions:
+
+  * All major sections fade in on scroll (simple intersection observer).
+  * Panels glow slightly on hover.
+  * Active step in stepper has a subtle scale or brightness change.
+  * Tab switch uses a quick opacity transition.
+* Do not use icons in this page.
+
+Now implement the page exactly with the sections below, including the component behaviors and copywriting.
+
+SECTION 1: Hero (compact, not generic)
+Layout: 2 column, left content, right visual component. Keep hero height tighter than homepage.
+Left side
+
+* H1: “Software & tool training that people actually finish.”
+* Subheadline: “Turn any PDF, video, or internal documentation into an interactive course with a built in AI Tutor and real time learning insight.”
+* Micro metrics row (small type, subtle separators, do not make them big badges):
+
+  1. “Up to 80% lower content production cost”
+  2. “2x higher completion with real time guidance”
+  3. “50% lower disengagement with Socratic tutoring”
+     Important: these micro metrics must only appear here and nowhere else on the page.
+* CTA row: Primary button “Book a Demo”, secondary button “Start for Free”.
+  Right side: Floating workflow preview component
+* Build a vertical stack of 3 small panels that look like steps in a system, iconless, minimal.
+* Each panel has: a small uppercase label and one short sentence.
+* Panel 1 label: “Upload” sentence: “Add a PDF, video, or document.”
+* Panel 2 label: “Generate” sentence: “Get a production ready interactive course in seconds.”
+* Panel 3 label: “Practice” sentence: “Learners get support from the built in AI Tutor.”
+* Panels have subtle hover glow and a tiny upward shift on hover (very small).
+* Add a faint connecting line behind the stack (subtle, not dominant).
+
+SECTION 2: Definition strip (LLM friendly, no redundancy)
+Directly under hero, a slim full width bordered strip. Two lines only.
+
+* Line 1: “LearnPack is an AI powered interactive learning platform for creating and delivering training packages fast.”
+* Line 2: “It generates production ready courses and includes a built in AI Tutor plus real time insight into engagement and frustration.”
+  Make it feel like a clean definition bar, not a card.
+
+SECTION 3: “Where tool training breaks” (horizontal scroll snapping rail, not a grid)
+Title: “Where tool training breaks”
+Component: horizontal scroll rail with snap points and compact panels.
+
+* Each panel is short, not tall, with a title and one sentence.
+* 4 panels exactly:
+
+  1. Title: “High production cost” sentence: “Building course content often costs $10,000 to $50,000+.”
+  2. Title: “Slow to build” sentence: “A 1 hour interactive e learning module averages 184 hours to develop.”
+  3. Title: “Low completion” sentence: “Many programs see only 20 to 30% completion rates.”
+  4. Title: “No learning visibility” sentence: “Clicks do not show engagement, confusion, or frustration.”
+     Below the rail: a subtle scroll progress indicator line that fills as the user scrolls horizontally (simple calculation).
+     Keep this section short so it does not feel like a long carousel.
+
+SECTION 4: “From documentation to interactive practice” (new stepper with scroll activated progress line)
+Title: “From documentation to interactive practice”
+Component behavior
+
+* Vertical stepper. Left side is a thin progress line.
+* As the user scrolls and each step enters view, that step becomes active and expands an inline detail area (accordion). Only one active at a time.
+* Active state: slightly brighter text and a gentle glow.
+* Progress line fills down to the active step.
+  Steps (4 total, exact titles)
+  Step 1 title: “Set the package in 2 minutes”
+* Expanded details:
+
+  * “Answer 4 guided questions.”
+  * “Define topic, duration, objectives.”
+  * “Start with a clear structure.”
+    Step 2 title: “Generate interactive content”
+* Expanded details:
+
+  * “Create short readings and multimedia.”
+  * “Add quizzes.”
+  * “Add coding challenges.”
+    Step 3 title: “Refine Notion style with AI”
+* Expanded details:
+
+  * “Rewrite, simplify, or expand content.”
+  * “Add file or URL deliverables.”
+  * “Instant translations.”
+    Step 4 title: “Publish instantly”
+* Expanded details:
+
+  * “Share a unique URL.”
+  * “Embed via iFrame.”
+  * “Export using SCORM.”
+    Important: keep top level step descriptions extremely short. Do not repeat any earlier section text.
+
+SECTION 5: Split section with two distinct treatments (not matching boxes)
+Section title: “Designed for trainers and learners”
+2 columns, but visually different components.
+
+Left column: “What trainers get”
+
+* Use a clean checklist style with small pill bullets (no icons).
+* Items (exactly these, no extras):
+
+  * “2 minute setup with guided questions.”
+  * “Notion style editing with AI.”
+  * “Rewrite, simplify, expand.”
+  * “Quizzes, coding challenges, multimedia.”
+  * “File or URL deliverables.”
+  * “Instant translations.”
+  * “One click publishing.”
+  * “Real time insight into engagement and frustration.”
+    Keep it airy, not a dense list.
+
+Right column: “What learners get”
+
+* Build a chat like UI mock that is static and decorative.
+* Use 3 short message bubbles only, do not invent conversational text. Use these exact bubble texts:
+
+  1. “Context aware guidance”
+  2. “Socratic questions that guide”
+  3. “Multilingual help, 24/7”
+* Under the chat mock, add one single line of supporting text:
+  “Socratic tutoring has proven to decrease disengagement by 50%.”
+  Do not restate this elsewhere.
+
+SECTION 6: Deployment options (chips plus mini details)
+Title: “Deployment options”
+Component: 3 selectable chips (tabs) with a small detail panel that changes.
+Chips (exact labels):
+
+* “Share a unique URL”
+* “Embed via iFrame”
+* “Export via SCORM”
+  Detail panel: 1 sentence only per chip, exactly:
+* URL: “Publish training to a unique link learners can open instantly.”
+* iFrame: “Embed the training experience inside an existing portal.”
+* SCORM: “Export using SCORM for LMS deployment.”
+  Add a light fade transition between panels.
+
+SECTION 7: Mini example (collapsible, collapsed by default)
+This section must be present but collapsed by default to keep the page short.
+Title: “Example: Sales training package rollout”
+Inside the collapsible: two column comparison.
+
+* Left column heading: “Without AI Tutor”
+* Right column heading: “With AI Tutor”
+  Important rule: ONLY include the pricing numbers exactly as shown in the LearnPack slides. If the codebase already has those numbers in a constants file, pull them from there. If not available, create placeholders that clearly indicate “Insert the slide pricing numbers here” and do not invent.
+  Structure inside each column should include:
+* “Learner seats” line item
+* “Teacher seat” line item
+* “Packages one time pricing” line item
+  Do not add any calculators, estimated savings, or extra math.
+
+SECTION 8: FAQs (3 only, for SEO and LLMs)
+Title: “FAQs”
+Accordion with exactly 3 items. Answers must be 2 to 3 sentences max. Use only allowed content.
+FAQ 1 question: “How fast can we turn tool documentation into a course?”
+Answer: Mention production ready interactive course in seconds and that input can be PDF, video, document, or learning material.
+FAQ 2 question: “What does the built in AI Tutor do during training?”
+Answer: Mention contextual support, remembers progress, proactive guidance, multilingual assistance, 24/7, and Socratic approach decreases disengagement by 50%.
+FAQ 3 question: “How do we deploy training to our LMS?”
+Answer: Mention unique URL, iFrame embed, and export using SCORM. No other formats.
+
+SECTION 9: Final CTA (short, not a second hero)
+
+* One line headline: “Turn your tool documentation into training people finish.”
+* Buttons: “Book a Demo” and “Start for Free”
+* Add a subtle hover effect: a soft blue glow sweep behind the CTA container when hovered.
+
+Implementation notes
+
+* Ensure consistent max width and spacing with existing LearnPack subpages.
+* Avoid repeating any of these phrases across multiple sections:
+
+  * “up to 80%” (hero only)
+  * “2x more likely” (hero only via micro metric)
+  * “50%” (hero micro metric and the learners line only)
+* Keep the page feeling different from homepage by emphasizing: rail, stepper, chips, chat mock, collapsible, and definition strip.
+* Keep copy tight. No extra marketing paragraphs.
+
+Deliverable
+Implement this full page layout inside the existing learnpack.co codebase with clean components and the basic transitions described above.

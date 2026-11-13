@@ -1,0 +1,156 @@
+{
+  "meta": {
+    "title": "Desarrollo Basado en Roles | LearnPack",
+    "description": "Crea un curso y adáptalo automáticamente para Ventas, Operaciones, Soporte, Gerentes o cualquier función, sin reconstruir contenido.",
+    "keywords": "capacitación por roles, aprendizaje personalizado, capacitación adaptativa, entrenamiento específico, tutor IA, desarrollo de empleados",
+    "featureList": [
+      "Adaptación de Capacitación por Roles",
+      "Personalización de Contenido con IA",
+      "Tutor IA Integrado",
+      "Analíticas en Tiempo Real",
+      "Exportación SCORM"
+    ]
+  },
+  "hero": {
+    "title": "Capacitación por rol que se siente hecha para cada persona.",
+    "subtitle": "Crea un curso y adáptalo automáticamente para Ventas, Operaciones, Soporte, Gerentes o cualquier función, sin reconstruir contenido.",
+    "metrics": {
+      "cost": "Hasta 80% menor costo de contenido",
+      "launch": "10× más rápido de lanzar",
+      "completion": "2× mayor finalización"
+    },
+    "ctaDemo": "Agendar Demo",
+    "ctaStart": "Comenzar Gratis"
+  },
+  "definition": {
+    "label": "Qué es LearnPack",
+    "line1": "LearnPack convierte cualquier material en capacitación interactiva en minutos y la adapta por rol con analíticas reales.",
+    "line2": "Una fuente de verdad. Múltiples caminos por rol. Visibilidad real sobre quién aprendió versus quién solo hizo clic."
+  },
+  "problem": {
+    "title": "Un curso no puede entrenar cinco realidades laborales.",
+    "body": "La mayoría de la capacitación se escribe para 'todos' y termina siendo para 'nadie'. Los equipos hacen clic sin aprender, los gerentes no saben quién realmente aprende, y las actualizaciones se vuelven costosas."
+  },
+  "roleSwitcher": {
+    "title": "Un curso. Múltiples caminos por rol.",
+    "subtitle": "Cambia el rol y mira cómo se transforma el mismo módulo: ejemplos, ejercicios, quizzes y retroalimentación.",
+    "labels": {
+      "scenario": "Escenario",
+      "practice": "Práctica",
+      "quiz": "Quiz"
+    }
+  },
+  "roles": {
+    "sales": {
+      "label": "Ventas",
+      "scenario": "Manejar objeciones de precio para una nueva línea de productos",
+      "practice": "Escribir un script de descubrimiento de 4 pasos",
+      "quiz": "¿Qué pregunta revela mejor las limitaciones de presupuesto?"
+    },
+    "support": {
+      "label": "Soporte",
+      "scenario": "Resolver un incidente de 'loop de inicio de sesión'",
+      "practice": "Construir un árbol de decisiones desde la base de conocimiento",
+      "quiz": "¿Cuál es el primer paso de diagnóstico más seguro?"
+    },
+    "operations": {
+      "label": "Operaciones",
+      "scenario": "Estandarizar un proceso de entrega entre ubicaciones",
+      "practice": "Mapear el flujo de trabajo e identificar puntos de falla",
+      "quiz": "¿Qué paso reduce más el retrabajo?"
+    },
+    "manager": {
+      "label": "Gerente",
+      "scenario": "Coaching de desempeño post-capacitación",
+      "practice": "Usar una rúbrica para evaluar habilidades aplicadas",
+      "quiz": "¿Qué métrica señala aprendizaje real vs solo clics?"
+    },
+    "newHire": {
+      "label": "Nuevo Ingreso",
+      "scenario": "Recorrido de onboarding de primera semana",
+      "practice": "Completar una lista guiada con hitos",
+      "quiz": "¿Qué debes hacer si te atoras a mitad de tarea?"
+    }
+  },
+  "howItWorks": {
+    "title": "Cómo funciona el desarrollo por roles en minutos.",
+    "steps": {
+      "generate": {
+        "title": "Genera el curso base",
+        "desc": "Sube un archivo o describe tu objetivo, la IA genera lecciones, quizzes y desafíos."
+      },
+      "define": {
+        "title": "Define roles y resultados",
+        "desc": "Especifica las funciones laborales y cómo se ve el éxito para cada una."
+      },
+      "refine": {
+        "title": "Refina con el Agente de Edición",
+        "desc": "Chatea para personalizar ejemplos, quizzes e idioma por rol."
+      }
+    },
+    "examples": {
+      "label": "Chatea con el Agente de Edición:",
+      "items": {
+        "support": "«Haz este ejemplo para Soporte.»",
+        "quiz": "«Agrega un quiz específico por rol.»",
+        "translate": "«Traduce para LATAM.»"
+      }
+    }
+  },
+  "matrix": {
+    "title": "Qué cambia por rol.",
+    "rows": ["Ejemplos", "Ejercicios", "Dificultad", "Idioma", "Notas de cumplimiento", "Señales analíticas"],
+    "columns": ["Base", "Ventas", "Soporte", "Operaciones", "Gerente"],
+    "data": {
+      "examples": ["Escenarios genéricos", "Manejo de objeciones", "Resolución de tickets", "Entregas de proceso", "Coaching de desempeño"],
+      "exercises": ["Quizzes estándar", "Scripts de descubrimiento", "Árboles de decisión", "Mapeo de flujos", "Evaluaciones con rúbrica"],
+      "difficulty": ["Moderada", "Alta", "Moderada", "Moderada", "Alta"],
+      "language": ["Español", "ES + EN", "ES + EN", "ES", "ES"],
+      "compliance": ["Política estándar", "Reglas de precios", "Protocolo de privacidad", "Cumplimiento SLA", "Lineamientos de RH"],
+      "analytics": ["Finalización", "Adopción de scripts", "Tiempo de resolución", "Errores de entrega", "Aplicación de habilidades"]
+    }
+  },
+  "outcomes": {
+    "title": "La personalización por rol impulsa la finalización.",
+    "metrics": {
+      "completion": {
+        "value": "2×",
+        "label": "mayor finalización"
+      },
+      "cost": {
+        "value": "1",
+        "label": "fuente de verdad, menor costo de actualización"
+      },
+      "visibility": {
+        "value": "100%",
+        "label": "visibilidad sobre quién aprendió vs hizo clic"
+      }
+    }
+  },
+  "faqs": {
+    "title": "Preguntas Frecuentes",
+    "lastUpdated": "Última actualización: Enero 2026",
+    "items": {
+      "separate": {
+        "question": "¿La capacitación por roles son cursos separados?",
+        "answer": "No. Mantienes un curso base y defines adaptaciones específicas por rol. El Tutor IA y el contenido se ajustan automáticamente según el rol del aprendiz, mientras mantienes una única fuente de verdad para actualizaciones."
+      },
+      "tutor": {
+        "question": "¿El Tutor IA también cambia por rol?",
+        "answer": "Sí. El Tutor IA (Rigobot) proporciona guía contextualizada por rol. Un representante de Ventas recibe consejos para manejar objeciones mientras un agente de Soporte recibe sugerencias de diagnóstico, todo desde el mismo curso base."
+      },
+      "export": {
+        "question": "¿Podemos exportar la capacitación por roles a nuestro LMS?",
+        "answer": "Absolutamente. Exporta como paquetes SCORM, inserta via iFrame, o comparte URLs únicos. Las asignaciones de rol se pueden pasar mediante parámetros de lanzamiento para que tu LMS controle quién ve qué adaptación."
+      }
+    }
+  },
+  "diagram": {
+    "source": "1 Curso"
+  },
+  "cta": {
+    "headline": "Haz que la capacitación se sienta lista para el trabajo.",
+    "ctaDemo": "Agendar Demo",
+    "ctaStart": "Comenzar Gratis"
+  }
+}

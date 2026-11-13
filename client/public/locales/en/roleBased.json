@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "title": "Role-Based Development | LearnPack",
+    "description": "Create one course, then automatically adapt it for Sales, Ops, Support, Managers, or any job function, without rebuilding content.",
+    "keywords": "role-based training, personalized learning, adaptive training, job-specific training, AI tutor, employee development",
+    "featureList": [
+      "Role-Based Training Adaptation",
+      "AI-Powered Content Personalization",
+      "Built-in AI Tutor",
+      "Real-Time Analytics",
+      "SCORM Export"
+    ]
+  },
+  "hero": {
+    "title": "Role-based training that feels built for each person.",
+    "subtitle": "Create one course, then automatically adapt it for Sales, Ops, Support, Managers, or any job function, without rebuilding content.",
+    "metrics": {
+      "cost": "Up to 80% lower content cost",
+      "launch": "10× faster launch",
+      "completion": "2× higher completion"
+    },
+    "ctaDemo": "Book a Demo",
+    "ctaStart": "Start for Free"
+  },
+  "definition": {
+    "label": "What is LearnPack",
+    "line1": "LearnPack is the AI platform that turns any document, video, or idea into interactive training in minutes, then adapts it by role with measurable learning analytics.",
+    "line2": "One source of truth. Multiple role paths. Real insight into who learned versus who clicked."
+  },
+  "problem": {
+    "title": "One course cannot train five job realities.",
+    "body": "Most training is written for 'everyone' so it lands as 'no one.' Teams click through, managers cannot tell who is learning, and updates become expensive."
+  },
+  "roleSwitcher": {
+    "title": "One course. Multiple role paths.",
+    "subtitle": "Switch the role and watch the same module transform: examples, exercises, quizzes, and feedback.",
+    "labels": {
+      "challenge": "Common training challenge",
+      "adaptation": "How LearnPack adapts the course",
+      "outcome": "Expected outcome",
+      "scenario": "SCENARIO",
+      "practice": "PRACTICE",
+      "quiz": "QUIZ"
+    }
+  },
+  "roles": {
+    "sales": {
+      "label": "Sales",
+      "challenge": "Sales teams struggle to apply product knowledge in real conversations. Training is often theoretical, outdated, or disconnected from real objections and deal scenarios.",
+      "adaptation": "The same product training course is reframed around sales conversations:\n- Real objection-handling scenarios\n- Discovery and qualification frameworks\n- Practice focused on decision-making, not memorization",
+      "outcome": "Reps gain confidence faster, apply knowledge in live calls, and shorten ramp-up time without adding extra training programs.",
+      "scenario": "Handle pricing objections for a new product line",
+      "practice": "Write a 4-step discovery script",
+      "quiz": "Which question best reveals budget constraints?"
+    },
+    "support": {
+      "label": "Support",
+      "challenge": "Support teams receive large amounts of documentation but lack structured guidance on how to troubleshoot issues under pressure.",
+      "adaptation": "LearnPack restructures the course around problem resolution:\n- Incident-based learning paths\n- Step-by-step diagnostic thinking\n- Reinforcement of safe-first actions and escalation criteria",
+      "outcome": "Faster issue resolution, fewer escalations, and more consistent support quality across the team.",
+      "scenario": "Troubleshoot a 'login loop' incident",
+      "practice": "Build a decision tree from the knowledge base",
+      "quiz": "What is the safest first diagnostic step?"
+    },
+    "operations": {
+      "label": "Operations",
+      "challenge": "Operational teams need consistency. Training often explains processes but fails to show how small deviations create bottlenecks and rework.",
+      "adaptation": "The course is adapted to focus on workflows and execution:\n- Visual process breakdowns\n- Identification of failure points\n- Decision-making at handoff moments",
+      "outcome": "More predictable execution, reduced operational errors, and smoother cross-team collaboration.",
+      "scenario": "Standardize a handoff process across locations",
+      "practice": "Map the workflow and flag failure points",
+      "quiz": "Which step reduces rework the most?"
+    },
+    "manager": {
+      "label": "Manager",
+      "challenge": "Managers are expected to reinforce training outcomes but are rarely trained on how to evaluate real learning versus completion.",
+      "adaptation": "The course shifts from execution to evaluation:\n- Coaching frameworks\n- Skill assessment rubrics\n- Signals that indicate applied learning, not just progress",
+      "outcome": "Managers can coach more effectively, identify gaps early, and ensure training translates into performance.",
+      "scenario": "Coach performance after training",
+      "practice": "Use a rubric to evaluate applied skills",
+      "quiz": "Which metric signals real learning vs clicking?"
+    },
+    "newHire": {
+      "label": "New Hire",
+      "challenge": "New hires are overwhelmed by information and often lack clarity on priorities during their first weeks.",
+      "adaptation": "The onboarding course is structured around guidance and progression:\n- Clear first-week paths\n- Guided checklists with milestones\n- Context-aware support when learners get stuck",
+      "outcome": "Faster onboarding, higher confidence, and earlier autonomy without increasing training workload",
+      "scenario": "First-week onboarding walkthrough",
+      "practice": "Complete a guided checklist with milestones",
+      "quiz": "What should you do if you get stuck mid-task?"
+    }
+  },
+  "howItWorks": {
+    "title": "How role-based development happens in minutes.",
+    "steps": {
+      "generate": {
+        "title": "Generate the baseline course",
+        "desc": "Upload file or describe goal, AI generates lessons, quizzes, challenges."
+      },
+      "define": {
+        "title": "Define roles and outcomes",
+        "desc": "Specify job functions and what success looks like for each."
+      },
+      "refine": {
+        "title": "Refine with the Editing Agent",
+        "desc": "Chat to customize examples, quizzes, and language by role."
+      }
+    },
+    "examples": {
+      "label": "Chat with the Editing Agent:",
+      "items": {
+        "support": "\"Make this example for Support.\"",
+        "quiz": "\"Add a role-specific quiz.\"",
+        "translate": "\"Translate for LATAM.\""
+      }
+    }
+  },
+  "matrix": {
+    "title": "What changes by role.",
+    "rows": ["Examples", "Exercises", "Difficulty", "Language", "Compliance notes", "Analytics signals"],
+    "columns": ["Baseline", "Sales", "Support", "Operations", "Manager"],
+    "data": {
+      "examples": ["Generic scenarios", "Objection handling", "Ticket resolution", "Process handoffs", "Performance coaching"],
+      "exercises": ["Standard quizzes", "Discovery scripts", "Decision trees", "Workflow mapping", "Rubric evaluations"],
+      "difficulty": ["Moderate", "High", "Moderate", "Moderate", "High"],
+      "language": ["English", "EN + ES", "EN + ES", "EN", "EN"],
+      "compliance": ["Standard policy", "Pricing rules", "Privacy protocol", "SLA compliance", "HR guidelines"],
+      "analytics": ["Completion", "Script adoption", "Resolution time", "Handoff errors", "Skill application"]
+    }
+  },
+  "outcomes": {
+    "title": "Role-based personalization drives completion.",
+    "metrics": {
+      "completion": {
+        "value": "2×",
+        "label": "higher completion"
+      },
+      "cost": {
+        "value": "1",
+        "label": "source of truth, lower update cost"
+      },
+      "visibility": {
+        "value": "100%",
+        "label": "visibility into who learned vs clicked"
+      }
+    }
+  },
+  "faqs": {
+    "title": "FAQs",
+    "lastUpdated": "Last updated: January 2026",
+    "items": {
+      "separate": {
+        "question": "Is role-based training separate courses?",
+        "answer": "No. You maintain one baseline course and define role-specific adaptations. The AI Tutor and content automatically adjust based on the learner's role, while you keep a single source of truth for updates."
+      },
+      "tutor": {
+        "question": "Does the AI Tutor change by role too?",
+        "answer": "Yes. The AI Tutor (Rigobot) provides role-contextualized guidance. A Sales rep gets objection-handling hints while a Support agent gets diagnostic suggestions, all from the same underlying course."
+      },
+      "export": {
+        "question": "Can we export role-based training to our LMS?",
+        "answer": "Absolutely. Export as SCORM packages, embed via iFrame, or share unique URLs. Role assignments can be passed via launch parameters so your LMS controls who sees which adaptation."
+      }
+    }
+  },
+  "diagram": {
+    "source": "1 Course"
+  },
+  "cta": {
+    "headline": "Make training feel job-ready.",
+    "ctaDemo": "Book a Demo",
+    "ctaStart": "Start for Free"
+  }
+}

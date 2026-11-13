@@ -140,7 +140,7 @@
 
   --border: 220 13% 18%;
 
-  --card: 220 13% 18%;
+  --card: 220 13% 14%;
 
   --card-foreground: 210 40% 98%;
 
@@ -356,13 +356,13 @@
   animation: scroll-left-to-right linear infinite;
 }
 
-/* Company Logo Animation */
+/* Company Logo Animation - starts with logos visible and inset from edge, seamless loop */
 @keyframes scroll-logos {
   0% {
-    transform: translateX(100vw);
+    transform: translateX(5%);
   }
   100% {
-    transform: translateX(-100%);
+    transform: translateX(-28.33%);
   }
 }
 
@@ -381,3 +381,452 @@
     transform: translateY(0);
   }
 }
+
+/* Unified Star Twinkle Animation - elegant appearing/disappearing */
+@keyframes starTwinkleUnified {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  50% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+}
+
+/* Lighter version for social proof section */
+@keyframes starTwinkleLight {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 0.35;
+    transform: scale(1);
+  }
+}
+
+/* Legacy animations for backwards compatibility */
+@keyframes starFloat {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.6);
+  }
+  50% {
+    opacity: 0.5;
+    transform: scale(1);
+  }
+}
+
+@keyframes starFloatLight {
+  0%, 100% {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  50% {
+    opacity: 0.3;
+    transform: scale(1);
+  }
+}
+
+/* Wave Draw Animation - sinusoidal line drawing from left to right */
+@keyframes waveDraw {
+  0% {
+    stroke-dashoffset: 1200;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+.animate-wave-draw {
+  stroke-dasharray: 1200;
+  stroke-dashoffset: 1200;
+  animation: waveDraw 2s ease-out forwards;
+}
+
+/* Flowing Wave Animation - subtle continuous flow effect */
+@keyframes waveFlow {
+  0% {
+    stroke-dashoffset: 0;
+  }
+  100% {
+    stroke-dashoffset: -60;
+  }
+}
+
+.animate-wave-flow {
+  stroke-dasharray: 20 10;
+  animation: waveFlow 3s linear infinite;
+}
+
+/* Gentle Card Glow Shimmer Animation */
+@keyframes cardGlowShimmer {
+  0%, 100% {
+    box-shadow: 
+      0 0 8px rgba(59, 130, 246, 0.12),
+      0 0 16px rgba(59, 130, 246, 0.08),
+      0 0 24px rgba(59, 130, 246, 0.04);
+  }
+  50% {
+    box-shadow: 
+      0 0 12px rgba(59, 130, 246, 0.25),
+      0 0 24px rgba(59, 130, 246, 0.15),
+      0 0 36px rgba(59, 130, 246, 0.08);
+  }
+}
+
+/* Border Glow Effect - Dynamic mouse-following glow */
+.border-glow-card {
+  --glow-x: 50%;
+  --glow-y: 50%;
+  --glow-intensity: 0;
+  --glow-radius: 300px;
+  position: relative;
+}
+
+.border-glow-card::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  background: radial-gradient(
+    var(--glow-radius) circle at var(--glow-x) var(--glow-y),
+    rgba(59, 130, 246, calc(var(--glow-intensity) * 0.8)) 0%,
+    rgba(59, 130, 246, calc(var(--glow-intensity) * 0.4)) 30%,
+    transparent 60%
+  );
+  border-radius: inherit;
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: subtract;
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+  z-index: 1;
+}
+
+.border-glow-card:hover::after {
+  opacity: 1;
+}
+
+/* Global Spotlight Effect */
+.global-spotlight {
+  position: fixed;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(circle,
+    rgba(59, 130, 246, 0.15) 0%,
+    rgba(59, 130, 246, 0.08) 15%,
+    rgba(59, 130, 246, 0.04) 25%,
+    rgba(59, 130, 246, 0.02) 40%,
+    rgba(59, 130, 246, 0.01) 65%,
+    transparent 70%
+  );
+  z-index: 200;
+  opacity: 0;
+  transform: translate(-50%, -50%);
+  mix-blend-mode: screen;
+  will-change: transform, opacity;
+}
+
+/* Content Container - Consistent 1200px max-width, centered with 24px horizontal padding */
+.content-container {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 24px;
+  padding-right: 24px;
+  width: 100%;
+}
+
+/* Social Proof Section - Transparent so hero background shows through seamlessly */
+.social-proof-section {
+  background: transparent;
+  border: none;
+  margin-top: 0;
+  padding-top: 4rem;
+}
+
+/* Fade edges with dark gradient that blends into page background */
+.social-proof-fade-left {
+  background: linear-gradient(to right, hsl(224 47% 8%) 0%, transparent 100%);
+}
+
+.social-proof-fade-right {
+  background: linear-gradient(to left, hsl(224 47% 8%) 0%, transparent 100%);
+}
+
+/* Section Transition Overlays - Creates smooth background blending between sections */
+.section-transition-top {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, hsl(var(--background)) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.section-transition-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to top, hsl(var(--background)) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Ambient glow that spans across sections for visual continuity */
+.section-ambient-glow {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(100px);
+  opacity: 0.5;
+}
+
+.section-ambient-glow--primary {
+  background: radial-gradient(circle, hsl(var(--primary) / 0.08) 0%, transparent 70%);
+}
+
+.section-ambient-glow--accent {
+  background: radial-gradient(circle, hsl(200 80% 60% / 0.06) 0%, transparent 70%);
+}
+
+/* ===================================================================
+   DESIGN SYSTEM - Global Typography, Spacing, and Utilities
+   Applied consistently across all pages
+   =================================================================== */
+
+/* Typography Scale - Headings */
+.heading-hero {
+  font-size: 2.5rem;
+  line-height: 1.15;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: hsl(var(--foreground));
+}
+
+@media (min-width: 768px) {
+  .heading-hero {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-hero {
+    font-size: 3.5rem;
+  }
+}
+
+.heading-section {
+  font-size: 1.875rem;
+  line-height: 1.2;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: hsl(var(--foreground));
+}
+
+@media (min-width: 768px) {
+  .heading-section {
+    font-size: 2.25rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading-section {
+    font-size: 2.5rem;
+  }
+}
+
+.heading-sub {
+  font-size: 1.25rem;
+  line-height: 1.3;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+}
+
+@media (min-width: 768px) {
+  .heading-sub {
+    font-size: 1.5rem;
+  }
+}
+
+/* Typography Scale - Body Text */
+.body-lg {
+  font-size: 1.125rem;
+  line-height: 1.7;
+  color: hsl(var(--muted-foreground));
+}
+
+@media (min-width: 768px) {
+  .body-lg {
+    font-size: 1.25rem;
+  }
+}
+
+.body-md {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: hsl(var(--muted-foreground));
+}
+
+/* Typography Scale - Labels & Microcopy */
+.label-sm {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: hsl(var(--primary));
+}
+
+.label-md {
+  font-size: 0.875rem;
+  line-height: 1.4;
+  font-weight: 500;
+  color: hsl(var(--muted-foreground));
+}
+
+/* Section Spacing - Consistent vertical rhythm */
+.section-standard {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-standard {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-standard {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+.section-tight {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .section-tight {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
+
+.section-hero {
+  padding-top: 6rem;
+  padding-bottom: 5rem;
+}
+
+@media (min-width: 768px) {
+  .section-hero {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .section-hero {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+}
+
+/* Star Background - Unified blue-toned twinkle effect */
+.star-field {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.star-field .star {
+  position: absolute;
+  border-radius: 50%;
+  background: hsl(var(--primary));
+}
+
+/* Page Background - Continuous dark blue gradient */
+.page-background {
+  background: linear-gradient(
+    180deg,
+    hsl(222 47% 11%) 0%,
+    hsl(224 47% 9%) 50%,
+    hsl(224 47% 8%) 100%
+  );
+  min-height: 100vh;
+}
+
+/* Scroll Animation Classes */
+.scroll-fade-up {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-fade-up.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* FAQ Unified Styling */
+.faq-container {
+  background: hsl(220 13% 14% / 0.6);
+  border: 1px solid hsl(220 13% 20% / 0.5);
+  border-radius: 1rem;
+  box-shadow: inset 0 1px 0 hsl(220 13% 25% / 0.1);
+}
+
+.faq-item {
+  border-bottom: 1px solid hsl(220 13% 18% / 0.5);
+}
+
+.faq-item:last-child {
+  border-bottom: none;
+}
+
+.faq-trigger {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 1.25rem 1.5rem;
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+.faq-trigger:hover {
+  background: hsl(220 13% 16% / 0.4);
+}
+
+.faq-content {
+  padding: 0 1.5rem 1.25rem;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: hsl(var(--muted-foreground));
+}
+
+/* Color Palette Unification - Only these blue variants allowed */
+/* Primary: 207 100% 50% (bright blue) */
+/* Secondary: 220 13% 25% (muted blue-gray) */
+/* Accent: 200 80% 60% (lighter blue) */
+/* Surface: 220 13% 14% (card blue) */
+/* Background: 222 47% 11% (deep blue) */
+

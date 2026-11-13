@@ -13,9 +13,10 @@ import { Loader2 } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 import { createPackage } from "@/lib/createPackage";
 import { analytics } from "@/lib/analytics";
+import ShinyText from "./ShinyText";
 
 export default function Hero() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('home');
   const [topic, setTopic] = useState("");
   const [purpose, setPurpose] = useState("");
   const [isLoading, setIsLoading] = useState(false);
@@ -100,7 +101,7 @@ export default function Hero() {
 
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center px-4 overflow-hidden hero-animated-bg"
+      className="relative min-h-screen flex items-center justify-center overflow-hidden"
       data-testid="section-hero"
     >
       {/* Vite-inspired Animated Background */}
@@ -152,102 +153,123 @@ export default function Hero() {
       {/* Subtle overlay for better text contrast */}
       <div className="absolute inset-0 bg-background/20" />
 
-      <div className="container mx-auto relative z-10">
-        <div className="max-w-4xl mx-auto text-center space-y-8">
-          <div className="space-y-6">
-            <h1
-              className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight"
-              data-testid="text-hero-title"
-            >
-              {t("hero.title")}
-            </h1>
+      <div className="content-container relative z-10">
+        {/* 2-column grid on desktop, single column on mobile */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 lg:items-start">
+          {/* Left Column: Content (left-aligned on desktop, centered on mobile) */}
+          <div className="space-y-8 text-center lg:text-left">
+            <div className="space-y-6">
+              <h1
+                className="text-3xl md:text-4xl lg:text-5xl font-bold leading-snug"
+                data-testid="text-hero-title"
+              >
+                {t("hero.title")}
+              </h1>
 
-            <p
-              className="text-xl text-muted-foreground max-w-2xl mx-auto"
-              data-testid="text-hero-subtitle"
-            >
-              {t("hero.subtitle")}
-            </p>
-          </div>
-
-          {/* Package Creation Form */}
-          <form
-            onSubmit={handleSubmit}
-            className="space-y-6"
-            aria-busy={isLoading}
-          >
-            <div className="bg-card/90 backdrop-blur-sm border border-card-border rounded-xl p-4 max-w-2xl mx-auto">
-              <div className="flex flex-col gap-3">
-                <Textarea
-                  placeholder={t("hero.inputPlaceholder")}
-                  value={topic}
-                  onChange={(e) => setTopic(e.target.value)}
-                  onFocus={handleInputFocus}
-                  onKeyDown={handleKeyDown}
-                  className="min-h-[60px] text-base resize-none border-0 bg-transparent p-0 focus-visible:ring-0 focus:border-0 focus:outline-none focus:ring-0 focus:ring-offset-0 focus-visible:ring-offset-0 focus-visible:outline-none placeholder:text-muted-foreground/70 !focus-visible:ring-0 !focus:ring-0 !focus:border-0"
-                  disabled={isLoading}
-                  data-testid="input-topic"
-                />
-
-                <div className="flex items-center justify-between pt-2 border-t border-border/50">
-                  <div className="flex items-center gap-2">
-                    <Select
-                      value={purpose}
-                      onValueChange={handlePurposeChange}
-                      disabled={isLoading}
-                    >
-                      <SelectTrigger
-                        className="h-8 w-auto border-0 bg-muted/50 hover:bg-muted text-xs"
-                        data-testid="select-purpose"
-                      >
-                        <SelectValue placeholder={t("hero.purposeLabel")} />
-                      </SelectTrigger>
-                      <SelectContent>
-                        {PURPOSE_OPTIONS.map((option) => (
-                          <SelectItem key={option.value} value={option.value}>
-                            {option.label}
-                          </SelectItem>
-                        ))}
-                      </SelectContent>
-                    </Select>
-
-                    {purpose && (
-                      <div className="h-8 px-3 bg-primary/10 text-primary rounded-md flex items-center text-xs font-medium">
-                        {
-                          PURPOSE_OPTIONS.find((opt) => opt.value === purpose)
-                            ?.label
-                        }
-                      </div>
-                    )}
-                  </div>
-
-                  <Button
-                    type="submit"
-                    size="sm"
-                    disabled={isLoading || !topic.trim()}
-                    className="h-8 px-4"
-                    data-testid="button-create-package"
-                  >
-                    {isLoading ? (
-                      <>
-                        <Loader2 className="mr-1 h-3 w-3 animate-spin" />
-                        {t("hero.creating")}
-                      </>
-                    ) : (
-                      t("hero.createButton")
-                    )}
-                  </Button>
-                </div>
-              </div>
+              <p
+                className="text-xl max-w-2xl mx-auto lg:mx-0"
+                data-testid="text-hero-subtitle"
+              >
+                <ShinyText text={t("hero.subtitle")} speed={4} />
+              </p>
             </div>
 
-            <p
-              className="text-sm text-muted-foreground text-center"
-              data-testid="text-trust-line"
+            {/* Package Creation Form */}
+            <form
+              onSubmit={handleSubmit}
+              className="space-y-6"
+              aria-busy={isLoading}
             >
-              {t("hero.trustLine")}
-            </p>
-          </form>
+              <div className="bg-card/90 backdrop-blur-sm border border-card-border rounded-xl p-4 max-w-2xl mx-auto lg:mx-0 shadow-md transition-all duration-300 hover:shadow-[0_8px_30px_rgba(0,0,0,0.12),0_0_20px_rgba(99,102,241,0.25)] hover:-translate-y-1">
+                <div className="flex flex-col gap-3">
+                  <Textarea
+                    placeholder={t("hero.inputPlaceholder")}
+                    value={topic}
+                    onChange={(e) => setTopic(e.target.value)}
+                    onFocus={handleInputFocus}
+                    onKeyDown={handleKeyDown}
+                    className="min-h-[60px] text-base resize-none border-0 bg-transparent p-0 focus-visible:ring-0 focus:border-0 focus:outline-none focus:ring-0 focus:ring-offset-0 focus-visible:ring-offset-0 focus-visible:outline-none placeholder:text-muted-foreground/70 !focus-visible:ring-0 !focus:ring-0 !focus:border-0 transition-shadow duration-200 hover:shadow-sm"
+                    disabled={isLoading}
+                    data-testid="input-topic"
+                  />
+
+                  <div className="flex items-center justify-between pt-2 border-t border-border/50">
+                    <div className="flex items-center gap-2">
+                      <Select
+                        value={purpose}
+                        onValueChange={handlePurposeChange}
+                        disabled={isLoading}
+                      >
+                        <SelectTrigger
+                          className="h-8 w-auto border-0 bg-muted/50 hover:bg-muted text-xs rounded-md transition-shadow duration-200 hover:shadow-md"
+                          data-testid="select-purpose"
+                        >
+                          <SelectValue placeholder={t("hero.purposeLabel")} />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {PURPOSE_OPTIONS.map((option) => (
+                            <SelectItem key={option.value} value={option.value}>
+                              {option.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+
+                      {purpose && (
+                        <div className="h-8 px-3 bg-primary/10 text-primary rounded-md flex items-center text-xs font-medium">
+                          {
+                            PURPOSE_OPTIONS.find((opt) => opt.value === purpose)
+                              ?.label
+                          }
+                        </div>
+                      )}
+                    </div>
+
+                    <Button
+                      type="submit"
+                      size="sm"
+                      disabled={isLoading || !topic.trim()}
+                      className="h-8 px-4"
+                      data-testid="button-create-package"
+                    >
+                      {isLoading ? (
+                        <>
+                          <Loader2 className="mr-1 h-3 w-3 animate-spin" />
+                          {t("hero.creating")}
+                        </>
+                      ) : (
+                        t("hero.createButton")
+                      )}
+                    </Button>
+                  </div>
+                </div>
+              </div>
+
+              <p
+                className="text-sm text-muted-foreground text-center lg:text-left"
+                data-testid="text-trust-line"
+              >
+                {t("hero.trustLine")}
+              </p>
+            </form>
+          </div>
+
+          {/* Right Column: Video */}
+          <div className="mt-8 lg:mt-0" data-testid="hero-right-column">
+            <div className="relative rounded-xl overflow-hidden shadow-[0_0_40px_rgba(99,102,241,0.35)]">
+              {/* 16:9 Aspect Ratio Container */}
+              <div className="relative w-full" style={{ paddingBottom: '56.25%' }}>
+                <iframe
+                  className="absolute top-0 left-0 w-full h-full"
+                  src="https://www.youtube.com/embed/dBjKIashs4Y"
+                  title="LearnPack Demo Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  loading="lazy"
+                ></iframe>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

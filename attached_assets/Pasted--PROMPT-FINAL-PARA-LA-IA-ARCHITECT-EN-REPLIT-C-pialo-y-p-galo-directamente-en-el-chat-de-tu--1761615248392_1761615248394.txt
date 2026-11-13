@@ -1,0 +1,154 @@
+**PROMPT FINAL PARA LA IA-ARCHITECT EN REPLIT**  
+*(Cópialo y pégalo directamente en el chat de tu Replit AI o “AI Architect”)*
+
+---
+
+```
+You are the AI Architect for Replit. Build **only the homepage** of https://learnpack.co with a **complete visual redesign** — **no pricing, no footer links, no subpages**. Focus 100% on **above-the-fold impact, conversion funnel, and B2B trust**.
+
+---
+
+## 1. DESIGN STRATEGY: SUPABASE AS REFERENCE (NOT A COPY)
+
+| Supabase Strategy | Our Adaptation (LearnPack B2B) |
+|-------------------|-------------------------------|
+| **Hero = Instant Value**<br>“Build in a weekend. Scale to millions.” | **Hero = Instant ROI**<br>“Train teams 10× faster. 80% cheaper. AI does the rest.” |
+| **Social Proof First**<br>Logos of Mozilla, GitHub, etc. right below hero | **Enterprise Trust First**<br>Logos of HR/L&D leaders (e.g., LinkedIn Learning, Workday, Degreed) + “Used by 200+ training teams” |
+| **Features as Grid**<br>6 clean cards (Database, Auth, Storage…) | **Solutions as Grid**<br>6 outcome-focused cards (Speed, Cost, Adaptability, Scale, Compliance, Engagement) |
+| **Quickstarts = Try Now**<br>React, Next.js, Flutter buttons | **Demo Flow = Try Now**<br>Animated 3-step: “Upload → AI builds → Rigobot chats” |
+| **Minimal Copy, High Contrast**<br>Black text, white space, blue accents | **Same: B2B Professional Minimalism**<br>Inter font, 64px section padding, blue #3B82F6 accents |
+
+**We are NOT copying Supabase** — we are **adapting its conversion architecture** for **corporate training buyers (HR, L&D, Compliance leads)**.
+
+---
+
+## 2. PRESERVE: HERO LINE ANIMATION
+- **KEEP EXACTLY** the current animated background lines behind the hero heading.
+- Do **NOT** modify, remove, or replace it.
+- It must remain the **only animated background element** in the hero.
+- Overlay dark gradient (`rgba(0,0,0,0.4)`) for text readability.
+
+---
+
+## 3. TECH STACK (Replit)
+- HTML5 + **Tailwind CSS v3.4+** (CDN)
+- Vanilla JS or **Alpine.js** for interactions
+- Mobile-first, responsive
+- Font: `Inter` (Google Fonts)
+- Icons: Font Awesome 6
+- Optimize: `<2s` load, inline critical CSS
+
+---
+
+## 4. PAGE STRUCTURE (6 SECTIONS ONLY – VERTICAL FLOW)
+
+### 1. NAVBAR (sticky, transparent → solid on scroll)
+```html
+Logo (left) | Product  AI Tutor  Training Centers  Blog  Contact (right)
+[Book a Demo] (primary blue)  [Start for Free] (outline)
+```
+
+---
+
+### 2. HERO (100vh, preserve line animation)
+```html
+H1: Train your teams faster, smarter, and at scale.
+P:  Turn any document, video, or idea into a complete interactive course — with an AI tutor that doubles completion rates.
+   80% lower cost. 10× faster launch.
+
+[Try LearnPack] (primary)    [Book a Demo] (outline)
+
+Right side (lg+): 12s looping animation
+→ “Upload file  →  AI generates course  →  Learner chats with Rigobot”
+```
+
+---
+
+### 3. TRUST BAR (immediately below hero)
+```html
+“Trusted by 200+ training teams worldwide”
+→ Horizontal scrollable logos: LinkedIn Learning, Workday, Degreed, Gloat, 360Learning, etc.
+(Grayscale → color on hover)
+```
+
+---
+
+### 4. PROBLEM → SOLUTION (2-column layout on lg, stacked on mobile)
+```html
+Left: “Why corporate training still fails”
+   5 cards (carousel on mobile):
+   1. Slow deployment (months)
+   2. High cost ($10k–$50k/course)
+   3. Hard to update
+   4. No scalability
+   5. Low engagement (20–30%)
+
+Right: “One platform. Living training.”
+   3x2 grid (6 cards):
+   | Speed        | Courses in minutes           |
+   | Cost         | 80% cheaper                  |
+   | Adaptability | Chat with Rigobot to refine  |
+   | Scale        | Multi-language, multi-role   |
+   | Compliance   | SCORM, analytics, audit-ready|
+   | Engagement   | 2× completion with AI tutor  |
+```
+
+---
+
+### 5. HOW IT WORKS (3-step animated flow)
+```html
+H2: From idea to interactive course in 3 steps
+
+→ Step 1: Describe topic (4 guided questions)
+→ Step 2: AI builds lessons, quizzes, challenges
+→ Step 3: Refine with Rigobot (chat to edit)
+
+[See it in action] → opens modal with 60s demo video
+```
+
+---
+
+### 6. FINAL CTA BLOCK (dark blue section)
+```html
+H2: Ready to cut training costs by 80%?
+P:  Generate your first AI-powered course today.
+
+[Start for Free] (white button)    [Book a Demo] (outline white)
+```
+
+---
+
+## 5. INTERACTIONS & ANIMATIONS
+- **Preserve hero line animation** (only background)
+- Fade-in on scroll for sections (AOS or Intersection Observer)
+- Carousel: auto-play + manual swipe (mobile)
+- 3-step flow: reveal one by one on scroll
+- Counters in Solution grid: animate on enter (e.g., 80% → count up)
+- Navbar: blur background + shadow after 100px scroll
+
+---
+
+## 6. DELIVERABLES
+1. `index.html` + `styles.css` + `script.js`
+2. Fully responsive (test on 375px, 768px, 1280px)
+3. Lighthouse: >90 performance, >95 accessibility
+4. **Hero line animation working identically to current site**
+5. Share **Replit live preview link**
+
+---
+
+**Start now. Priority: Hero with preserved animation + Trust Bar. Confirm when live.**
+```
+
+---
+
+**Instrucción para ti**:  
+Copia **todo el bloque de código arriba** (desde `You are the AI Architect...` hasta el final) y pégalo **tal cual** en tu Replit AI.  
+
+Ella generará **solo el home**, con:  
+- La **animación de líneas intacta**  
+- Estrategia de conversión B2B inspirada en Supabase  
+- 6 secciones ultra enfocadas en **impacto inmediato**  
+- **Sin pricing, sin footer, sin distracciones**
+
+¿Quieres que te dé también el **código del modal de demo** o el **carousel JS** por separado?

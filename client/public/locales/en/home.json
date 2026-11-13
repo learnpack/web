@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "LearnPack - Turn Ideas Into Interactive Learning Packages",
+    "description": "Transform your expertise into engaging, interactive learning experiences with AI-powered course creation. Build training programs and educational content in minutes.",
+    "keywords": "online learning, course creation, AI-powered education, interactive training, learning management system",
+    "ogTitle": "LearnPack - Turn Ideas Into Interactive Learning Packages",
+    "ogDescription": "Transform your expertise into engaging, interactive learning experiences with AI-powered course creation. Build training programs and educational content in minutes.",
+    "twitterTitle": "LearnPack - Turn Ideas Into Interactive Learning Packages",
+    "twitterDescription": "Transform your expertise into engaging, interactive learning experiences with AI-powered course creation. Build training programs and educational content in minutes."
+  },
+  "hero": {
+    "title": "Turn ideas into interactive learning packages in minutes",
+    "subtitle": "Type any topic, choose a purpose, and generate a course you can export anywhere.",
+    "inputPlaceholder": "Ask LearnPack to create a learning package about...",
+    "purposeLabel": "Purpose",
+    "purposeOptions": {
+      "skillBuilding": "Build real world skills",
+      "examPrep": "Practice for an exam or homework", 
+      "certificationPrep": "Prepare for a certification"
+    },
+    "createButton": "Create Package",
+    "creating": "Creating...",
+    "trustLine": "Cut training creation costs by 80% and double completion rates.",
+    "errors": {
+      "topicRequired": "Topic required",
+      "topicDescription": "Please enter what you want to teach or learn",
+      "purposeRequired": "Purpose required",
+      "purposeDescription": "Please select a purpose for your package",
+      "createFailed": "Failed to create package. Please try again."
+    }
+  },
+  "socialProof": {
+    "title": "Trusted by leading educational institutions"
+  },
+  "trainingChallenges": {
+    "title": "Why corporate training still fails.",
+    "subtitle": "The biggest challenges companies face when creating and maintaining training programs",
+    "cards": {
+      "slowDeployment": {
+        "title": "Slow deployment",
+        "text": "Courses take months to launch."
+      },
+      "highCost": {
+        "title": "High production cost",
+        "text": "$10k–$50k per course (ATD)."
+      },
+      "hardToUpdate": {
+        "title": "Hard to update",
+        "text": "Every small change requires time and budget."
+      },
+      "noScalability": {
+        "title": "No scalability",
+        "text": "Limited to one language or department."
+      },
+      "fragmentedTools": {
+        "title": "Fragmented tools",
+        "text": "Training is spread across multiple disconnected systems."
+      },
+      "lowEngagement": {
+        "title": "Low engagement",
+        "text": "Only 20–30% completion rates (LinkedIn Learning)."
+      }
+    }
+  },
+  "solutionShowcase": {
+    "title": "The LearnPack Solution",
+    "headline": "LearnPack turns corporate training into a living system.",
+    "body": "Organizations need faster deployment, lower costs, easier updates, multilingual scale, real-time visibility, and higher engagement. LearnPack solves every one of those needs with AI-generated courses, instant content refinement, SCORM-ready compliance, proactive analytics, and a built-in tutor that reduces learner dropout by 50%.",
+    "cards": {
+      "deployment": {
+        "need": "Speed of deployment",
+        "solution": "Generate full courses from any document in minutes."
+      },
+      "cost": {
+        "need": "Cost & efficiency",
+        "solution": "Up to 80% cheaper than traditional authoring."
+      },
+      "adaptability": {
+        "need": "Adaptability",
+        "solution": "Chat with Rigobot to refine or update content instantly."
+      },
+      "scalability": {
+        "need": "Scalability",
+        "solution": "Multi-language, multi-role, multi-location ready."
+      },
+      "compliance": {
+        "need": "Compliance & analytics",
+        "solution": "Real-time insights, SCORM export, full visibility."
+      },
+      "engagement": {
+        "need": "Engagement",
+        "solution": "Rigobot tutor reduces learner dropout by 50%."
+      }
+    }
+  },
+  "valueProps": {
+    "title": "Why LearnPack?",
+    "subtitle": "Everything you need to create engaging learning experiences",
+    "speed": {
+      "title": "Lightning Fast Creation",
+      "description": "Create comprehensive learning packages in minutes, not months"
+    },
+    "ai": {
+      "title": "AI-Powered Assistant",
+      "description": "Smart content generation and adaptive learning paths"
+    },
+    "export": {
+      "title": "Export Anywhere",
+      "description": "Compatible with all major LMS platforms and formats"
+    },
+    "completion": {
+      "title": "Higher Completion Rates",
+      "description": "Interactive content keeps learners engaged throughout"
+    }
+  },
+  "skills": {
+    "title": "Build tutorials on about any skill",
+    "subtitle": "From technical training to soft skills, create engaging learning packages for any domain",
+    "programming": "Programming",
+    "design": "Design", 
+    "marketing": "Marketing",
+    "business": "Business",
+    "language": "Language",
+    "certification": "Certification"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Three simple steps to create engaging learning content",
+    "step1": {
+      "title": "Describe Your Idea",
+      "description": "Tell us what you want to teach or learn"
+    },
+    "step2": {
+      "title": "AI Builds Structure", 
+      "description": "Our AI creates a comprehensive learning path"
+    },
+    "step3": {
+      "title": "Customize & Share",
+      "description": "Refine your content and share with learners"
+    },
+    "roiCalculator": "ROI Calculator",
+    "learnMore": "Learn More"
+  },
+  "stats": {
+    "creators": "10,000+ Creators",
+    "learners": "500K+ Learners",
+    "completion": "94% Completion Rate",
+    "saved": "500+ Hours Saved"
+  },
+  "useCases": {
+    "title": "Perfect For Every Use Case",
+    "subtitle": "Whether you're training employees, teaching students, or sharing knowledge",
+    "corporate": {
+      "title": "Corporate Training",
+      "description": "Scale your training programs with interactive content that employees actually complete"
+    },
+    "education": {
+      "title": "Educational Content",
+      "description": "Create engaging courses that adapt to different learning styles and paces"
+    },
+    "certification": {
+      "title": "Certification Prep",
+      "description": "Build comprehensive prep courses with practice tests and adaptive learning"
+    }
+  },
+  "community": {
+    "title": "Join Our Learning Community",
+    "subtitle": "Connect with thousands of creators and learners worldwide"
+  },
+  "finalCta": {
+    "title": "Ready to Transform Your Teaching?",
+    "subtitle": "Join thousands of educators creating better learning experiences with LearnPack",
+    "button": "Start Creating Today"
+  },
+  "videoDemo": {
+    "title": "See LearnPack in Action",
+    "subtitle": "Watch how easy it is to create interactive learning packages",
+    "iframeTitle": "LearnPack Demo - See how to create interactive learning packages"
+  },
+  "howItWorksNew": {
+    "title": "How it Works",
+    "subtitle": "From any file or idea to a fully interactive course, in minutes.",
+    "step1": {
+      "title": "Describe your training goal",
+      "text": "Specify length, subject, key topics, and optionally upload any existing material you want LearnPack to use."
+    },
+    "step2": {
+      "title": "Let AI build your course",
+      "text": "LearnPack instantly generates lessons, quizzes, challenges, and assessments, all production-ready and interactive."
+    },
+    "step3": {
+      "title": "Refine with Rigobot",
+      "text": "Chat with Rigobot to add examples, visuals, exercises, translations, or last-mile adjustments before publishing."
+    }
+  },
+  "features": {
+    "title": "Features & Capabilities",
+    "subtitle": "Everything you need to create, adapt, and deliver training, powered by AI.",
+    "items": {
+      "aiCourseGeneration": {
+        "title": "AI Course Generation",
+        "description": "Turn any document, video, or idea into a fully interactive course in minutes."
+      },
+      "aiTutor": {
+        "title": "AI Tutor",
+        "description": "Provide learners with real-time, contextual help, reducing dropout by 50%."
+      },
+      "scormExport": {
+        "title": "SCORM & LMS Export",
+        "description": "Deploy training anywhere and integrate seamlessly with your existing LMS."
+      },
+      "analytics": {
+        "title": "Real-Time Analytics",
+        "description": "Track progress, engagement, frustration, and learning outcomes with data."
+      },
+      "translations": {
+        "title": "Instant Translations",
+        "description": "Localize courses instantly for global or multilingual teams."
+      },
+      "aiEditing": {
+        "title": "AI Editing",
+        "description": "Edit any module instantly through chat, no developers or designers needed."
+      }
+    }
+  },
+  "impactMetrics": {
+    "title": "Impact Metrics",
+    "subtitle": "Real results from real deployments.",
+    "reduction": "Reduction in content creation costs.",
+    "completion": "Increase in learner completion rates.",
+    "dropout": "Reduction in learner dropout with the AI Tutor.",
+    "activeUsers": "Active users building and delivering training."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Clear answers for teams and creators.",
+    "items": {
+      "whatIsLearnpack": {
+        "question": "What is LearnPack and who is it for?",
+        "answer": "LearnPack is an AI-powered platform that turns any document or idea into an interactive training package. It is used by organizations to train employees, customers, partners, and by individual creators who want to build courses fast without technical skills."
+      },
+      "aiDifference": {
+        "question": "What's the difference between the AI Tutor and the AI Editing Agent?",
+        "answer": "LearnPack includes two different AI systems:<br/><br/><strong>Rigobot (AI Tutor):</strong> Helps learners by answering questions, guiding them step-by-step, and reducing dropout by up to 50%.<br/><br/><strong>AI Editing Agent:</strong> Helps creators improve content, rewrite lessons, simplify explanations, add quizzes, translate modules, and update courses instantly through chat."
+      },
+      "lmsIntegration": {
+        "question": "Can LearnPack integrate with our LMS or export SCORM?",
+        "answer": "Yes. LearnPack exports SCORM 1.2 and 2004 packages and embeds into most LMS platforms including Moodle, Canvas, TalentLMS, LearnWorlds, and others."
+      },
+      "timeCost": {
+        "question": "How does LearnPack reduce time and cost for training teams?",
+        "answer": "AI generates lessons, quizzes, assessments, translations, and updates in minutes; reducing creation costs by 80% and doubling learner completion rates."
+      },
+      "trainingTypes": {
+        "question": "Can LearnPack be used for any type of training?",
+        "answer": "Yes. You can build training for technical skills, software onboarding, compliance, soft skills, customer education, or any custom topic. LearnPack adapts to both enterprise teams and solo creators."
+      },
+      "dataSecurity": {
+        "question": "Is my data secure and private?",
+        "answer": "Yes. LearnPack follows strict security standards. Your content is private and not used to train external AI models."
+      }
+    }
+  }
+}

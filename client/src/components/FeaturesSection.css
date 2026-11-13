@@ -1,0 +1,239 @@
+.features-section {
+  position: relative;
+  padding: 5rem 0;
+  background: hsl(var(--background));
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .features-section {
+    padding: 6rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .features-section {
+    padding: 7rem 0;
+  }
+}
+
+/* Smooth section transition overlays */
+.features-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, hsl(var(--background)) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.features-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to top, hsl(var(--background)) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Delicate background stars - more visible */
+.features-stars {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.features-star {
+  position: absolute;
+  border-radius: 50%;
+  background: hsl(var(--primary));
+  opacity: 0;
+  animation: starTwinkleUnified ease-in-out infinite;
+}
+
+/* Soft ambient glow spots - enhanced */
+.features-glow {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(100px);
+}
+
+.features-glow--top-right {
+  top: -10%;
+  right: -5%;
+  width: 450px;
+  height: 450px;
+  background: radial-gradient(circle, hsl(var(--primary) / 0.08) 0%, transparent 70%);
+}
+
+.features-glow--bottom-left {
+  bottom: -15%;
+  left: -5%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, hsl(200 80% 60% / 0.06) 0%, transparent 70%);
+}
+
+/* Central radial gradient for depth */
+.features-center-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 500px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(ellipse at center,
+    hsl(var(--primary) / 0.05) 0%,
+    hsl(var(--primary) / 0.02) 40%,
+    transparent 70%
+  );
+  filter: blur(60px);
+}
+
+/* Subtle diagonal light lines for depth */
+.features-light-line {
+  position: absolute;
+  width: 400px;
+  height: 1px;
+  pointer-events: none;
+  opacity: 0.08;
+  background: linear-gradient(90deg,
+    transparent 0%,
+    hsl(var(--primary) / 0.5) 30%,
+    hsl(var(--primary) / 0.8) 50%,
+    hsl(var(--primary) / 0.5) 70%,
+    transparent 100%
+  );
+}
+
+.features-light-line--1 {
+  top: 20%;
+  left: 5%;
+  transform: rotate(-15deg);
+}
+
+.features-light-line--2 {
+  top: 60%;
+  right: 10%;
+  transform: rotate(20deg);
+}
+
+.features-light-line--3 {
+  bottom: 25%;
+  left: 15%;
+  transform: rotate(-25deg);
+  width: 300px;
+}
+
+.features-inner {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.features-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: hsl(var(--foreground));
+  margin: 0 0 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .features-title {
+    font-size: 2.25rem;
+  }
+}
+
+.features-subtitle {
+  font-size: 1.125rem;
+  color: hsl(var(--muted-foreground));
+  margin: 0 0 4rem 0;
+  line-height: 1.6;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3.5rem 3rem;
+}
+
+.feature-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.feature-icon-wrapper {
+  width: 48px;
+  height: 48px;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: hsl(var(--primary) / 0.08);
+}
+
+.feature-icon {
+  width: 22px;
+  height: 22px;
+  color: hsl(190 90% 55%);
+}
+
+.feature-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: hsl(var(--foreground));
+  margin: 0 0 0.5rem 0;
+}
+
+.feature-description {
+  font-size: 0.9375rem;
+  color: hsl(var(--muted-foreground));
+  line-height: 1.5;
+  margin: 0;
+  max-width: 280px;
+}
+
+@media (max-width: 900px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem 2.5rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .features-subtitle {
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+
+  .features-grid {
+    grid-template-columns: 1fr;
+    gap: 2.5rem;
+  }
+
+  .feature-icon-wrapper {
+    width: 44px;
+    height: 44px;
+  }
+
+  .feature-icon {
+    width: 20px;
+    height: 20px;
+  }
+}

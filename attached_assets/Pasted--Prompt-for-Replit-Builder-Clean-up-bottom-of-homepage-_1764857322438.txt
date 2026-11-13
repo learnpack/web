@@ -1,0 +1,55 @@
+
+
+**Prompt for Replit Builder – Clean up bottom of homepage + add Impact Metrics**
+
+Update the homepage layout with these changes:
+
+1. **Remove the “Build tutorials on about any skill” section**
+
+   * Delete the entire section that has the title *“Build tutorials on about any skill”* and all the colorful skill bubbles / tags under it.
+   * After removing it, the section right after **“Features & Capabilities”** should temporarily be the one with the metrics (80%, 2×, 1500+), until we replace it in step 3.
+
+2. **Remove the “Create once. Teach anywhere. Learn better.” section**
+
+   * Delete the entire CTA block that starts with the heading *“Create once. Teach anywhere. Learn better.”* and the buttons underneath.
+   * After removing it, the next thing after the metrics should be the footer.
+
+3. **Redesign the metrics as a new “Impact Metrics” section**
+
+   * Right after **“Features & Capabilities”**, insert a new section called **“Impact Metrics”**.
+   * This section should be centered and use a simple 4-column grid on desktop (2×2 or stacked on mobile).
+   * No cards or boxes, just clean typography and spacing.
+
+   Use EXACTLY this copy and structure:
+
+   * Section title (H2): **Impact Metrics**
+   * Optional short subheadline under it:
+     *Real results from real deployments.*
+
+   Then the 4 metrics:
+
+   1. **80%**
+      Reduction in content creation costs.
+
+   2. **2×**
+      Increase in learner completion rates.
+
+   3. **50%**
+      Reduction in learner dropout with the AI Tutor. 
+
+   4. **1500+**
+      Active users building and delivering training.
+
+   * Numbers should be large and bold.
+   * Labels/descriptions should be smaller, in a lighter text color.
+   * Add generous vertical padding above and below this section so it feels like a distinct, airy block.
+
+4. **Footer**
+
+   * Keep the existing footer exactly as it is.
+   * After the “Impact Metrics” section, the next element should be the footer.
+
+Overall goal: the homepage flow should now be:
+Hero → Logos → Problem → Solution → How It Works → Features & Capabilities → Impact Metrics → Footer.
+
+

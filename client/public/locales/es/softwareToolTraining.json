@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Capacitación en Software y Herramientas | LearnPack",
+    "description": "Convierte cualquier PDF, video o documentación interna en un curso interactivo con un Tutor de IA integrado e información de aprendizaje en tiempo real.",
+    "keywords": "capacitación en software, capacitación en herramientas, tutor IA, cursos interactivos, capacitación de empleados, SCORM, integración LMS"
+  },
+  "hero": {
+    "title": "Capacitación en software y herramientas que la gente realmente completa.",
+    "subtitle": "Convierte cualquier PDF, video o documentación interna en un curso interactivo con un Tutor de IA integrado e información de aprendizaje en tiempo real.",
+    "supporting": "Transforma materiales existentes en capacitación atractiva que escala.",
+    "metrics": {
+      "cost": "Hasta 80% menos costo de producción de contenido",
+      "completion": "2x mayor completitud con guía en tiempo real",
+      "engagement": "50% menos abandono con tutoría socrática"
+    },
+    "ctaDemo": "Agendar Demo",
+    "ctaStart": "Comenzar Gratis"
+  },
+  "workflow": {
+    "upload": {
+      "label": "Subir",
+      "text": "Agrega un PDF, video o documento."
+    },
+    "generate": {
+      "label": "Generar",
+      "text": "Obtén un curso interactivo listo para producción en segundos."
+    },
+    "practice": {
+      "label": "Practicar",
+      "text": "Los estudiantes reciben apoyo del Tutor de IA integrado."
+    }
+  },
+  "definition": {
+    "label": "Qué es LearnPack",
+    "line1": "LearnPack es una plataforma de aprendizaje interactivo impulsada por IA para crear y entregar paquetes de capacitación rápidamente.",
+    "line2": "Genera cursos listos para producción e incluye un Tutor de IA integrado más información en tiempo real sobre compromiso y frustración."
+  },
+  "problems": {
+    "title": "Dónde falla la capacitación en herramientas",
+    "intro": "Los enfoques tradicionales para la capacitación en software y herramientas enfrentan desafíos persistentes que limitan la efectividad y el ROI.",
+    "items": {
+      "cost": {
+        "title": "Alto costo de producción",
+        "text": "Crear contenido de cursos a menudo cuesta $10,000 a $50,000+."
+      },
+      "slow": {
+        "title": "Lento de construir",
+        "text": "Un módulo de e-learning interactivo de 1 hora promedia 184 horas de desarrollo."
+      },
+      "completion": {
+        "title": "Baja completitud",
+        "text": "Muchos programas ven solo 20 a 30% de tasas de completitud."
+      },
+      "visibility": {
+        "title": "Sin visibilidad del aprendizaje",
+        "text": "Los clics no muestran compromiso, confusión o frustración."
+      }
+    }
+  },
+  "stepper": {
+    "title": "De documentación a práctica interactiva",
+    "steps": {
+      "setup": {
+        "title": "Configura el paquete en 2 minutos",
+        "details": [
+          "Responde 4 preguntas guiadas.",
+          "Define tema, duración, objetivos.",
+          "Comienza con una estructura clara."
+        ]
+      },
+      "generate": {
+        "title": "Genera contenido interactivo",
+        "details": [
+          "Crea lecturas cortas y multimedia.",
+          "Agrega cuestionarios.",
+          "Agrega desafíos de código."
+        ]
+      },
+      "refine": {
+        "title": "Refina estilo Notion con IA",
+        "details": [
+          "Reescribe, simplifica o expande contenido.",
+          "Agrega entregables de archivo o URL.",
+          "Traducciones instantáneas."
+        ]
+      },
+      "publish": {
+        "title": "Publica instantáneamente",
+        "details": [
+          "Comparte una URL única.",
+          "Incrusta vía iFrame.",
+          "Exporta usando SCORM."
+        ]
+      }
+    }
+  },
+  "split": {
+    "title": "Diseñado para capacitadores y estudiantes",
+    "trainers": {
+      "title": "Lo que obtienen los capacitadores",
+      "items": [
+        "Configuración en 2 minutos con preguntas guiadas.",
+        "Edición estilo Notion con IA.",
+        "Reescribir, simplificar, expandir.",
+        "Cuestionarios, desafíos de código, multimedia.",
+        "Entregables de archivo o URL.",
+        "Traducciones instantáneas.",
+        "Publicación con un clic.",
+        "Información en tiempo real sobre compromiso y frustración."
+      ]
+    },
+    "learners": {
+      "title": "Lo que obtienen los estudiantes",
+      "bubbles": [
+        "Guía consciente del contexto",
+        "Preguntas socráticas que guían",
+        "Ayuda multilingüe, 24/7"
+      ],
+      "supporting": "La tutoría socrática ha demostrado disminuir el abandono en un 50%."
+    }
+  },
+  "deployment": {
+    "title": "Opciones de despliegue",
+    "microcopy": "Elige un formato de entrega",
+    "options": {
+      "url": {
+        "label": "Compartir una URL única",
+        "detail": "Publica la capacitación en un enlace único que los estudiantes pueden abrir instantáneamente."
+      },
+      "iframe": {
+        "label": "Incrustar vía iFrame",
+        "detail": "Incrusta la experiencia de capacitación dentro de un portal existente."
+      },
+      "scorm": {
+        "label": "Exportar vía SCORM",
+        "detail": "Exporta usando SCORM para despliegue en LMS."
+      }
+    }
+  },
+  "examples": {
+    "title": "Ejemplos del mundo real",
+    "hoverHint": "Pasa el cursor para ver",
+    "labelA": "Ejemplo A",
+    "labelB": "Ejemplo B",
+    "placeholderWithout": "Insertar precios de diapositiva (sin Tutor de IA)",
+    "placeholderWith": "Insertar precios de diapositiva (con Tutor de IA)",
+    "exampleA": {
+      "title": "Lanzamiento de paquete de capacitación en ventas",
+      "without": {
+        "title": "Sin Tutor de IA",
+        "helper": "Entrega estándar sin soporte de tutoría en tiempo real.",
+        "learnerSeats": "Asientos de estudiante",
+        "teacherSeat": "Asiento de profesor",
+        "packages": "Precio único de paquetes"
+      },
+      "with": {
+        "title": "Con Tutor de IA",
+        "helper": "Incluye soporte del Tutor de IA integrado durante el aprendizaje.",
+        "learnerSeats": "Asientos de estudiante",
+        "teacherSeat": "Asiento de profesor",
+        "packages": "Precio único de paquetes"
+      }
+    },
+    "exampleB": {
+      "title": "Lanzamiento de paquete de incorporación de herramientas",
+      "without": {
+        "title": "Sin Tutor de IA",
+        "helper": "Entrega estándar sin soporte de tutoría en tiempo real.",
+        "learnerSeats": "Asientos de estudiante",
+        "teacherSeat": "Asiento de profesor",
+        "packages": "Precio único de paquetes"
+      },
+      "with": {
+        "title": "Con Tutor de IA",
+        "helper": "Incluye soporte del Tutor de IA integrado durante el aprendizaje.",
+        "learnerSeats": "Asientos de estudiante",
+        "teacherSeat": "Asiento de profesor",
+        "packages": "Precio único de paquetes"
+      }
+    }
+  },
+  "faqs": {
+    "title": "Preguntas frecuentes",
+    "lastUpdated": "Última actualización: Diciembre 2025",
+    "items": {
+      "speed": {
+        "question": "¿Qué tan rápido podemos convertir documentación de herramientas en un curso?",
+        "answer": "Puedes convertir cualquier PDF, video, documento o material de aprendizaje en un curso completamente interactivo y listo para producción en segundos."
+      },
+      "tutor": {
+        "question": "¿Qué hace el Tutor de IA integrado durante la capacitación?",
+        "answer": "El Tutor de IA proporciona soporte contextual, recuerda el progreso, ofrece guía proactiva y asistencia multilingüe 24/7. Su enfoque socrático disminuye el abandono en un 50%."
+      },
+      "deploy": {
+        "question": "¿Cómo desplegamos la capacitación en nuestro LMS?",
+        "answer": "Puedes compartir una URL única, incrustar vía iFrame o exportar usando SCORM para despliegue en LMS."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Convierte tu documentación de herramientas en capacitación que la gente completa.",
+    "ctaDemo": "Agendar Demo",
+    "ctaStart": "Comenzar Gratis"
+  }
+}

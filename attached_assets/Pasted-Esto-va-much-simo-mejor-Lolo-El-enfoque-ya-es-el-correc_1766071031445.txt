@@ -1,0 +1,200 @@
+Esto va **muchísimo mejor**, Lolo.
+El enfoque ya es el correcto, el mensaje ahora **sí dice algo concreto**, y se entiende el sistema. Ahora estamos en la fase fina: **hacerla más original y menos “grid de cajas”**, como bien dices, al nivel de *Adaptive Course Intelligence*.
+
+Voy a proponerte **ajustes conceptuales y visuales**, no para rehacer todo, sino para **romper la monotonía** y darle carácter propio a esta página.
+
+---
+
+## 1. Diagnóstico rápido (honesto)
+
+**Lo que ya funciona muy bien**
+
+* El hero y el headline están claros y bien posicionados.
+* “How hyperpersonalized learning actually works” es el corazón correcto.
+* El ejemplo Marco / Laura es oro conceptual.
+* El rol del AI Tutor está bien reposicionado (ya no se come todo).
+
+**Lo que todavía se siente genérico**
+
+* Demasiadas secciones resueltas como *cards en grid*.
+* Visualmente se parece demasiado a otras páginas feature.
+* Falta **un momento “wow” visual** que haga esta página reconocible.
+
+Así que el objetivo ahora es:
+
+> **Menos cajas, más narrativa visual.**
+
+---
+
+## 2. Dónde romper el patrón (sin perder claridad)
+
+### A. “How hyperpersonalized learning actually works”
+
+👉 **Aquí NO uses 3 cards iguales**
+
+En vez de 3 cards, propongo algo más **sistémico**:
+
+#### Opción recomendada (muy LearnPack):
+
+**Un diagrama vertical tipo “flow”**, centrado, con líneas suaves y glow:
+
+```
+[ Base course for the organization ]
+               ↓
+[ Learner profiling (5 questions) ]
+               ↓
+[ Personalized course per learner ]
+```
+
+* Cada bloque más ancho que alto.
+* Texto corto dentro.
+* Línea con glow azul conectando.
+* Sin cajas duras, más “sistema vivo”.
+
+Esto ya lo diferencia de:
+
+* End-to-End Automation
+* Adaptive Course Intelligence
+
+Y refuerza que esto es un **proceso**, no features.
+
+---
+
+### B. “One course. Many ways to understand it.”
+
+👉 Aquí tienes una joya. Hay que **subirle el nivel visual**.
+
+En vez de dos cards simétricas (Marco / Laura):
+
+#### Propuesta más original:
+
+**Una misma “pantalla de curso” arriba**, y abajo se bifurca:
+
+```
+          [ Same base lesson ]
+                |
+        ---------------------
+        |                   |
+   Marco (sports)       Laura (design)
+```
+
+* Arriba: una caja única “Internal tools training”.
+* Abajo: dos versiones del mismo concepto.
+* Pequeños highlights distintos:
+
+  * Marco: analogía fútbol, estrategia, equipo.
+  * Laura: analogía diseño, visual, branding.
+
+Esto comunica en 2 segundos:
+
+> “No hacemos cursos distintos. Adaptamos el mismo.”
+
+Muy potente para B2B.
+
+---
+
+### C. “The AI Tutor supports hyperpersonalization in real time”
+
+👉 Aquí **quita una caja**.
+
+En vez de bloque + bullets en caja:
+
+* Deja el texto a la izquierda.
+* A la derecha, **una sola visual tipo mock**:
+
+  * Fragmento de texto
+  * Burbuja del AI Tutor adaptada al perfil del learner
+
+Es más storytelling, menos checklist.
+
+---
+
+### D. “Why this level of personalization matters”
+
+👉 Aquí no necesitas cajas.
+
+Hazlo **inline**, casi editorial:
+
+* 2 columnas
+* Checkmarks suaves
+* Texto respirado
+
+Algo como:
+
+✔ Higher retention and understanding
+✔ Faster onboarding and upskilling
+✔ Less frustration during training
+✔ Same course quality, personalized at scale
+
+Menos UI, más mensaje.
+
+---
+
+### E. “Where hyperpersonalization makes the difference”
+
+👉 Mantén cards, pero **no todas iguales**.
+
+Propuesta:
+
+* 1 card grande (Corporate onboarding)
+* 3 cards más pequeñas debajo
+
+Eso rompe la simetría y jerarquiza.
+
+---
+
+## 3. El toque “Adaptive Course Intelligence”
+
+En esa página lo que funcionó fue:
+
+* **Una sección muy visual**
+* Casi conceptual, no explicativa
+
+Aquí podríamos añadir **una sección intermedia nueva**, muy simple:
+
+### Nueva sección opcional (muy potente)
+
+**Headline**
+Personalization happens before, during, and after learning.
+
+**Visual**
+Una línea horizontal con 3 puntos:
+
+* Before: Learner profiling
+* During: Personalized explanations + AI Tutor
+* After: Better retention and confidence
+
+Cero cajas. Solo línea + texto.
+
+---
+
+## 4. Qué NO tocaría ahora
+
+* El hero está bien.
+* El copy base está bien.
+* Las FAQs están bien.
+* El CTA final está bien.
+
+El problema **no es el contenido**, es el **ritmo visual**.
+
+---
+
+## 5. Siguiente paso recomendado (concreto)
+
+Te propongo hacerlo así, sin abrumarte:
+
+**Paso 1**
+Rediseñar solo estas 3 secciones:
+
+* How hyperpersonalized learning actually works (flow, no cards)
+* One course. Many ways to understand it (bifurcación visual)
+* AI Tutor section (menos caja, más mock)
+
+**Paso 2**
+Volvemos a mirar el conjunto y afinamos.
+
+Si quieres, en el próximo mensaje te hago:
+
+* **El wireframe visual de esas 3 secciones**, ya sin grids, listo para pasar al builder.
+
+Tú dime.

@@ -52,7 +52,7 @@ const iconMap: Record<string, any> = {
 };
 
 export default function PricingTeaser() {
-  const { t, i18n } = useTranslation();
+  const { t, i18n } = useTranslation('pricing');
   const [isAnnual, setIsAnnual] = useState(false);
   const [plans, setPlans] = useState<ProcessedPlan[]>([]);
   const [loading, setLoading] = useState(true);

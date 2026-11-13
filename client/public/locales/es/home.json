@@ -1,0 +1,264 @@
+{
+  "meta": {
+    "title": "LearnPack - Convierte Ideas en Paquetes de Aprendizaje Interactivos",
+    "description": "Transforma tu experiencia en experiencias de aprendizaje atractivas e interactivas con creación de cursos impulsada por IA. Construye programas de entrenamiento y contenido educativo en minutos.",
+    "keywords": "aprendizaje en línea, creación de cursos, educación impulsada por IA, entrenamiento interactivo, sistema de gestión de aprendizaje",
+    "ogTitle": "LearnPack - Convierte Ideas en Paquetes de Aprendizaje Interactivos",
+    "ogDescription": "Transforma tu experiencia en experiencias de aprendizaje atractivas e interactivas con creación de cursos impulsada por IA. Construye programas de entrenamiento y contenido educativo en minutos.",
+    "twitterTitle": "LearnPack - Convierte Ideas en Paquetes de Aprendizaje Interactivos",
+    "twitterDescription": "Transforma tu experiencia en experiencias de aprendizaje atractivas e interactivas con creación de cursos impulsada por IA. Construye programas de entrenamiento y contenido educativo en minutos."
+  },
+  "hero": {
+    "title": "Convierte ideas en paquetes de aprendizaje interactivos en minutos",
+    "subtitle": "Escribe cualquier tema, elige un propósito y genera un curso que puedas exportar a cualquier lugar.",
+    "inputPlaceholder": "Pide a LearnPack que cree un paquete de aprendizaje sobre...",
+    "purposeLabel": "Propósito",
+    "purposeOptions": {
+      "skillBuilding": "Desarrollar habilidades del mundo real",
+      "examPrep": "Practicar para un examen o tarea", 
+      "certificationPrep": "Prepararme para una certificación"
+    },
+    "createButton": "Crear Paquete",
+    "creating": "Creando...",
+    "trustLine": "Reduce los costos de creación de entrenamiento en un 80% y duplica las tasas de finalización.",
+    "errors": {
+      "topicRequired": "Tema requerido",
+      "topicDescription": "Por favor ingresa qué quieres enseñar o aprender",
+      "purposeRequired": "Propósito requerido",
+      "purposeDescription": "Por favor selecciona un propósito para tu paquete",
+      "createFailed": "Error al crear el paquete. Por favor intenta de nuevo."
+    }
+  },
+  "socialProof": {
+    "title": "Confiado por las principales instituciones educativas"
+  },
+  "trainingChallenges": {
+    "title": "Por qué la capacitación corporativa sigue fallando.",
+    "subtitle": "Los mayores desafíos que enfrentan las empresas al crear y mantener programas de entrenamiento",
+    "cards": {
+      "slowDeployment": {
+        "title": "Implementación lenta",
+        "text": "Los cursos tardan meses en lanzarse."
+      },
+      "highCost": {
+        "title": "Alto costo de producción",
+        "text": "$10k–$50k por curso (ATD)."
+      },
+      "hardToUpdate": {
+        "title": "Difícil de actualizar",
+        "text": "Cada pequeño cambio requiere tiempo y presupuesto."
+      },
+      "noScalability": {
+        "title": "Sin escalabilidad",
+        "text": "Limitado a un idioma o departamento."
+      },
+      "fragmentedTools": {
+        "title": "Herramientas fragmentadas",
+        "text": "La capacitación está dispersa en múltiples sistemas desconectados."
+      },
+      "lowEngagement": {
+        "title": "Bajo compromiso",
+        "text": "Solo 20–30% de tasas de finalización (LinkedIn Learning)."
+      }
+    }
+  },
+  "solutionShowcase": {
+    "title": "La Solución LearnPack",
+    "headline": "LearnPack convierte la capacitación corporativa en un sistema vivo.",
+    "body": "Las organizaciones necesitan una implementación más rápida, costos más bajos, actualizaciones más fáciles, escala multilingüe, visibilidad en tiempo real y mayor compromiso. LearnPack resuelve cada una de esas necesidades con cursos generados por IA, refinamiento instantáneo de contenido, cumplimiento listo para SCORM, analíticas proactivas y un tutor integrado que reduce el abandono de estudiantes en un 50%.",
+    "cards": {
+      "deployment": {
+        "need": "Velocidad de implementación",
+        "solution": "Genera cursos completos desde cualquier documento en minutos."
+      },
+      "cost": {
+        "need": "Costo y eficiencia",
+        "solution": "Hasta un 80% más económico que la creación tradicional."
+      },
+      "adaptability": {
+        "need": "Adaptabilidad",
+        "solution": "Chatea con Rigobot para refinar o actualizar contenido al instante."
+      },
+      "scalability": {
+        "need": "Escalabilidad",
+        "solution": "Listo para múltiples idiomas, roles y ubicaciones."
+      },
+      "compliance": {
+        "need": "Cumplimiento y analítica",
+        "solution": "Información en tiempo real, exportación SCORM, visibilidad completa."
+      },
+      "engagement": {
+        "need": "Compromiso",
+        "solution": "El tutor Rigobot reduce el abandono de estudiantes en un 50%."
+      }
+    }
+  },
+  "valueProps": {
+    "title": "¿Por qué LearnPack?",
+    "subtitle": "Todo lo que necesitas para crear experiencias de aprendizaje atractivas",
+    "speed": {
+      "title": "Creación Súper Rápida",
+      "description": "Crea paquetes de aprendizaje integrales en minutos, no meses"
+    },
+    "ai": {
+      "title": "Asistente Impulsado por IA",
+      "description": "Generación inteligente de contenido y rutas de aprendizaje adaptativas"
+    },
+    "export": {
+      "title": "Exporta a Cualquier Lugar",
+      "description": "Compatible con todas las principales plataformas LMS y formatos"
+    },
+    "completion": {
+      "title": "Tasas de Finalización Más Altas",
+      "description": "El contenido interactivo mantiene a los estudiantes comprometidos"
+    }
+  },
+  "skills": {
+    "title": "Crea tutoriales sobre casi cualquier habilidad",
+    "subtitle": "Desde entrenamiento técnico hasta habilidades blandas, crea paquetes de aprendizaje atractivos para cualquier dominio",
+    "programming": "Programación",
+    "design": "Diseño", 
+    "marketing": "Marketing",
+    "business": "Negocios",
+    "language": "Idioma",
+    "certification": "Certificación"
+  },
+  "howItWorks": {
+    "title": "Cómo Funciona",
+    "subtitle": "Tres pasos simples para crear contenido de aprendizaje atractivo",
+    "step1": {
+      "title": "Describe Tu Idea",
+      "description": "Dinos qué quieres enseñar o aprender"
+    },
+    "step2": {
+      "title": "La IA Construye la Estructura", 
+      "description": "Nuestra IA crea una ruta de aprendizaje integral"
+    },
+    "step3": {
+      "title": "Personaliza y Comparte",
+      "description": "Refina tu contenido y compártelo con los estudiantes"
+    },
+    "roiCalculator": "Calculadora de ROI",
+    "learnMore": "Aprende Más"
+  },
+  "stats": {
+    "creators": "10,000+ Creadores",
+    "learners": "500K+ Estudiantes",
+    "completion": "94% Tasa de Finalización",
+    "saved": "500+ Horas Ahorradas"
+  },
+  "useCases": {
+    "title": "Perfecto Para Cada Caso de Uso",
+    "subtitle": "Ya sea que entrenes empleados, enseñes estudiantes o compartas conocimiento",
+    "corporate": {
+      "title": "Entrenamiento Corporativo",
+      "description": "Escala tus programas de entrenamiento con contenido interactivo que los empleados realmente completan"
+    },
+    "education": {
+      "title": "Contenido Educativo",
+      "description": "Crea cursos atractivos que se adapten a diferentes estilos y ritmos de aprendizaje"
+    },
+    "certification": {
+      "title": "Preparación para Certificación",
+      "description": "Construye cursos de preparación integrales con exámenes de práctica y aprendizaje adaptativo"
+    }
+  },
+  "community": {
+    "title": "Únete a Nuestra Comunidad de Aprendizaje",
+    "subtitle": "Conecta con miles de creadores y estudiantes en todo el mundo"
+  },
+  "finalCta": {
+    "title": "¿Listo para Transformar Tu Enseñanza?",
+    "subtitle": "Únete a miles de educadores creando mejores experiencias de aprendizaje con LearnPack",
+    "button": "Comienza a Crear Hoy"
+  },
+  "videoDemo": {
+    "title": "Mira LearnPack en Acción",
+    "subtitle": "Observa qué fácil es crear paquetes de aprendizaje interactivos",
+    "iframeTitle": "Demo de LearnPack - Mira cómo crear paquetes de aprendizaje interactivos"
+  },
+  "howItWorksNew": {
+    "title": "Cómo Funciona",
+    "subtitle": "De cualquier archivo o idea a un curso completamente interactivo, en minutos.",
+    "step1": {
+      "title": "Describe tu objetivo de capacitación",
+      "text": "Especifica la duración, el tema, los tópicos clave, y opcionalmente sube cualquier material existente que quieras que LearnPack use."
+    },
+    "step2": {
+      "title": "Deja que la IA construya tu curso",
+      "text": "LearnPack genera instantáneamente lecciones, cuestionarios, desafíos y evaluaciones, todo listo para producción e interactivo."
+    },
+    "step3": {
+      "title": "Refina con Rigobot",
+      "text": "Chatea con Rigobot para agregar ejemplos, visuales, ejercicios, traducciones o ajustes de último momento antes de publicar."
+    }
+  },
+  "features": {
+    "title": "Características y Capacidades",
+    "subtitle": "Todo lo que necesitas para crear, adaptar y entregar capacitación, impulsado por IA.",
+    "items": {
+      "aiCourseGeneration": {
+        "title": "Generación de Cursos con IA",
+        "description": "Convierte cualquier documento, video o idea en un curso completamente interactivo en minutos."
+      },
+      "aiTutor": {
+        "title": "Tutor IA",
+        "description": "Proporciona a los estudiantes ayuda contextual en tiempo real, reduciendo el abandono en un 50%."
+      },
+      "scormExport": {
+        "title": "Exportación SCORM y LMS",
+        "description": "Implementa capacitación en cualquier lugar e intégrala con tu LMS existente."
+      },
+      "analytics": {
+        "title": "Analíticas en Tiempo Real",
+        "description": "Rastrea progreso, compromiso, frustración y resultados de aprendizaje con datos."
+      },
+      "translations": {
+        "title": "Traducciones Instantáneas",
+        "description": "Localiza cursos instantáneamente para equipos globales o multilingües."
+      },
+      "aiEditing": {
+        "title": "Edición con IA",
+        "description": "Edita cualquier módulo al instante a través del chat, sin necesidad de desarrolladores o diseñadores."
+      }
+    }
+  },
+  "impactMetrics": {
+    "title": "Métricas de Impacto",
+    "subtitle": "Resultados reales de implementaciones reales.",
+    "reduction": "Reducción en costos de creación de contenido.",
+    "completion": "Aumento en tasas de finalización de estudiantes.",
+    "dropout": "Reducción en abandono de estudiantes con el Tutor IA.",
+    "activeUsers": "Usuarios activos creando y entregando capacitación."
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "subtitle": "Respuestas claras para equipos y creadores.",
+    "items": {
+      "whatIsLearnpack": {
+        "question": "¿Qué es LearnPack y para quién es?",
+        "answer": "LearnPack es una plataforma impulsada por IA que convierte cualquier documento o idea en un paquete de capacitación interactivo. Es utilizada por organizaciones para capacitar empleados, clientes, socios, y por creadores individuales que quieren crear cursos rápidamente sin habilidades técnicas."
+      },
+      "aiDifference": {
+        "question": "¿Cuál es la diferencia entre el Tutor IA y el Agente de Edición IA?",
+        "answer": "LearnPack incluye dos sistemas de IA diferentes:<br/><br/><strong>Rigobot (Tutor IA):</strong> Ayuda a los estudiantes respondiendo preguntas, guiándolos paso a paso y reduciendo el abandono hasta en un 50%.<br/><br/><strong>Agente de Edición IA:</strong> Ayuda a los creadores a mejorar el contenido, reescribir lecciones, simplificar explicaciones, agregar cuestionarios, traducir módulos y actualizar cursos instantáneamente a través del chat."
+      },
+      "lmsIntegration": {
+        "question": "¿LearnPack puede integrarse con nuestro LMS o exportar SCORM?",
+        "answer": "Sí. LearnPack exporta paquetes SCORM 1.2 y 2004 y se integra con la mayoría de las plataformas LMS incluyendo Moodle, Canvas, TalentLMS, LearnWorlds y otras."
+      },
+      "timeCost": {
+        "question": "¿Cómo reduce LearnPack el tiempo y costo para equipos de capacitación?",
+        "answer": "La IA genera lecciones, cuestionarios, evaluaciones, traducciones y actualizaciones en minutos; reduciendo los costos de creación en un 80% y duplicando las tasas de finalización de los estudiantes."
+      },
+      "trainingTypes": {
+        "question": "¿Se puede usar LearnPack para cualquier tipo de capacitación?",
+        "answer": "Sí. Puedes crear capacitación para habilidades técnicas, onboarding de software, cumplimiento, habilidades blandas, educación al cliente o cualquier tema personalizado. LearnPack se adapta tanto a equipos empresariales como a creadores individuales."
+      },
+      "dataSecurity": {
+        "question": "¿Mis datos están seguros y son privados?",
+        "answer": "Sí. LearnPack sigue estrictos estándares de seguridad. Tu contenido es privado y no se utiliza para entrenar modelos de IA externos."
+      }
+    }
+  }
+}

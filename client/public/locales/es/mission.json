@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Nuestra Misión - LearnPack | Democratizando la Educación",
+    "description": "La misión de LearnPack es democratizar la educación descentralizando la creación de contenido. Empoderando a maestros, expertos y corporaciones para crear, distribuir y monetizar entrenamiento con IA.",
+    "keywords": "democratización educación, creación cursos IA, misión tecnología educativa, creación contenido aprendizaje, empoderamiento docente",
+    "ogTitle": "Nuestra Misión - LearnPack | Democratizando la Educación",
+    "ogDescription": "La misión de LearnPack es democratizar la educación descentralizando la creación de contenido. Empoderando a maestros, expertos y corporaciones para crear, distribuir y monetizar entrenamiento con IA.",
+    "twitterTitle": "Nuestra Misión - LearnPack | Democratizando la Educación",
+    "twitterDescription": "La misión de LearnPack es democratizar la educación descentralizando la creación de contenido. Empoderando a maestros, expertos y corporaciones para crear, distribuir y monetizar entrenamiento con IA."
+  },
+  "hero": {
+    "title": "Nuestra Misión"
+  },
+  "statements": {
+    "statement1": {
+      "text": "El aprendizaje comienza con un libro, programa de estudios o certificación.",
+      "highlight": "Quien controla ese activo, controla la clase, las credenciales, la experiencia de aprendizaje y la economía."
+    },
+    "statement2": {
+      "text": "LearnPack",
+      "highlight1": "descentraliza este poder",
+      "text2": ", reduciendo costos/tiempo de creación hasta un",
+      "highlight2": "80%",
+      "text3": ", democratizando la publicación en el mundo educativo.",
+      "highlight3": "Empoderando a maestros, expertos y corporaciones para crear, distribuir y monetizar entrenamiento."
+    },
+    "statement3": {
+      "text": "Nuestro",
+      "highlight1": "agente de IA",
+      "text2": "permite a los creadores transformar cualquier PDF, video o documento en cursos listos para producción o libros aumentados publicados",
+      "highlight2": "en minutos",
+      "text3": "."
+    }
+  },
+  "cta": {
+    "title": "¿Listo para Transformar la Educación?",
+    "subtitle": "Únete a miles de educadores, entrenadores y expertos democratizando la creación de contenido de aprendizaje.",
+    "button": "Comienza Gratis"
+  }
+}

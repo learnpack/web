@@ -1,0 +1,205 @@
+{
+  "meta": {
+    "title": "Software & Tool Training | LearnPack",
+    "description": "Turn any PDF, video, or internal documentation into an interactive course with a built in AI Tutor and real time learning insight.",
+    "keywords": "software training, tool training, AI tutor, interactive courses, employee training, SCORM, LMS integration"
+  },
+  "hero": {
+    "title": "Software & tool training that people actually finish.",
+    "subtitle": "Turn any PDF, video, or internal documentation into an interactive course with a built in AI Tutor and real time learning insight.",
+    "supporting": "Transform existing materials into engaging training that scales.",
+    "metrics": {
+      "cost": "Up to 80% lower content production cost",
+      "completion": "2x higher completion with real time guidance",
+      "engagement": "50% lower disengagement with Socratic tutoring"
+    },
+    "ctaDemo": "Book a Demo",
+    "ctaStart": "Start for Free"
+  },
+  "workflow": {
+    "upload": {
+      "label": "Upload",
+      "text": "Add a PDF, video, or document."
+    },
+    "generate": {
+      "label": "Generate",
+      "text": "Get a production ready interactive course in seconds."
+    },
+    "practice": {
+      "label": "Practice",
+      "text": "Learners get support from the built in AI Tutor."
+    }
+  },
+  "definition": {
+    "label": "What is LearnPack",
+    "line1": "LearnPack is an AI powered interactive learning platform for creating and delivering training packages fast.",
+    "line2": "It generates production ready courses and includes a built in AI Tutor plus real time insight into engagement and frustration."
+  },
+  "problems": {
+    "title": "Where tool training breaks",
+    "intro": "Traditional approaches to software and tool training face persistent challenges that limit effectiveness and ROI.",
+    "items": {
+      "cost": {
+        "title": "High production cost",
+        "text": "Building course content often costs $10,000 to $50,000+."
+      },
+      "slow": {
+        "title": "Slow to build",
+        "text": "A 1 hour interactive e learning module averages 184 hours to develop."
+      },
+      "completion": {
+        "title": "Low completion",
+        "text": "Many programs see only 20 to 30% completion rates."
+      },
+      "visibility": {
+        "title": "No learning visibility",
+        "text": "Clicks do not show engagement, confusion, or frustration."
+      }
+    }
+  },
+  "stepper": {
+    "title": "From documentation to interactive practice",
+    "steps": {
+      "setup": {
+        "title": "Set the package in 2 minutes",
+        "details": [
+          "Answer 4 guided questions.",
+          "Define topic, duration, objectives.",
+          "Start with a clear structure."
+        ]
+      },
+      "generate": {
+        "title": "Generate interactive content",
+        "details": [
+          "Create short readings and multimedia.",
+          "Add quizzes.",
+          "Add coding challenges."
+        ]
+      },
+      "refine": {
+        "title": "Refine Notion style with AI",
+        "details": [
+          "Rewrite, simplify, or expand content.",
+          "Add file or URL deliverables.",
+          "Instant translations."
+        ]
+      },
+      "publish": {
+        "title": "Publish instantly",
+        "details": [
+          "Share a unique URL.",
+          "Embed via iFrame.",
+          "Export using SCORM."
+        ]
+      }
+    }
+  },
+  "split": {
+    "title": "Designed for trainers and learners",
+    "trainers": {
+      "title": "What trainers get",
+      "items": [
+        "2 minute setup with guided questions.",
+        "Notion style editing with AI.",
+        "Rewrite, simplify, expand.",
+        "Quizzes, coding challenges, multimedia.",
+        "File or URL deliverables.",
+        "Instant translations.",
+        "One click publishing.",
+        "Real time insight into engagement and frustration."
+      ]
+    },
+    "learners": {
+      "title": "What learners get",
+      "bubbles": [
+        "Context aware guidance",
+        "Socratic questions that guide",
+        "Multilingual help, 24/7"
+      ],
+      "supporting": "Socratic tutoring has proven to decrease disengagement by 50%."
+    }
+  },
+  "deployment": {
+    "title": "Deployment options",
+    "microcopy": "Choose a delivery format",
+    "options": {
+      "url": {
+        "label": "Share a unique URL",
+        "detail": "Publish training to a unique link learners can open instantly."
+      },
+      "iframe": {
+        "label": "Embed via iFrame",
+        "detail": "Embed the training experience inside an existing portal."
+      },
+      "scorm": {
+        "label": "Export via SCORM",
+        "detail": "Export using SCORM for LMS deployment."
+      }
+    }
+  },
+  "examples": {
+    "title": "Real world examples",
+    "hoverHint": "Hover to preview",
+    "labelA": "Example A",
+    "labelB": "Example B",
+    "placeholderWithout": "Insert slide pricing numbers (without AI Tutor)",
+    "placeholderWith": "Insert slide pricing numbers (with AI Tutor)",
+    "exampleA": {
+      "title": "Sales training package rollout",
+      "without": {
+        "title": "Without AI Tutor",
+        "helper": "Standard delivery without real time tutoring support.",
+        "learnerSeats": "Learner seats",
+        "teacherSeat": "Teacher seat",
+        "packages": "Packages one time pricing"
+      },
+      "with": {
+        "title": "With AI Tutor",
+        "helper": "Includes built in AI Tutor support during learning.",
+        "learnerSeats": "Learner seats",
+        "teacherSeat": "Teacher seat",
+        "packages": "Packages one time pricing"
+      }
+    },
+    "exampleB": {
+      "title": "Tool onboarding package rollout",
+      "without": {
+        "title": "Without AI Tutor",
+        "helper": "Standard delivery without real time tutoring support.",
+        "learnerSeats": "Learner seats",
+        "teacherSeat": "Teacher seat",
+        "packages": "Packages one time pricing"
+      },
+      "with": {
+        "title": "With AI Tutor",
+        "helper": "Includes built in AI Tutor support during learning.",
+        "learnerSeats": "Learner seats",
+        "teacherSeat": "Teacher seat",
+        "packages": "Packages one time pricing"
+      }
+    }
+  },
+  "faqs": {
+    "title": "FAQs",
+    "lastUpdated": "Last updated: December 2025",
+    "items": {
+      "speed": {
+        "question": "How fast can we turn tool documentation into a course?",
+        "answer": "You can turn any PDF, video, document, or learning material into a fully interactive, production ready course in seconds."
+      },
+      "tutor": {
+        "question": "What does the built in AI Tutor do during training?",
+        "answer": "The AI Tutor provides contextual support, remembers progress, offers proactive guidance, and multilingual assistance 24/7. Its Socratic approach decreases disengagement by 50%."
+      },
+      "deploy": {
+        "question": "How do we deploy training to our LMS?",
+        "answer": "You can share a unique URL, embed via iFrame, or export using SCORM for LMS deployment."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Turn your tool documentation into training people finish.",
+    "ctaDemo": "Book a Demo",
+    "ctaStart": "Start for Free"
+  }
+}

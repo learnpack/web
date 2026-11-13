@@ -1,0 +1,147 @@
+.how-it-works-section {
+  position: relative;
+  padding: 5rem 0;
+  background: hsl(var(--background));
+  overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .how-it-works-section {
+    padding: 6rem 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .how-it-works-section {
+    padding: 7rem 0;
+  }
+}
+
+/* Smooth section transition overlays */
+.how-it-works-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to bottom, hsl(var(--background)) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.how-it-works-section::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 120px;
+  background: linear-gradient(to top, hsl(var(--background)) 0%, transparent 100%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Soft circular glow behind timeline - centered */
+.how-it-works-timeline-glow {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  pointer-events: none;
+  background: radial-gradient(circle, 
+    hsl(var(--primary) / 0.08) 0%, 
+    hsl(var(--primary) / 0.04) 30%,
+    hsl(var(--primary) / 0.02) 50%,
+    transparent 70%
+  );
+  filter: blur(40px);
+}
+
+/* Soft ambient glow spots */
+.how-it-works-glow {
+  position: absolute;
+  border-radius: 50%;
+  pointer-events: none;
+  filter: blur(80px);
+}
+
+.how-it-works-glow--top-left {
+  top: -5%;
+  left: -5%;
+  width: 400px;
+  height: 400px;
+  background: radial-gradient(circle, hsl(var(--primary) / 0.1) 0%, transparent 70%);
+}
+
+.how-it-works-glow--center-right {
+  top: 40%;
+  right: -10%;
+  width: 350px;
+  height: 350px;
+  background: radial-gradient(circle, hsl(200 80% 60% / 0.08) 0%, transparent 70%);
+}
+
+.how-it-works-glow--bottom-left {
+  bottom: -10%;
+  left: 10%;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, hsl(var(--primary) / 0.06) 0%, transparent 70%);
+}
+
+/* Delicate background stars - more visible */
+.how-it-works-stars {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.how-it-works-star {
+  position: absolute;
+  border-radius: 50%;
+  background: hsl(var(--primary));
+  opacity: 0;
+  animation: starTwinkleUnified ease-in-out infinite;
+}
+
+.how-it-works-inner {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.how-it-works-title {
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: hsl(var(--foreground));
+  margin: 0 0 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .how-it-works-title {
+    font-size: 2.25rem;
+  }
+}
+
+.how-it-works-subtitle {
+  font-size: 1.125rem;
+  color: hsl(var(--muted-foreground));
+  margin: 0 0 3rem 0;
+  line-height: 1.6;
+}
+
+.how-it-works-inner .stepper {
+  text-align: left;
+}
+
+@media (max-width: 640px) {
+  .how-it-works-subtitle {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+}

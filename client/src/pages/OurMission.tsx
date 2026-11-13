@@ -1,9 +1,11 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import SEO from '@/components/SEO';
 
 export default function OurMission() {
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <SEO namespace="mission" />
       <Header />
       
       {/* Hero Section with Animated Background */}

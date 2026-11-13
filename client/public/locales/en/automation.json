@@ -1,0 +1,166 @@
+{
+  "meta": {
+    "title": "AI Powered Training Automation | LearnPack",
+    "description": "Create training at scale with AI powered automation. Turn any document or idea into interactive training in minutes with built-in AI tutor support.",
+    "keywords": "training automation, AI course creation, corporate training, SCORM export, LMS integration, employee training, AI tutor, automated learning",
+    "ogTitle": "Create Training at Scale with AI | LearnPack",
+    "ogDescription": "Turn any document or idea into interactive training in minutes. LearnPack builds structure, creates activities, and Rigobot the AI tutor keeps learners supported."
+  },
+  "hero": {
+    "title": "Create training at scale with AI powered automation",
+    "subtitle": "Turn any document or idea into interactive training in minutes. LearnPack builds structure, creates activities, translates content, analyzes learner progress and Rigobot the AI tutor keeps learners supported at every step.",
+    "ctaTry": "Try LearnPack",
+    "ctaDemo": "Watch sixty second demo"
+  },
+  "definition": {
+    "text": "LearnPack handles creation, delivery, multilingual output, analytics and learner support in one unified workflow."
+  },
+  "problems": {
+    "title": "What you stop doing manually",
+    "subtitle": "LearnPack removes repetitive work and keeps training aligned over time.",
+    "items": {
+      "scratch": {
+        "title": "Authoring courses from scratch",
+        "description": "Start from documents, videos, or SOPs and let AI generate the first version."
+      },
+      "rebuild": {
+        "title": "Rebuilding content for updates",
+        "description": "Update a policy or process once and let LearnPack propagate changes."
+      },
+      "copypaste": {
+        "title": "Copy pasting into multiple tools",
+        "description": "Generate, publish, and deliver from one place without juggling tools."
+      },
+      "chasing": {
+        "title": "Chasing learners for completion",
+        "description": "Track progress automatically and see who is stuck or at risk."
+      },
+      "questions": {
+        "title": "Answering the same questions",
+        "description": "Rigobot the AI tutor gives instant, contextual help so trainers do not have to."
+      }
+    }
+  },
+  "features": {
+    "title": "Automation across the training lifecycle",
+    "items": {
+      "generation": {
+        "title": "Course generation",
+        "description": "Turn PDFs, videos and SOPs into structured interactive courses in minutes."
+      },
+      "editing": {
+        "title": "AI assisted iteration",
+        "description": "Refine or expand content block by block with AI assisted editing."
+      },
+      "translations": {
+        "title": "Multilingual output",
+        "description": "Generate complete versions of any training in multiple languages."
+      },
+      "analytics": {
+        "title": "Analytics and learner insights",
+        "description": "Track learner progress and identify where users struggle."
+      }
+    }
+  },
+  "howItWorks": {
+    "title": "How end to end automation works",
+    "subtitle": "Three simple steps. Everything else is handled by LearnPack.",
+    "steps": {
+      "step1": {
+        "title": "Input your content or idea",
+        "description": "Upload documents or answer four guided questions about topic, audience and goals."
+      },
+      "step2": {
+        "title": "AI builds the course",
+        "description": "LearnPack generates lessons, quizzes and activities automatically."
+      },
+      "step3": {
+        "title": "AI maintains it over time",
+        "description": "Rigobot the AI tutor helps refine content, adjust examples and add new material without rebuilding."
+      }
+    },
+    "cta": "Watch the sixty second demo"
+  },
+  "featureTable": {
+    "title": "Automation vs Control",
+    "columnAutomated": "Automated",
+    "columnControl": "You control",
+    "items": {
+      "structure": {
+        "title": "Course structure",
+        "automated": "LearnPack proposes lesson outlines and assessments.",
+        "control": "Final structure, tone and accuracy"
+      },
+      "wording": {
+        "title": "Content wording",
+        "automated": "AI drafts text that you can refine.",
+        "control": "Content decisions and approvals"
+      },
+      "support": {
+        "title": "Learner support",
+        "automated": "Rigobot the AI tutor answers learner questions and escalates when needed.",
+        "control": "Escalated learner cases"
+      },
+      "scorm": {
+        "title": "SCORM and delivery",
+        "automated": "One click export ready for any LMS.",
+        "control": "Compliance notes"
+      },
+      "localization": {
+        "title": "Localization",
+        "automated": "AI generates multilingual versions for you to review.",
+        "control": "Terminology and local nuance"
+      }
+    }
+  },
+  "useCases": {
+    "title": "Where end to end automation shines",
+    "items": {
+      "employee": {
+        "title": "Employee onboarding",
+        "description": "Launch consistent training across teams with minimal setup."
+      },
+      "product": {
+        "title": "Product and sales training",
+        "description": "Provide always aligned material as product knowledge evolves."
+      },
+      "technical": {
+        "title": "Technical and tools training",
+        "description": "Turn documentation into guided practice and interactive materials."
+      },
+      "compliance": {
+        "title": "Compliance and policies",
+        "description": "Translate policy changes into clear training rapidly."
+      }
+    }
+  },
+  "testimonial": {
+    "quote": "LearnPack cut our course creation time from weeks to hours without losing quality.",
+    "author": "HR Director",
+    "company": "Grovear",
+    "cta": "See the full case study"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "items": {
+      "formats": {
+        "question": "What formats can I upload?",
+        "answer": "You can upload PDFs, videos, presentations, internal documents or simply describe your idea and the system generates a first version."
+      },
+      "lms": {
+        "question": "Does it work with our LMS?",
+        "answer": "Yes. You can export SCORM or embed modules directly."
+      },
+      "speed": {
+        "question": "How fast can I create a new course?",
+        "answer": "Most courses can be created or regenerated quickly using the same source materials."
+      }
+    }
+  },
+  "finalCta": {
+    "title": "Ready to automate your training lifecycle?",
+    "subtitle": "Generate your first AI powered course and let LearnPack handle the heavy lifting.",
+    "ctaTry": "Start for free",
+    "ctaDemo": "Book a demo"
+  }
+}

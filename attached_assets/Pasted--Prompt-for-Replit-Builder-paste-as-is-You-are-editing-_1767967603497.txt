@@ -1,0 +1,157 @@
+**Prompt for Replit Builder (paste as-is)**
+
+You are editing the **Software & Tool Training** Use Case page on **learnpack.co**.
+
+Keep the same content already on the page. Do not add new claims, metrics, or pricing numbers.
+
+Implement the fixes below for two components only:
+
+1. The stepper module “From documentation to interactive practice”
+2. The “Real world examples” expandable sections
+
+---
+
+# 1) Fix the stepper module (size, layering, auto-advance)
+
+## A) Make the container proportional to its content
+
+Problem: the stepper container is too tall and looks empty.
+
+Fix
+
+* Remove any large fixed height on the module.
+* Use content-driven height with a modest min-height only if needed.
+* Keep padding consistent with other sections, but eliminate excessive empty vertical space.
+
+Target
+
+* The module should feel compact and proportional, not like a giant empty panel.
+
+## B) Ensure the connector line is never visible through circles or active row
+
+Problem: the vertical line shows through the numbered circles.
+
+Fix
+
+* Render the connector line in a lower layer behind everything.
+* Give the number circles an opaque background matching the panel surface.
+* Ensure the active row highlight and circles sit above the line.
+
+Layering (must follow)
+
+* Connector line: z-index 0
+* Row highlight: z-index 10
+* Number circles: z-index 20
+* Right content panel: z-index 30
+
+Also
+
+* Make the line slightly thinner and more subtle.
+
+## C) Auto-advance steps in a soft loop
+
+Problem: user must click to see steps.
+
+Fix
+
+* Auto cycle steps 1 -> 2 -> 3 -> 4 -> repeat.
+* Timing: change active step every 3.5 to 4.5 seconds.
+* Crossfade the right-side content when the step changes.
+* Add a subtle active-state motion (tiny glow/brightness shift) on the selected step.
+
+Interaction rule
+
+* If the user clicks any step, pause auto-advance for 10 seconds, then resume from the next step.
+
+## D) Refine active row styling
+
+* Remove harsh borders on the selected row.
+* Use a soft tinted background and subtle inner glow instead.
+* Tighten spacing in the right panel so bullets feel balanced.
+
+Acceptance criteria
+
+* Module is not oversized.
+* Line never shows through circles.
+* Auto-advance works and pauses after user interaction.
+
+---
+
+# 2) Fix “Real world examples” to expand on hover (no click required)
+
+Goal
+Make it obvious the example cards are interactive, and allow users to reveal content just by hovering.
+
+## A) Hover-to-expand interaction (desktop)
+
+* Each example card should expand smoothly on hover without requiring a click.
+* On hover:
+
+  * Card lifts slightly (very subtle)
+  * Border glow increases softly
+  * Content expands with a smooth height transition
+* On mouse leave:
+
+  * Card collapses back smoothly
+
+Timing
+
+* Expand/collapse transition: 200ms to 320ms, ease-out.
+
+Important behavior rules
+
+* Hover should expand only on desktop devices where hover exists.
+* On touch devices (mobile/tablet), keep click-to-toggle behavior to avoid accidental opens.
+
+## B) Remove the plus icon and add hover affordance
+
+* Remove the plus icon on the right.
+* Replace it with a micro-label that appears on hover only:
+
+  * Text: “Hover to preview”
+  * Very small, subtle, aligned right in the header row
+* On hover, fade the label in. On hover out, fade it out.
+
+## C) Make the two columns not look identical even if pricing is missing
+
+Do NOT invent numbers.
+
+If pricing numbers are missing, keep placeholders but make them clearly distinct:
+
+Without AI Tutor column placeholders must say:
+
+* “Insert slide pricing numbers (without AI Tutor)”
+
+With AI Tutor column placeholders must say:
+
+* “Insert slide pricing numbers (with AI Tutor)”
+
+Keep the helper line different as it already is:
+
+* Without: “Standard delivery without real time tutoring support.”
+* With: “Includes built in AI Tutor support during learning.”
+
+If real pricing values exist in the codebase, bind to them instead of placeholders:
+
+* example.withoutAiTutor.learnerSeats / teacherSeat / packageOneTime
+* example.withAiTutor.learnerSeats / teacherSeat / packageOneTime
+
+## D) Keep expansion stable (no layout jumping)
+
+* Prevent the entire page from jumping when a card expands:
+
+  * Use a reserved collapsed height and expand within the card
+  * Or use transform/clip strategies so layout shift is minimal
+* Keep spacing consistent between example cards.
+
+Acceptance criteria
+
+* Desktop: hovering over an example expands it smoothly without clicking.
+* Mobile: tap still toggles expand/collapse.
+* No plus icon. Hover affordance is clear.
+* Columns do not display identical placeholder strings.
+
+---
+
+Deliverable
+Apply these updates to the existing page so the stepper module and examples feel premium, interactive, and consistent with LearnPack styling.

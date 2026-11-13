@@ -1,0 +1,107 @@
+Perfecto Lolo, ya identifiqué exactamente lo que está fallando y cómo debe rediseñarse para mantener **coherencia estética**, **claridad funcional** y **originalidad visual**.
+Aquí tienes **el PROMPT FINAL** para corregir todo lo que mencionaste y añadir la sección FAQ.
+
+Este prompt está optimizado para que el Builder lo entienda sin ambigüedades.
+
+---
+
+# ✅ **PROMPT FINAL PARA REPLIT BUILDER (correcciones + FAQs)**
+
+Quiero que apliques los siguientes ajustes específicos a la página **Adaptive Course Intelligence**. Mantén toda la estética del sitio LearnPack (paleta de azules, fondo de estrellas, tipografía, estilo elegante, sin em dash). No cambies nada que no esté listado aquí.
+
+---
+
+## **1. Mejorar el diseño de la sección “Static learning cannot keep up.”**
+
+Las tarjetas se ven demasiado simples.
+
+* Mantén el formato de tres columnas.
+* Agrega un diseño más interesante:
+
+  * Ícono dentro de un círculo con glow azul suave.
+  * Borde exterior con opacidad baja.
+  * Sombra muy sutil para dar profundidad.
+  * Fondo ligeramente más oscuro que el fondo general.
+* Aumenta la jerarquía visual del título y el espaciado interno de cada tarjeta.
+* Todo debe verse más premium, menos plano.
+
+---
+
+## **2. Rediseñar completamente “Your content evolves with every interaction.”**
+
+No quiero círculos tan simples ni una línea gruesa que se vea genérica.
+
+Sigue estas instrucciones:
+
+* Reemplaza los círculos por **íconos dentro de contenedores minimalistas**, forma de rombo o hexágono suave.
+* Usa una línea de conexión más fina, elegante y con un glow azul sutil.
+* Evita cajas rectangulares, pero dale más estructura que solo texto.
+* Asegura que esta sección se vea más tecnológica y moderna.
+* El flujo debe verse fluido, no rígido.
+
+---
+
+## **3. Centrar correctamente la sección “How LearnPack adapts instruction in real time.”**
+
+El contenido no está centrado correctamente respecto al título. Debe corregirse.
+
+* El título está bien centrado.
+* El bloque que contiene los pasos verticales y el mockup debe centrarse como un **grupo completo** bajo el título.
+* Aumenta el espacio entre la columna de pasos y la imagen para que no estén pegados.
+* Asegura que ambos lados tengan la misma distancia con respecto al centro visual.
+* Los círculos de los pasos deben alinearse verticalmente y tener espacio uniforme entre ellos.
+
+---
+
+## **4. Ajustar la sección “What adaptation looks like in practice.”**
+
+Antes las cajas representaban selecciones del gráfico anterior. Hoy ya no representan selección, así que no deben verse como “selected”.
+
+* Quitar el efecto de “selección activa” del primer item ("Extra example added").
+* Todos los items deben verse iguales y con el mismo estilo.
+* Cada caja debe representar simplemente un tipo de adaptación, sin estado activo.
+* Mantener el diseño actual porque visualmente es bonito, solo hacerlo coherente con la nueva intención.
+* Ajustar el texto si es necesario para que la lista tenga un sentido claro:
+
+  * Estas son las formas en que LearnPack adapta el contenido.
+  * No son botones ni filtros.
+
+---
+
+## **5. Añadir sección de FAQs al final antes del footer**
+
+Añadir una nueva sección titulada **FAQs**, estilo acordeón minimalista.
+
+Agregar las siguientes preguntas y respuestas:
+
+**What is Adaptive Course Intelligence in LearnPack?**
+Adaptive Course Intelligence is the system that analyzes learner behavior, frustration signals and performance patterns to adjust content difficulty, explanations and pacing in real time.
+
+**How does LearnPack personalize training automatically?**
+LearnPack detects when a learner is stuck or progressing quickly and instantly adapts lessons, adds examples, simplifies explanations or increases challenge levels without manual editing from instructors.
+
+**Is Adaptive Course Intelligence useful for corporate training?**
+Yes. Companies use LearnPack to improve completion rates, reduce dropout by 50 percent and provide role specific guidance through real time adaptation and contextual support during training.
+
+Diseño del FAQ:
+
+* Fondo limpio, sin tarjetas grandes.
+* Acordeones finos, borde fino azul, texto blanco.
+* Estilo consistente con el resto del sitio.
+
+---
+
+## **6. Ajustes finales**
+
+* Revisar spacing general: no dejar secciones demasiado separadas.
+* Asegurar alineación y equilibrio visual en todas las secciones.
+* Asegurar que ningún elemento use líneas verticales decorativas.
+* Mantener la atmósfera de estrellas y glows suaves.
+
+---
+
+### **Aplica solo estos cambios sin alterar nada más del diseño existente.**
+
+---
+
+Cuando lo quieras, puedo preparar la versión en español de los FAQs o pulir el copy final para todas las secciones.

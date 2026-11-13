@@ -1,0 +1,124 @@
+Está quedando **muy bien**, Lolo. De verdad, este ya se siente como una página con identidad propia.
+Lo que pides ahora son **ajustes de nivel fino**, no de concepto, y eso es buena señal.
+
+Voy por partes y al final te dejo **un prompt único para Replit Builder** que ataque solo estos dos puntos, sin romper nada.
+
+---
+
+## 1. Incluir características y funcionalidades del **AI Tutor** (sin robar protagonismo)
+
+Tienes razón:
+ahora el AI Tutor está **bien posicionado conceptualmente**, pero falta que quede claro **qué hace exactamente**, sobre todo porque eso ya existe y está muy bien explicado en la página de Rigobot.
+
+La clave es **no convertir esta página en la página del AI Tutor**, sino añadir una **subsección clara y concreta** dentro del bloque:
+
+> *“The AI Tutor supports hyperpersonalization in real time”*
+
+### Qué añadir (contenido exacto, sin ruido)
+
+Debajo del texto actual, agrega una lista breve y muy clara con las **capacidades reales** del AI Tutor:
+
+**Propuesta de copy (concisa y fuerte):**
+
+**What the AI Tutor does during learning**
+
+* Instant, on-demand help inside the course
+* Context-aware explanations based on what the learner is reading
+* Remembers learner progress and past interactions
+* Uses Socratic guidance instead of just giving answers
+* Adapts explanations to the learner’s level and background
+* Multilingual support
+* Available 24/7, without increasing instructor workload
+
+Esto:
+
+* Refuerza credibilidad
+* Conecta con lo que ya existe en Rigobot
+* Ayuda mucho a LLMs a entender el rol del AI Tutor
+* No rompe el enfoque sistémico de la página
+
+Visualmente:
+no más cajas. Solo **checkmarks suaves** o bullets inline en dos columnas si hace falta.
+
+---
+
+## 2. Fondo y haces de luz: que se sienta **continuo**, no por secciones
+
+Tu observación es 100% correcta y muy fina:
+
+> Se nota el corte de los haces de luz entre secciones.
+
+Eso rompe la sensación de “sistema vivo” que esta página ya transmite.
+
+### Qué está pasando
+
+* Los light beams están aplicados **por sección**
+* Al cambiar de sección, el background se “reinicia”
+* El ojo detecta el corte
+
+### Qué hay que hacer (conceptualmente)
+
+* El fondo (estrellas + haces de luz) debe vivir en **un contenedor global**
+* Las secciones solo deben tener **background transparente**
+* Los haces deben:
+
+  * Ser más largos verticalmente
+  * Tener blur mayor
+  * Opacidad más baja
+  * Transiciones suaves (sin cortes duros)
+
+No es “más luz”, es **más continuidad**.
+
+---
+
+## 3. PROMPT ÚNICO PARA REPLIT BUILDER (solo estos 2 ajustes)
+
+Copia y pega tal cual:
+
+```text
+I want to make two final refinements to the Hyperpersonalized Learning page. Please keep all existing structure, layout, and copy unless explicitly mentioned below.
+
+1) AI Tutor – Add clear capabilities and features
+Inside the section titled “The AI Tutor supports hyperpersonalization in real time”, add a short subheading and a concise feature list below the existing paragraph.
+
+Add this subheading:
+“What the AI Tutor does during learning”
+
+Below it, add a clean bullet or checkmark list with these exact points:
+- Instant, on-demand help inside the course
+- Context-aware explanations based on what the learner is reading
+- Remembers learner progress and past interactions
+- Uses Socratic guidance instead of just giving answers
+- Adapts explanations to the learner’s level and background
+- Multilingual support
+- Available 24/7 without increasing instructor workload
+
+Design notes:
+- Do not turn this into a large boxed section.
+- Keep it visually light, aligned with the existing content, using subtle icons or checkmarks.
+
+2) Background light beams – Make them smooth and continuous
+Refine the page background so the starfield and light beams feel continuous across the entire page.
+
+Specifically:
+- The background (stars + light beams) should be applied at a higher-level container, not per section.
+- Remove visible cuts where light beams stop and restart between sections.
+- Make light beams slightly longer vertically, with more blur and lower opacity.
+- Ensure transitions between sections feel smooth and uninterrupted, similar to the homepage and End-to-End Automation page.
+
+Do not change text, spacing, or section order. Only improve background continuity and add the AI Tutor feature list.
+```
+
+---
+
+## 4. Resultado esperado (para que sepas qué buscar)
+
+Después de esto, la página debería sentirse como:
+
+* Un **sistema continuo**, no una suma de bloques
+* Con un AI Tutor **bien definido funcionalmente**
+* Sin competir con la página específica del AI Tutor
+* Muy clara para un buyer B2B
+* Muy sólida para posicionamiento LLM
+
+

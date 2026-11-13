@@ -1,0 +1,137 @@
+
+
+Esta parte corrige:
+
+* Automation vs Control
+* Where end to end automation shines
+* FAQs en formato homepage
+* Elimina métricas repetidas
+* Ajusta alineación y estética glowy
+
+Pega esto después de que la Parte 1 ya esté aplicada.
+
+---
+
+# **PROMPT PARTE 2 PARA REPLIT BUILDER**
+
+Quiero que apliques los siguientes cambios al resto de la página End to End Automation.
+Mantén el estilo visual del homepage: glows suaves, estrellas, bordes luminosos y buen espaciado.
+
+---
+
+## **1. Automation vs Control**
+
+Rediseñar esta sección completamente.
+Debe sentirse premium, centrada y clara.
+
+Instrucciones:
+
+* Crear dos columnas perfectamente centradas
+* Títulos claros: Automated y You control
+* Alinear todos los ítems horizontalmente
+* Agregar un divisor vertical delgado con efecto de luz suave
+* Usar iconos pequeños glowy en cada fila
+* No usar cajas ni fondos oscuros
+* Aumentar espaciado vertical entre filas
+* Incluir frases completas en ambas columnas
+
+Remplazar contenido por:
+
+Automated
+Course structure
+LearnPack proposes lesson outlines and assessments.
+
+Content wording
+AI drafts text that you can refine.
+
+Learner support
+Rigobot the AI tutor answers learner questions and escalates when needed.
+
+SCORM and delivery
+One click export ready for any LMS.
+
+Localization
+AI generates multilingual versions for you to review.
+
+You control
+Final structure, tone and accuracy
+Content decisions and approvals
+Escalated learner cases
+Compliance notes
+Terminology and local nuance
+
+---
+
+## **2. Where end to end automation shines**
+
+Actualizar esta sección para que sea visualmente más representativa.
+
+Instrucciones:
+
+* No usar tarjetas
+* Reemplazar iconos planos por iconos circulares con glow tenue
+* Aumentar el tamaño de los iconos
+* Ubicar cada use case dentro de un círculo luminoso con título debajo
+* Centrar cada ítem y añadir más espacio horizontal para dar importancia visual
+* Usar dos filas limpias en vez de un solo row compacto
+
+Contenido:
+
+Employee onboarding
+Launch consistent training across teams with minimal setup.
+
+Product and sales training
+Provide always aligned material as product knowledge evolves.
+
+Technical and tools training
+Turn documentation into guided practice and interactive materials.
+
+Compliance and policies
+Translate policy changes into clear training rapidly.
+
+---
+
+## **3. Remove metrics section**
+
+Eliminar la sección de métricas porque ya existe en la homepage.
+Quitar completamente ese bloque.
+
+---
+
+## **4. FAQ section**
+
+Cambiar el diseño para que coincida con el estilo desplegable del homepage.
+
+Instrucciones:
+
+* Usar exactamente el formato de dropdown acordeón del homepage
+* Títulos centrados
+* Espaciado más amplio
+* Sin mencionar updates en ningún texto
+
+Contenido actualizado:
+
+What formats can I upload
+You can upload PDFs, videos, presentations, internal documents or simply describe your idea and the system generates a first version.
+
+Does it work with our LMS
+Yes. You can export SCORM or embed modules directly.
+
+How fast can I create a new course
+Most courses can be created or regenerated quickly using the same source materials.
+
+---
+
+## **5. Alignment and atmosphere**
+
+Ajustes finales:
+
+* Alinear todos los títulos con el ancho visual del hero
+* Añadir un glow muy suave detrás de la sección Automation vs Control
+* Mantener presencia ligera de estrellas en las secciones inferiores
+* Evitar cualquier apariencia de tarjetas invisibles
+* Mantener consistencia visual con la sección hero
+
+---
+
+

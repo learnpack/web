@@ -1,0 +1,135 @@
+Aquí tienes **el prompt PERFECTO para Replit Builder**, diseñado para corregir todos los problemas que mencionaste y avanzar con una versión mucho más sólida, clara y con intención visual.
+
+Este prompt ya incluye tus criterios guardados y las correcciones exactas que quieres.
+Puedes copiar y pegar directamente en el Builder.
+
+---
+
+# ✅ **PROMPT PARA REPLIT BUILDER (versión corregida y optimizada)**
+
+Quiero que mejores la página **Adaptive Course Intelligence** siguiendo exactamente estas instrucciones. No cambies los colores, tipografías ni el fondo general. Mantén la paleta de azules, el fondo de estrellas y la estética de LearnPack. No uses em dash. No repitas layouts de otras secciones.
+
+---
+
+# 🎯 **1. HERO SECTION (corregir posición y composición)**
+
+* Sube todo el hero aproximadamente 60 a 100 píxeles para que el título sea visible sin scroll.
+* Mantén la simulación de pantalla a la derecha.
+* Alinea el texto del H1 verticalmente al centro del mockup.
+* Elimina cualquier línea vertical de luz en esta sección y en toda la página. Conserva solo el fondo de estrellas y un glow suave detrás del mockup si lo ves necesario.
+
+---
+
+# 🎯 **2. ELIMINAR LÍNEAS DE LUZ VERTICALES EN TODA LA PÁGINA**
+
+* Solo deja el fondo de estrellas.
+* No uses líneas verticales de luz atravesando la página.
+* Puedes dejar uno o dos haces de luz MUY sutiles en secciones clave, pero no repetitivos ni invasivos.
+
+---
+
+# 🎯 **3. REDISEÑAR “STATIC LEARNING CANNOT KEEP UP”**
+
+* Elimina el layout tipo escalera.
+* Cambia a un diseño más limpio con **tres columnas rectas**, cada una con su ícono arriba.
+* Tarjetas minimalistas con borde muy sutil en azul eléctrico.
+* Mejor legibilidad y equilibrio visual.
+* No deben flotar ni estar inclinadas.
+
+Nuevo layout:
+Columnas centradas, ícono arriba, título debajo y descripción corta.
+
+---
+
+# 🎯 **4. REDISEÑAR “YOUR CONTENT EVOLVES WITH EVERY INTERACTION”**
+
+* No uses cajas aquí porque la sección anterior también usa tarjetas.
+* Cambia a un diseño más ligero:
+
+  * Tres elementos horizontales con íconos grandes
+  * Sin fondos de tarjeta
+  * Solo texto e ícono
+  * Conexión visual con una línea horizontal sutil en azul eléctrico
+
+Esto evita repetición y mejora la variedad visual.
+
+---
+
+# 🎯 **5. REDISEÑAR COMPLETAMENTE “HOW LEARNPACK ADAPTS INSTRUCTION IN REAL TIME”**
+
+El diseño actual no funciona. Reemplazar por:
+
+**Layout split screen profesional:**
+
+**Lado izquierdo:**
+
+* Timeline vertical
+* Pasos centrados y alineados:
+
+  * Observe
+  * Interpret
+  * Act
+  * Validate
+* Íconos simples y claros junto a cada paso
+* Separación uniforme entre pasos
+
+**Lado derecho:**
+
+* Mockup claro que represente adaptación real:
+
+  * Por ejemplo, un bloque de contenido que cambia o se ajusta
+  * Nada abstracto ni confuso
+
+Todo debe estar centrado, limpio, balanceado visualmente.
+
+---
+
+# 🎯 **6. REVISAR LA SECCIÓN “WHAT ADAPTATION LOOKS LIKE IN PRACTICE”**
+
+* Mantén la estética porque se ve bien, pero la gráfica debe ser más clara.
+* Cambia la gráfica actual por una que represente explícitamente:
+
+  * Cambio de dificultad
+  * Adición de ejemplo
+  * Aumento de engagement
+* La gráfica debe tener labels claros y propósito evidente.
+* Puedes usar barras con etiquetas Before y After.
+
+---
+
+# 🎯 **7. REDISEÑAR LOS USE CASES (“WHERE ADAPTIVE INTELLIGENCE MAKES THE BIGGEST IMPACT”)**
+
+* Elimina el diseño actual, no tiene intención visual.
+* Cada use case debe ser una **píldora ovalada** con borde azul y fondo ligeramente más oscuro.
+* Ícono pequeño a la izquierda del texto.
+* Organízalos en dos líneas con buen espaciado.
+* Deben sentirse parte del diseño y no flotando.
+
+Items:
+
+* Onboarding
+* Compliance
+* Software Training
+* Customer Education
+* Sales Enablement
+
+---
+
+# 🎯 **8. MANTENER CONSISTENCIA GENERAL**
+
+* No usar cajas seguidas en dos secciones.
+* Mantener ritmo visual y variedad de layouts.
+* Usar la paleta azul de LearnPack (la misma que ya está en el sitio).
+* Mantener el fondo de estrellas en todas las secciones.
+* No usar ningún tipo de línea vertical como decoración.
+* Asegurar que toda la página respire elegancia y orden.
+
+---
+
+# 🧩 **OBJETIVO FINAL DEL PROMPT**
+
+Aplicar todas estas correcciones en la página actual para lograr un diseño limpio, profesional, claro y totalmente alineado al brand LearnPack.
+
+---
+
+Si quieres, te hago una **versión corta** del prompt para el Builder o una **versión modular por secciones**.

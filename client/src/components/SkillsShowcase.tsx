@@ -60,7 +60,7 @@ const skillTopics = [
 ];
 
 export default function SkillsShowcase() {
-  const { t } = useTranslation();
+  const { t } = useTranslation('home');
   
   // Create multiple rows for a more dense cloud effect
   const createTagRow = (startIndex: number, reverse: boolean = false, delayOffset: number = 0) => {
@@ -94,7 +94,7 @@ export default function SkillsShowcase() {
 
   return (
     <section className="py-24 bg-card/20 overflow-hidden" data-testid="section-skills-showcase">
-      <div className="container mx-auto px-4">
+      <div className="content-container">
         <div className="text-center space-y-4 mb-16">
           <h2 
             className="text-3xl md:text-4xl font-bold"

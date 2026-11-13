@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "title": "Our Mission - LearnPack | Democratizing Education",
+    "description": "LearnPack's mission is to democratize education by decentralizing content creation. Empowering teachers, experts, and corporations to create, distribute, and monetize training with AI.",
+    "keywords": "education democratization, AI course creation, educational technology mission, learning content creation, teacher empowerment",
+    "ogTitle": "Our Mission - LearnPack | Democratizing Education",
+    "ogDescription": "LearnPack's mission is to democratize education by decentralizing content creation. Empowering teachers, experts, and corporations to create, distribute, and monetize training with AI.",
+    "twitterTitle": "Our Mission - LearnPack | Democratizing Education",
+    "twitterDescription": "LearnPack's mission is to democratize education by decentralizing content creation. Empowering teachers, experts, and corporations to create, distribute, and monetize training with AI."
+  },
+  "hero": {
+    "title": "Our Mission"
+  },
+  "statements": {
+    "statement1": {
+      "text": "Learning starts with a book, syllabus, or certification.",
+      "highlight": "Whoever controls that asset, controls the class, credentials, learning experience, and economics."
+    },
+    "statement2": {
+      "text": "LearnPack",
+      "highlight1": "decentralizes this power",
+      "text2": ", cutting creation costs/time up to",
+      "highlight2": "80%",
+      "text3": ", democratizing publishing in the educational world.",
+      "highlight3": "Empowering teachers, experts, and corporations to create, distribute, monetize training."
+    },
+    "statement3": {
+      "text": "Our",
+      "highlight1": "AI agent",
+      "text2": "lets creators transform any PDF, video, or document into production-ready courses or augmented books published",
+      "highlight2": "in minutes",
+      "text3": "."
+    }
+  },
+  "cta": {
+    "title": "Ready to Transform Education?",
+    "subtitle": "Join thousands of educators, trainers, and experts democratizing learning content creation.",
+    "button": "Get Started Free"
+  }
+}

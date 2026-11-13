@@ -14,3 +14,13 @@ redirects:
   
   - from: /legacy-terms
     to: /terms-and-conditions
+
+  # Use cases redirects (hyphenated to non-hyphenated)
+  - from: /use-cases/compliance
+    to: /usecases/compliance
+  
+  - from: /use-cases/role-based
+    to: /usecases/role-based
+  
+  - from: /use-cases/software-training
+    to: /usecases/software-training

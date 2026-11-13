@@ -1,0 +1,208 @@
+{
+  "meta": {
+    "title": "Compliance Training & Certification | LearnPack",
+    "description": "Turn any policy, SOP, or regulation into interactive compliance training. Export to SCORM, track learning quality, and stay audit-ready.",
+    "keywords": "compliance training, certification tracking, audit documentation, SCORM export, regulatory training, policy training, SOC 2, ISO 27001, HIPAA training"
+  },
+  "hero": {
+    "title": "Compliance training that stays audit ready.",
+    "subtitle": "Turn any policy, SOP, or regulation into an interactive course in minutes, export to SCORM, and track learning quality, not just clicks.",
+    "metrics": {
+      "cost": "Up to 80% lower content cost",
+      "completion": "2× completion rates",
+      "scorm": "SCORM export + LMS compatible",
+      "analytics": "Real-time learning analytics"
+    },
+    "ctaDemo": "Book a Demo",
+    "ctaResults": "See Results"
+  },
+  "definition": {
+    "en": "LearnPack helps teams convert compliance materials into interactive training packages with measurable outcomes, exports, and update control.",
+    "es": "LearnPack convierte materiales de compliance en cursos interactivos con métricas, control de cambios y exportación lista para LMS."
+  },
+  "whyFails": {
+    "title": "Why compliance training fails in real life",
+    "narrative": "Most compliance training becomes outdated the moment regulations change. Teams click through content to complete requirements, auditors demand evidence and version history, and global organizations struggle with multilingual delivery. The result: checkbox training that protects no one.",
+    "signals": {
+      "versionDrift": "Version drift",
+      "lowCompletion": "Low completion",
+      "noProof": "No proof of understanding",
+      "manualUpdates": "Manual updates"
+    }
+  },
+  "toggle": {
+    "title": "What 'certification-ready' looks like in LearnPack",
+    "tabBefore": "Before LearnPack",
+    "tabWith": "With LearnPack",
+    "rows": {
+      "contentUpdates": {
+        "label": "Content updates",
+        "before": "Manual edits, long cycles, inconsistent versions",
+        "with": "Fast updates, controlled publishing, version tracking"
+      },
+      "auditEvidence": {
+        "label": "Evidence for audits",
+        "before": "Scattered spreadsheets, completion timestamps only",
+        "with": "Trackable evidence, exportable reports, package version history"
+      },
+      "learnerSupport": {
+        "label": "Learner support",
+        "before": "Trainers answer repeated questions manually",
+        "with": "AI Tutor provides instant, contextual help"
+      },
+      "lmsDeployment": {
+        "label": "Deployment to LMS",
+        "before": "Custom integrations, format compatibility issues",
+        "with": "One-click SCORM export, embed via iFrame"
+      }
+    },
+    "footnote": "LearnPack is designed to fit compliance-oriented environments by giving teams portability, exports, and measurable training signals."
+  },
+  "timeline": {
+    "title": "Compliance workflows teams actually run",
+    "steps": {
+      "import": {
+        "title": "Import your policy",
+        "description": "Upload an AML policy PDF, OSHA safety SOP, or internal Code of Conduct."
+      },
+      "generate": {
+        "title": "Generate training package",
+        "description": "Lessons + scenario practice + quizzes are created automatically."
+      },
+      "approve": {
+        "title": "Approve and publish",
+        "description": "Internal reviewers validate content before distribution."
+      },
+      "deliver": {
+        "title": "Deliver through your LMS",
+        "description": "Export via SCORM or embed via iFrame."
+      },
+      "prove": {
+        "title": "Prove training quality",
+        "description": "See completion, attempts, and frustration signals."
+      }
+    }
+  },
+  "regulated": {
+    "title": "Built for regulated environments",
+    "bullets": [
+      "Portability and infrastructure independence",
+      "SCORM export for standard LMS workflows",
+      "Role separation: creators vs learners",
+      "Audit-friendly reporting signals",
+      "Multilingual delivery for distributed teams"
+    ],
+    "badges": [
+      "Supports compliance needs",
+      "Fits ISO 27001 / SOC 2 aligned environments",
+      "HIPAA-ready workflows (when deployed in compliant infrastructure)",
+      "FedRAMP-aligned deployments (environment dependent)",
+      "SCORM 1.2 / 2004"
+    ]
+  },
+  "departments": {
+    "title": "Examples by department",
+    "cards": {
+      "banking": {
+        "title": "AML and KYC refresh training",
+        "outcomes": [
+          "Turn a regulatory update into an interactive package in minutes",
+          "Track quiz attempts and where learners struggle",
+          "Export to SCORM for LMS assignment evidence"
+        ],
+        "input": "PDF/SOP",
+        "output": "Interactive package + analytics + export"
+      },
+      "healthcare": {
+        "title": "Privacy and data handling",
+        "outcomes": [
+          "Scenario-based practice instead of pure reading",
+          "Multilingual delivery for frontline teams",
+          "AI Tutor support to reduce confusion"
+        ],
+        "input": "PDF/SOP",
+        "output": "Interactive package + analytics + export"
+      },
+      "manufacturing": {
+        "title": "Safety SOPs and incident prevention",
+        "outcomes": [
+          "Micro-assessments per procedure",
+          "Spot frustration signals before failures",
+          "Fast updates when SOP changes"
+        ],
+        "input": "PDF/SOP",
+        "output": "Interactive package + analytics + export"
+      }
+    }
+  },
+  "analytics": {
+    "title": "Analytics designed for evidence, not vanity metrics",
+    "columns": {
+      "assigned": {
+        "title": "What was assigned",
+        "items": [
+          "Seats enrolled",
+          "Modules opened",
+          "Content versions"
+        ]
+      },
+      "understood": {
+        "title": "What was understood",
+        "items": [
+          "Quiz attempts",
+          "Wrong-answer patterns",
+          "Time-on-task"
+        ]
+      },
+      "proven": {
+        "title": "What can be proven",
+        "items": [
+          "Completion logs",
+          "Exportable reports",
+          "Package version"
+        ]
+      }
+    },
+    "callout": "Real-time insight into engagement and frustration, not just clicks."
+  },
+  "caseStory": {
+    "title": "Example: Compliance rollout inside a bank",
+    "challenge": {
+      "label": "Challenge",
+      "text": "Policy updates happen frequently, proof is required, learners disengage"
+    },
+    "approach": {
+      "label": "LearnPack approach",
+      "text": "Generate package from updated policy, publish, deliver through SCORM, AI Tutor supports learners"
+    },
+    "outcome": {
+      "label": "Outcome",
+      "text": "Faster updates, clearer evidence signals, improved completion tendency"
+    },
+    "footnote": "Metrics vary by deployment. See Results for methodology."
+  },
+  "faqs": {
+    "title": "FAQs",
+    "lastUpdated": "Last updated: January 2026",
+    "items": {
+      "scorm": {
+        "question": "Does LearnPack export to SCORM for compliance tracking?",
+        "answer": "Yes. Export packages to SCORM 1.2/2004 and deliver through your LMS."
+      },
+      "certified": {
+        "question": "Is LearnPack certified for ISO 27001, SOC 2, HIPAA, or FedRAMP?",
+        "answer": "LearnPack is designed to fit regulated environments through portability and deployment control. Certification depends on the infrastructure and organization running the deployment."
+      },
+      "updates": {
+        "question": "How do updates work when regulations change?",
+        "answer": "You can regenerate or refine content quickly, publish the new version, and keep training consistent across teams."
+      }
+    }
+  },
+  "cta": {
+    "headline": "Make compliance training measurable and maintainable.",
+    "subline": "Turn policies into interactive training packages in minutes.",
+    "ctaDemo": "Book a Demo",
+    "ctaStart": "Start for Free"
+  }
+}

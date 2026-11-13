@@ -4,40 +4,77 @@ Thank you for your interest in contributing to the LearnPack website! This guide
 
 ## 📁 Translation Files Structure
 
-The website supports **English (en)** and **Spanish (es)** translations. Translation files are organized as follows:
+The website supports **English (en)** and **Spanish (es)** translations. Translation files are organized by page for better maintainability:
 
 ```
 client/public/
 ├── locales/
 │   ├── en/
-│   │   └── common.json          # General English translations
+│   │   ├── common.json          # Shared UI (nav, footer, common strings)
+│   │   ├── home.json            # Homepage content + SEO meta
+│   │   ├── pricing.json         # Pricing page content + SEO meta
+│   │   ├── mission.json         # Our Mission page content + SEO meta
+│   │   └── legal.json           # Terms & Privacy page SEO meta
 │   └── es/
-│       └── common.json          # General Spanish translations
-├── plan-features.en.json        # English pricing features
-└── plan-features.es.json        # Spanish pricing features
+│       ├── common.json          # Shared Spanish UI
+│       ├── home.json            # Spanish homepage content + SEO meta
+│       ├── pricing.json         # Spanish pricing content + SEO meta
+│       ├── mission.json         # Spanish mission content + SEO meta
+│       └── legal.json           # Spanish legal page SEO meta
+├── plan-features.en.json        # English pricing features (dynamic)
+└── plan-features.es.json        # Spanish pricing features (dynamic)
 ```
 
 ## 🌍 Translation Categories
 
-### 1. General Translations (`locales/{lang}/common.json`)
+### 1. Shared Translations (`locales/{lang}/common.json`)
 
-These files contain all general website content including:
+Contains UI elements shared across all pages:
 
 - **Navigation** (`nav`): Header menu items
+- **Footer** (`footer`): Footer links and sections
+- **Common** (`common`): Shared UI strings (error, loading, success)
+
+### 2. Homepage Translations (`locales/{lang}/home.json`)
+
+Homepage-specific content and SEO:
+
+- **Meta** (`meta`): SEO metadata (title, description, Open Graph, Twitter Cards)
 - **Hero Section** (`hero`): Main homepage content and form
+- **Social Proof** (`socialProof`): Trusted institutions section
 - **Value Propositions** (`valueProps`): Feature highlights
 - **Skills Showcase** (`skills`): Skill categories
 - **How It Works** (`howItWorks`): Process steps
 - **Statistics** (`stats`): Homepage metrics
 - **Use Cases** (`useCases`): Application scenarios
-- **Pricing** (`pricing`): Pricing page content (excluding dynamic features)
+- **Community** (`community`): Community section
 - **Final CTA** (`finalCta`): Call-to-action sections
-- **Footer** (`footer`): Footer links and sections
-- **Meta Tags** (`meta`): SEO metadata
 - **Video Demo** (`videoDemo`): Demo section content
-- **Common** (`common`): Shared UI strings (error, loading, success)
 
-### 2. Pricing Features (`plan-features.{lang}.json`)
+### 3. Pricing Page Translations (`locales/{lang}/pricing.json`)
+
+Pricing page content and SEO:
+
+- **Meta** (`meta`): SEO metadata for pricing page
+- **Pricing** (`pricing`): Pricing page content (excluding dynamic features)
+
+### 4. Our Mission Page Translations (`locales/{lang}/mission.json`)
+
+Mission page content and SEO:
+
+- **Meta** (`meta`): SEO metadata for mission page
+- **Hero** (`hero`): Mission page title
+- **Statements** (`statements`): Mission statements content
+- **CTA** (`cta`): Call-to-action content
+
+### 5. Legal Pages Translations (`locales/{lang}/legal.json`)
+
+SEO metadata for legal pages:
+
+- **Terms Meta** (`terms.meta`): SEO metadata for terms page
+- **Privacy Meta** (`privacy.meta`): SEO metadata for privacy page
+
+### 6. Pricing Features (`plan-features.{lang}.json`)
 
 These files contain dynamic pricing plan features and descriptions:
 
@@ -77,9 +114,13 @@ git checkout -b add-french-language
 
 #### Editing Existing Translations
 
-1. Navigate to the appropriate file:
-   - General content: `client/public/locales/{lang}/common.json`
-   - Pricing features: `client/public/plan-features.{lang}.json`
+1. Navigate to the appropriate file based on the page:
+   - **Shared UI** (nav, footer): `client/public/locales/{lang}/common.json`
+   - **Homepage content**: `client/public/locales/{lang}/home.json`
+   - **Pricing page**: `client/public/locales/{lang}/pricing.json`
+   - **Mission page**: `client/public/locales/{lang}/mission.json`
+   - **Legal pages SEO**: `client/public/locales/{lang}/legal.json`
+   - **Pricing features** (dynamic): `client/public/plan-features.{lang}.json`
 
 2. Edit the JSON file while maintaining the structure:
 
@@ -108,8 +149,12 @@ git checkout -b add-french-language
 # Create locale directory
 mkdir -p client/public/locales/fr
 
-# Copy English template
+# Copy English templates (all page files)
 cp client/public/locales/en/common.json client/public/locales/fr/common.json
+cp client/public/locales/en/home.json client/public/locales/fr/home.json
+cp client/public/locales/en/pricing.json client/public/locales/fr/pricing.json
+cp client/public/locales/en/mission.json client/public/locales/fr/mission.json
+cp client/public/locales/en/legal.json client/public/locales/fr/legal.json
 cp client/public/plan-features.en.json client/public/plan-features.fr.json
 ```
 
@@ -118,7 +163,11 @@ cp client/public/plan-features.en.json client/public/plan-features.fr.json
 3. Update the i18n configuration in `client/src/i18n/index.ts`:
 
 ```javascript
+// Add to supportedLngs array
 supportedLngs: ['en', 'es', 'fr'], // Add your language code
+
+// Add to ns array
+ns: ['common', 'home', 'pricing', 'mission', 'legal'],
 ```
 
 4. Update the language selector component (if exists) to include the new language
@@ -273,10 +322,18 @@ When applicable, use i18next plural forms:
 
 | Content Type | File Path | Purpose |
 |--------------|-----------|---------|
-| General EN translations | `client/public/locales/en/common.json` | All English UI text |
-| General ES translations | `client/public/locales/es/common.json` | All Spanish UI text |
-| EN pricing features | `client/public/plan-features.en.json` | English pricing content |
-| ES pricing features | `client/public/plan-features.es.json` | Spanish pricing content |
+| Shared UI (EN) | `client/public/locales/en/common.json` | Navigation, footer, common strings |
+| Shared UI (ES) | `client/public/locales/es/common.json` | Navigation, footer, common strings |
+| Homepage (EN) | `client/public/locales/en/home.json` | Homepage content + SEO |
+| Homepage (ES) | `client/public/locales/es/home.json` | Homepage content + SEO |
+| Pricing (EN) | `client/public/locales/en/pricing.json` | Pricing page + SEO |
+| Pricing (ES) | `client/public/locales/es/pricing.json` | Pricing page + SEO |
+| Mission (EN) | `client/public/locales/en/mission.json` | Mission page + SEO |
+| Mission (ES) | `client/public/locales/es/mission.json` | Mission page + SEO |
+| Legal (EN) | `client/public/locales/en/legal.json` | Terms/Privacy SEO |
+| Legal (ES) | `client/public/locales/es/legal.json` | Terms/Privacy SEO |
+| EN pricing features | `client/public/plan-features.en.json` | Dynamic pricing content |
+| ES pricing features | `client/public/plan-features.es.json` | Dynamic pricing content |
 
 ### Testing URLs
 
@@ -343,10 +400,10 @@ node -e "JSON.parse(require('fs').readFileSync('client/public/locales/en/common.
 
 If you're looking for where to contribute, these areas are often in need of updates:
 
-1. **New Features**: Recently added features may lack translations
-2. **Pricing Content**: Frequently updated, needs synchronization
-3. **Error Messages**: Often overlooked but important for UX
-4. **Meta Descriptions**: Critical for SEO in different languages
+1. **SEO Metadata**: Each page (`home.json`, `pricing.json`, `mission.json`, `legal.json`) has meta tags critical for search engine visibility
+2. **New Features**: Recently added features may lack translations
+3. **Pricing Content**: Frequently updated, needs synchronization across all pricing files
+4. **Error Messages**: Often overlooked but important for UX
 
 ## 📜 License
 

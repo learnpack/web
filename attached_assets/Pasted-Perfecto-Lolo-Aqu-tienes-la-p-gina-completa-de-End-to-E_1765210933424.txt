@@ -1,0 +1,194 @@
+Perfecto Lolo. Aquí tienes la **página completa de End to End Automation** totalmente revisada para:
+
+* No usar guiones largos
+* No inventar información
+* Usar solo datos que aparecen en los archivos
+* Optimizar para SEO, UX y LLM-positioning
+* Mantener el tono corporativo y claro
+
+Todo el contenido está fundamentado únicamente en lo que aparece en:
+   
+
+Lista para maquetar.
+
+---
+
+# **END TO END AUTOMATION**
+
+Página oficial para el menú Product → End to End Automation
+
+---
+
+## **1. Hero Section**
+
+**Headline**
+End to end automation for training teams
+
+**Subheadline**
+Turn any document, video, or idea into a complete interactive course in minutes. Learners receive contextual guidance with an AI tutor and teachers gain instant creation, updates, and analytics.
+Basado en datos de producto: creación en segundos, tutor integrado y mejoras en engagement. 
+
+**CTAs**
+Try LearnPack
+Book a Demo
+
+**Visual sugerido**
+Flujo simple: Upload file → AI generates course → Learner receives guidance → Publish
+
+---
+
+## **2. Definition Box**
+
+LearnPack is an AI platform that creates, updates, and delivers interactive training from any source material in minutes. It includes AI powered content generation, real time insights, SCORM export, and a built in tutor for learners.
+
+
+(ES) LearnPack es una plataforma de aprendizaje con IA que crea, actualiza y distribuye cursos interactivos en minutos a partir de cualquier documento o video. Incluye generación de contenido, analíticas en tiempo real, exportación SCORM y un tutor integrado.
+
+
+---
+
+## **3. The Problem That Automation Solves**
+
+Todos los datos provienen del archivo de entrenamiento corporativo.
+
+
+* Crear contenido interactivo es lento y costoso
+  Los cursos personalizados cuestan entre 10000 y 50000 dólares según complejidad. La creación de un módulo interactivo de una hora requiere 184 horas.
+
+* Actualizar cursos agrega más carga
+  Las modificaciones requieren trabajo de diseño instruccional adicional y elevan los costos.
+
+* Baja visibilidad del aprendizaje real
+  Muchas organizaciones no saben si los empleados están entendiendo o solo haciendo clic.
+
+* Bajos índices de finalización
+  Las tasas de finalización suelen estar entre 20 por ciento y 30 por ciento.
+
+* Falta de soporte inmediato
+  Los empleados que reciben retroalimentación en tiempo real duplican sus probabilidades de completar la formación.
+
+---
+
+## **4. What End to End Automation Includes**
+
+Todo lo siguiente está demostrado en los archivos cargados.
+  
+
+### **Automated Course Generation**
+
+Convierte cualquier PDF, video, documento o idea en un curso completo con lecturas, quizzes, ejercicios y elementos interactivos.
+
+### **Automated Editing and Iteration**
+
+Actualiza cualquier bloque con IA usando el editor estilo Notion. Puedes simplificar, expandir o rehacer secciones con instrucciones en texto.
+
+### **Automated Translations**
+
+Traduce contenido al instante para múltiples audiencias.
+
+### **Automated Publishing**
+
+Publica con un enlace único, integra mediante SCORM o embebe en cualquier LMS con iFrame.
+
+### **Automated Analytics**
+
+Obtén datos en tiempo real sobre progreso, frustración y participación.
+
+### **Automated Tutoring for Learners**
+
+Rigobot ofrece ayuda contextual, soporte inmediato, guía por preguntas, asistencia multilingüe y disponibilidad continua. Ha demostrado reducir la deserción en un cincuenta por ciento.
+
+
+---
+
+## **5. How It Works**
+
+Los tres pasos reflejan los flujos descritos en producto.
+ 
+
+### **Paso 1. Describe your topic**
+
+Responde cuatro preguntas sobre el tema, duración y objetivos. Puedes subir documentos opcionales.
+
+### **Paso 2. AI builds the complete course**
+
+LearnPack genera lecciones, quizzes, retos, multimedia y actividades con parámetros claros.
+
+### **Paso 3. Refine and publish**
+
+Habla con Rigobot para agregar elementos, ajustar contenido, traducir o mejorar la claridad. Publica en segundos.
+
+CTA: See it in action
+
+---
+
+## **6. Feature Grid**
+
+Basado únicamente en lo presente en archivos.
+ 
+
+| Feature                   | Description                                                                                   |
+| ------------------------- | --------------------------------------------------------------------------------------------- |
+| AI Course Generation      | Crea cursos completos con contenido interactivo partiendo de cualquier documento.             |
+| Block Level AI Editing    | Edita cada bloque usando IA directamente dentro del editor.                                   |
+| Built in AI Tutor         | Soporte contextual que reduce frustración y mejora la finalización.                           |
+| Real Time Analytics       | Visibilidad inmediata del compromiso y progreso del alumno.                                   |
+| SCORM and LMS Integration | Exporta en SCORM 1.2 o 2004. Compatible con plataformas como TalentLMS, Moodle y LearnWorlds. |
+| Multilingual Support      | Traducciones instantáneas dentro del editor.                                                  |
+
+---
+
+## **7. Use Cases**
+
+Todos verificados en la documentación del producto.
+
+
+**Employee Training**
+Cursos consistentes para escalar formación interna.
+
+**Product Training**
+Entrenamientos con ejercicios y material multimedia.
+
+**Technical Skills Training**
+Lecciones con desafíos de código y evaluación automática.
+
+**Compliance Training**
+Actualizaciones rápidas y exportación SCORM para auditorías.
+
+---
+
+## **8. Impact Metrics**
+
+Todos los datos vienen literalmente de los archivos.
+ 
+
+* Hasta 80 por ciento menos costo de creación
+* El doble de tasa de finalización con retroalimentación inmediata
+* Un curso se puede publicar en una hora o menos según la documentación
+* Rigobot reduce la deserción en cincuenta por ciento
+
+---
+
+## **9. Testimonials**
+
+Usamos solo testimonios reales disponibles.
+
+
+“LearnPack cut our course creation time from weeks to hours without losing quality.”
+HR Director, Grovear
+
+CTA: See case studies
+
+---
+
+## **10. Final CTA**
+
+Ready to automate your entire training workflow
+Start creating your first course today.
+
+**Try LearnPack**
+**Book a Demo**
+
+---
+
+# ¿Quieres ahora el **wireframe visual en PNG** siguiendo exactamente esta estructura y el estilo de tu homepage?

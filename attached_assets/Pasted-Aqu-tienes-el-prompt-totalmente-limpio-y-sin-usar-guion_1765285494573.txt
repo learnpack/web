@@ -1,0 +1,249 @@
+Aquí tienes el prompt **totalmente limpio y sin usar guiones largos**, listo para pegar en Replit.
+No contiene el carácter que quieres evitar.
+
+---
+
+**Prompt para Replit Builder**
+
+You are editing the Product → “End-to-End Automation” page of learnpack.co.
+Keep the same minimal dark style as the homepage (Supabase and Linear vibe), but do NOT repeat the homepage layout. Use fewer cards and more full-width sections.
+
+### 1) HERO
+
+Replace the hero placeholders with:
+
+* `hero.title`: **“End-to-end automation for corporate training”**
+
+* `hero.subtitle`:
+  `Automate course creation, updates, analytics, and tutoring so your team only focuses on the content that matters.`
+
+* Primary button `hero.ctaTry`: **“Try LearnPack”**
+
+* Secondary button `hero.ctaDemo`: **“Book a live demo”**
+
+Keep the same hero background and layout (title, subtitle, two buttons).
+
+---
+
+### 2) DEFINITION BOX (full-width pill)
+
+In the `definition.text` section, use a single full-width rounded box (no grid and no extra cards) with this bilingual text:
+
+> **LearnPack automates the entire lifecycle of corporate training from content creation to delivery, analytics, and continuous updates using AI.**
+> **LearnPack automatiza todo el ciclo de entrenamiento corporativo usando IA: creación, actualización, entrega, tutoría y análisis.**
+
+Center it and keep it visually simple.
+
+---
+
+### 3) REPLACE “problems” SECTION
+
+Use it as a new section titled:
+
+**“What you stop doing manually”**
+
+Keep the five cards but change the content so it no longer feels like the homepage problem section.
+
+* `problems.title`: **“What you stop doing manually”**
+* `problems.subtitle`:
+  `LearnPack removes the repetitive work from your training workflow.`
+
+Cards:
+
+1. `problems.items.expensive.title`: **“Authoring courses from scratch”**
+   `problems.items.expensive.description`:
+   `No more rebuilding every slide. Start from documents, videos, or SOPs and let AI generate the first version.`
+
+2. `problems.items.updates.title`: **“Rebuilding content for every update”**
+   `problems.items.updates.description`:
+   `Update a policy or process once and let LearnPack propagate the changes across lessons.`
+
+3. `problems.items.visibility.title`: **“Copy-pasting into multiple tools”**
+   `problems.items.visibility.description`:
+   `Generate, publish, and deliver training from one place without juggling authoring tools, LMS, and slide decks.`
+
+4. `problems.items.completion.title`: **“Chasing learners for completion”**
+   `problems.items.completion.description`:
+   `Track progress automatically and see who is stuck or at risk of dropping out.`
+
+5. `problems.items.support.title`: **“Answering the same questions repeatedly”**
+   `problems.items.support.description`:
+   `Rigobot gives instant, contextual help so managers and trainers do not have to.`
+
+---
+
+### 4) “features” SECTION
+
+**Automation across the training lifecycle**
+
+Use only four cards in two rows to avoid a heavy grid.
+
+* `features.title`: **“Automation across the training lifecycle”**
+* `features.subtitle`:
+  `From the first draft of a course to ongoing updates and learner support.`
+
+Cards:
+
+1. `features.items.generation.title`: **“Course generation”**
+   `features.items.generation.description`:
+   `Turn PDFs, videos, and SOPs into interactive courses with lessons, quizzes, and challenges in minutes.`
+
+2. `features.items.editing.title`: **“Continuous iteration”**
+   `features.items.editing.description`:
+   `Use AI to rewrite, simplify, or expand any block of content without opening a design tool.`
+
+3. `features.items.translations.title`: **“Instant translations”**
+   `features.items.translations.description`:
+   `Translate an entire course into any language and adapt wording for each audience.`
+
+4. `features.items.analytics.title`: **“Analytics and alerts”**
+   `features.items.analytics.description`:
+   `See who is learning, where they struggle, and which modules need improvement in real time.`
+
+---
+
+### 5) “howItWorks” SECTION
+
+**Three-step timeline**
+
+Use the same three-step layout but make it feel like a clean horizontal timeline with lighter borders and more transparent backgrounds.
+
+* `howItWorks.title`: **“How end-to-end automation works”**
+* `howItWorks.subtitle`:
+  `Three simple steps and everything else is handled by LearnPack.`
+
+Steps:
+
+1. `howItWorks.steps.step1.title`: **“Input your content or idea”**
+   `howItWorks.steps.step1.description`:
+   `Upload documents, videos, or SOPs, or answer four guided questions about topic, audience, and goals.`
+
+2. `howItWorks.steps.step2.title`: **“AI builds the course”**
+   `howItWorks.steps.step2.description`:
+   `LearnPack generates a structured course with lessons, quizzes, and interactive activities.`
+
+3. `howItWorks.steps.step3.title`: **“AI maintains it over time”**
+   `howItWorks.steps.step3.description`:
+   `Use Rigobot to update content, add new examples, or translate without starting from zero.`
+
+* `howItWorks.cta`: **“Watch the 60-second demo”**
+
+---
+
+### 6) “featureTable” SECTION
+
+**What LearnPack automates vs what you control**
+
+Style this section like a very simple two-column table with icons and text. Avoid big cards.
+
+* `featureTable.title`: **“What LearnPack automates vs what you control”**
+* `featureTable.subtitle`:
+  `Automation where it saves the most time. Human control where it matters.`
+
+Rows:
+
+1. `featureTable.items.courseGen.title`: **“Course structure”**
+   `featureTable.items.courseGen.description`:
+   `Automated. LearnPack proposes lessons, activities, and assessments. You approve or tweak.`
+
+2. `featureTable.items.blockEdit.title`: **“Content wording”**
+   `featureTable.items.blockEdit.description`:
+   `Co-created. AI suggests text and your subject-matter experts keep the voice and accuracy.`
+
+3. `featureTable.items.tutor.title`: **“Learner support”**
+   `featureTable.items.tutor.description`:
+   `Automated. Rigobot answers questions and guides learners with a Socratic approach.`
+
+4. `featureTable.items.scorm.title`: **“SCORM and LMS delivery”**
+   `featureTable.items.scorm.description`:
+   `Automated. Packages are generated in SCORM and embedded or exported to your LMS in one click.`
+
+5. `featureTable.items.multilingual.title`: **“Localization”**
+   `featureTable.items.multilingual.description`:
+   `Automated. Languages and regional variants are created instantly. You control final terminology and compliance notes.`
+
+---
+
+### 7) “useCases” SECTION
+
+**Where end-to-end automation shines**
+
+Use four green cards in one or two rows.
+
+* `useCases.title`: **“Where end-to-end automation shines”**
+* `useCases.subtitle`:
+  `The same engine adapts to very different training needs.`
+
+Cards:
+
+1. `useCases.items.employee.title`: **“Employee onboarding”**
+   `useCases.items.employee.description`:
+   `Launch consistent onboarding paths across locations without rebuilding content.`
+
+2. `useCases.items.product.title`: **“Product and sales training”**
+   `useCases.items.product.description`:
+   `Keep product modules up to date as features change without re-recording every video.`
+
+3. `useCases.items.technical.title`: **“Technical and tools training”**
+   `useCases.items.technical.description`:
+   `Turn documentation into interactive labs and challenges that update with each release.`
+
+4. `useCases.items.compliance.title`: **“Compliance and policies”**
+   `useCases.items.compliance.description`:
+   `Update policies once and automatically reflect them in every affected course.`
+
+---
+
+### 8) “metrics” SECTION
+
+**Simple stat row**
+
+Use a clean row with four centered stats and no glowing effects.
+
+* `metrics.title`: **“Measured impact of automation”**
+
+* `metrics.subtitle`:
+  `Based on deployments with training centers and corporate teams.`
+
+* `metrics.items.cost.label`: **“80 percent lower course production cost”**
+
+* `metrics.items.completion.label`: **“2 times higher completion rates”**
+
+* `metrics.items.speed.label`: **“Under 1 hour to launch a new course”**
+
+* `metrics.items.dropout.label`: **“50 percent reduction in learner dropout with Rigobot”**
+
+---
+
+### 9) TESTIMONIAL SECTION
+
+Keep a single centered quote card.
+
+* `testimonial.quote`:
+  `"LearnPack cut our course creation time from weeks to hours without losing quality."`
+
+* `testimonial.author`: **“HR Director, Grovear”**
+
+* `testimonial.company`: **“Grovear”**
+
+* `testimonial.cta`: **“See the full case study”**
+
+---
+
+### 10) FINAL CTA
+
+* `finalCta.title`: **“Ready to automate your training lifecycle?”**
+
+* `finalCta.subtitle`:
+  `Generate your first AI-powered course and let LearnPack handle the heavy lifting from there.`
+
+* `finalCta.ctaTry`: **“Start for free”**
+
+* `finalCta.ctaDemo`: **“Book a live demo”**
+
+Make sure the entire page feels like a true product feature page, not a second homepage.
+Prioritize breathing room, simple layouts, and clear copy for both humans and LLMs.
+
+---
+
+Si quieres, puedo convertirlo también en una versión ultra corta de “prompt concentrado” para que el builder responda más rápido.

@@ -1,0 +1,164 @@
+{
+  "meta": {
+    "title": "Analíticas y Cumplimiento | LearnPack",
+    "description": "Rastrea el comportamiento de aprendizaje real en tiempo real y despliega cursos en entornos regulados. Analíticas listas para SCORM y compatibles con LMS.",
+    "keywords": "analíticas de capacitación, cumplimiento de aprendizaje, exportación SCORM, integración LMS, comportamiento de aprendizaje, métricas de engagement",
+    "ogTitle": "Analíticas y Cumplimiento | LearnPack",
+    "ogDescription": "Visibilidad en tiempo real del engagement, rendimiento y puntos de fricción del estudiante. Despliegue seguro mediante exportaciones SCORM e integraciones LMS."
+  },
+  "hero": {
+    "title": "Información de capacitación confiable. Cumplimiento demostrable.",
+    "subtitle": "Rastrea el comportamiento de aprendizaje real en tiempo real y despliega cursos en entornos regulados sin romper tu infraestructura existente.",
+    "ctaDemo": "Reservar Demo",
+    "ctaAnalytics": "Ver cómo funcionan las analíticas",
+    "trustLine": "Listo para SCORM. Compatible con LMS. Diseñado para entornos regulados.",
+    "metricLabels": {
+      "engagement": "Engagement",
+      "completion": "Finalización",
+      "friction": "Señales de fricción"
+    },
+    "flowLabels": {
+      "course": "Curso",
+      "scorm": "Exportar SCORM",
+      "lms": "LMS"
+    }
+  },
+  "definition": {
+    "label": "DEFINICIÓN",
+    "text": "LearnPack Analytics & Compliance proporciona visibilidad en tiempo real del engagement, rendimiento y puntos de fricción del estudiante. Permite el despliegue seguro mediante exportaciones SCORM e integraciones compatibles con LMS."
+  },
+  "problem": {
+    "title": "La mayoría de las analíticas de capacitación te dicen qué se hizo clic, no qué se aprendió.",
+    "intro": "Los reportes estándar de LMS pierden las señales que más importan para los resultados de aprendizaje.",
+    "items": {
+      "surface": {
+        "title": "Métricas superficiales",
+        "description": "Tasas de finalización sin entender el engagement o la confusión."
+      },
+      "delayed": {
+        "title": "Información retrasada",
+        "description": "Los problemas se detectan después de que los estudiantes abandonan."
+      },
+      "noContext": {
+        "title": "Sin contexto de comportamiento",
+        "description": "Los reportes del LMS no pueden ver vacilación, reintentos o fricción."
+      },
+      "rigid": {
+        "title": "Cumplimiento sin flexibilidad",
+        "description": "Los sistemas rígidos ralentizan las actualizaciones y la localización."
+      }
+    }
+  },
+  "approach": {
+    "title": "Analíticas diseñadas para la calidad del aprendizaje, no métricas de vanidad.",
+    "subtitle": "LearnPack mide cómo aprenden las personas, no solo lo que hacen clic.",
+    "pillars": {
+      "observable": {
+        "title": "Observable",
+        "description": "Cada interacción dentro de un curso LearnPack puede verse y analizarse."
+      },
+      "measurable": {
+        "title": "Medible",
+        "description": "Engagement, fricción, reintentos y progresión se rastrean en tiempo real."
+      },
+      "exportable": {
+        "title": "Exportable",
+        "description": "Los insights viajan con tu curso a través de integraciones LMS estándar."
+      }
+    }
+  },
+  "analytics": {
+    "title": "Ve cómo los estudiantes progresan, luchan y se recuperan. En tiempo real.",
+    "signalsColumn": "Señales que LearnPack observa",
+    "actionsColumn": "Acciones para los equipos",
+    "rubric": {
+      "engagement": {
+        "signal": "Señales de engagement a través de lecciones e interacciones",
+        "action": "Identifica desenganche temprano antes de que se convierta en abandono"
+      },
+      "retries": {
+        "signal": "Intentos repetidos, pausas y patrones de vacilación",
+        "action": "Detecta fricción antes de que los estudiantes se rindan"
+      },
+      "dropoff": {
+        "signal": "Puntos de abandono dentro de bloques de contenido",
+        "action": "Ve exactamente dónde los estudiantes abandonan y por qué"
+      },
+      "tutor": {
+        "signal": "Interacciones con el Tutor IA y solicitudes de ayuda",
+        "action": "Entiende cuándo los estudiantes necesitan apoyo y con qué luchan"
+      }
+    },
+    "note": "Nota: Las analíticas de LearnPack se enfocan en el comportamiento de aprendizaje, no en vigilancia."
+  },
+  "actionable": {
+    "title": "Información accionable, despliegue conforme.",
+    "subtitle": "De datos crudos a decisiones reales, con infraestructura que se adapta a tu entorno.",
+    "insight": {
+      "title": "Capa de información",
+      "description": "Interpretación asistida por IA de señales de aprendizaje destaca dónde los estudiantes se atascan, desenganchan o progresan sin problemas, para que los equipos mejoren el contenido sin análisis manual."
+    },
+    "portability": {
+      "title": "Capa de portabilidad",
+      "description": "Exporta cursos como paquetes SCORM compatibles con flujos de trabajo LMS estándar. Incrusta contenido LearnPack directamente donde los estudiantes ya entrenan."
+    },
+    "compliance": {
+      "title": "Capa de cumplimiento",
+      "description": "Compatible con entornos ISO 27001, SOC 2, HIPAA y alineados con FedRAMP. Despliega de forma segura sin bloqueo de hosting propietario."
+    }
+  },
+  "useCases": {
+    "title": "Dónde esto importa más",
+    "items": {
+      "corporate": {
+        "title": "Capacitación corporativa",
+        "description": "Rastrea el engagement mientras cumples con requisitos de auditoría interna."
+      },
+      "financial": {
+        "title": "Instituciones financieras",
+        "description": "Despliega aprendizaje estandarizado con resultados medibles."
+      },
+      "healthcare": {
+        "title": "Salud e industrias reguladas",
+        "description": "Asegura consistencia sin ralentizar las actualizaciones."
+      },
+      "training": {
+        "title": "Centros de capacitación y academias",
+        "description": "Demuestra la efectividad del aprendizaje a socios y organismos acreditadores."
+      }
+    }
+  },
+  "differentiator": {
+    "traditional": "Reportes LMS tradicionales",
+    "learnpack": "LearnPack",
+    "rows": [
+      { "traditional": "Reportes de actividad", "learnpack": "Señales de comportamiento de aprendizaje" },
+      { "traditional": "Información retrospectiva", "learnpack": "Visibilidad en tiempo real" },
+      { "traditional": "Actualizaciones lentas", "learnpack": "Refinamiento continuo del contenido" }
+    ]
+  },
+  "faq": {
+    "title": "Preguntas Frecuentes",
+    "lastUpdated": "Última actualización: Diciembre 2025",
+    "questions": {
+      "q1": {
+        "question": "¿LearnPack reemplaza nuestro LMS?",
+        "answer": "No. LearnPack se integra con plataformas LMS existentes mediante exportaciones SCORM o incrustación, permitiendo a las organizaciones mantener su infraestructura actual."
+      },
+      "q2": {
+        "question": "¿Qué tipo de analíticas proporciona LearnPack?",
+        "answer": "LearnPack proporciona información en tiempo real sobre el engagement, progresión y puntos de fricción del estudiante, incluyendo interacciones con el Tutor IA."
+      },
+      "q3": {
+        "question": "¿Es LearnPack adecuado para industrias reguladas?",
+        "answer": "Sí. LearnPack está diseñado para operar en entornos orientados al cumplimiento y soporta despliegue seguro mediante integraciones LMS estándar."
+      }
+    }
+  },
+  "cta": {
+    "title": "Convierte los datos de capacitación en decisiones de aprendizaje.",
+    "subtitle": "Ve cómo las analíticas y el cumplimiento trabajan juntos dentro de LearnPack.",
+    "ctaDemo": "Reservar Demo",
+    "ctaResults": "Ver Resultados"
+  }
+}

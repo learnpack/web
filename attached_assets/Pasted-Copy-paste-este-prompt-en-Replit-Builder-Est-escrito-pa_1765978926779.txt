@@ -1,0 +1,233 @@
+Copy/paste este prompt en Replit Builder. Está escrito para que construya la página completa sin copiar otras subpáginas, manteniendo contenedores laterales y sin inventar datos.
+
+---
+
+### Replit Builder Prompt: Build “Analytics & Compliance” page
+
+Create a new LearnPack marketing subpage named **Analytics & Compliance** (Feature page). Maintain the existing site style system, typography, spacing, and the same lateral container rules used in other subpages. Do not copy the layout from Home or other feature pages. Avoid repetitive card grids and avoid vertical light divider lines.
+
+#### Global constraints
+
+* Use the same max width container as other subpages (example: `max-w-6xl`) and consistent side padding (`px-6 md:px-10`).
+* Keep the hero higher on the page, not overly tall.
+* No invented metrics, no fake dashboards with real numbers, no new claims.
+* Use “Rigobot” only as “the AI Tutor” in text.
+* Add a small “Last updated: December 2025” line near the FAQ section header.
+* Keep content as static HTML text (not images) for LLM/SEO readability.
+
+---
+
+## Page structure and content
+
+### 1) Hero (unique layout, 2 columns)
+
+Left column:
+
+* H1: **Training insights you can trust. Compliance you can prove.**
+* Subheadline: **Track real learning behavior in real time and deploy courses in regulated environments without breaking your existing infrastructure.**
+* CTA row:
+
+  * Primary button: **Book a Demo**
+  * Secondary button: **See how analytics work**
+* One muted trust line under CTAs: **SCORM-ready. LMS-friendly. Built for regulated environments.**
+
+Right column (visual, abstract UI only):
+
+* A clean composite panel with:
+
+  * Top: three small “metric tiles” with labels only: **Engagement**, **Completion**, **Friction signals**
+  * Bottom: a 3-step mini flow with icons: **Course → SCORM export → LMS**
+
+No charts with real data and no numbers.
+
+---
+
+### 2) Definition Box (LLM definition block)
+
+A single full-width callout box (not a grid of cards), titled “Definition”:
+Text (2 sentences max):
+
+* **LearnPack Analytics & Compliance provides real-time visibility into learner engagement, performance, and friction points.**
+* **It enables secure deployment through SCORM exports and LMS-compatible integrations.**
+
+---
+
+### 3) Problem section
+
+H2: **Most training analytics tell you what was clicked, not what was learned.**
+Add a short intro line (1 sentence).
+
+Then a 2x2 grid of simple blocks (not heavy cards), each with a bold label and one sentence:
+
+1. **Surface-level metrics**: Completion rates without understanding engagement or confusion.
+2. **Delayed insights**: Problems are detected after learners drop out.
+3. **No behavioral context**: LMS reports cannot see hesitation, retries, or friction.
+4. **Compliance without flexibility**: Rigid systems slow down updates and localization.
+
+---
+
+### 4) Approach bridge section (text + signal list)
+
+Two-column layout:
+Left:
+
+* H2: **Analytics designed for learning quality, not vanity metrics.**
+* Subheadline: **Every interaction inside a LearnPack course is observable, measurable, and exportable.**
+
+Right:
+
+* A vertical “signal list” (compact rows or chips):
+
+  * Engagement
+  * Progression
+  * Retries
+  * Drop-off points
+  * AI Tutor interactions
+
+---
+
+### 5) Real-time learning analytics (core section)
+
+H2: **See how learners progress, struggle, and recover. In real time.**
+Two columns with headings and bullet lists:
+
+Left heading: **What LearnPack tracks**
+Bullets:
+
+* Engagement signals across lessons and interactions
+* Repeated attempts, pauses, and retries
+* Drop-off points inside content blocks
+* AI Tutor interactions (when help is requested and why)
+
+Right heading: **What instructors and teams get**
+Bullets:
+
+* Immediate visibility into learner friction
+* Early signals before dropout happens
+* Clear indicators of content that needs refinement
+* Evidence of real participation, not passive clicking
+
+Below, add a muted note line:
+
+* **Note: LearnPack analytics focus on learning behavior, not surveillance.**
+
+---
+
+### 6) AI-assisted insight (short, no hype)
+
+Centered section:
+H2: **From raw data to actionable insight.**
+Paragraph (2 lines max):
+
+* LearnPack uses AI to interpret learning signals and highlight where learners are getting stuck, disengaged, or progressing smoothly, so teams can improve content continuously without manual analysis.
+
+Add a small 3-row “insight highlights” list (icon + text):
+
+* Where learners get stuck
+* Where content needs refinement
+* What improves completion
+
+---
+
+### 7) Compliance by design (core section)
+
+Two-column layout:
+Left:
+
+* H2: **Deploy LearnPack in regulated environments with confidence.**
+* Subheadline: **LearnPack does not replace your LMS. It connects to it.**
+
+Right:
+
+* Mini diagram card: **Course → SCORM Export → LMS**
+* Small caption: **SCORM 1.2 and SCORM 2004**
+
+---
+
+### 8) SCORM & LMS compatibility (3 columns)
+
+Create three feature columns (icon, title, one sentence):
+
+1. **SCORM export**: Export courses as SCORM packages compatible with standard LMS workflows.
+2. **LMS embedding**: Embed LearnPack content where learners already train.
+3. **Infrastructure independence**: Deploy without forcing a proprietary hosting lock-in.
+
+---
+
+### 9) Security and enterprise readiness
+
+Two-column layout:
+Left:
+
+* H2: **Built to meet enterprise and institutional requirements.**
+  Right:
+  Checklist bullets (use careful wording):
+* Compatible with ISO 27001 environments
+* Compatible with SOC 2 environments
+* Compatible with HIPAA environments
+* FedRAMP-aligned environments
+
+Do not claim formal certification.
+
+---
+
+### 10) Use cases (in practice)
+
+Section H2: **Where this matters most**
+Use a layout that differs from other pages: 2x2 on desktop, horizontal scroller on mobile.
+Items (title + one sentence):
+
+* **Corporate training**: Track engagement while meeting internal audit requirements.
+* **Financial institutions**: Deploy standardized learning modules with measurable outcomes.
+* **Healthcare and regulated industries**: Ensure training consistency without slowing updates.
+* **Training centers and academies**: Prove learning effectiveness to partners and accrediting bodies.
+
+---
+
+### 11) Differentiator rows (not a table)
+
+Three rows, each row has two columns:
+Left label: “Traditional LMS reporting”
+Right label: “LearnPack”
+
+Rows:
+
+1. Activity reporting → Learning behavior signals
+2. Retrospective insights → Real-time visibility
+3. Slow updates → Continuous content refinement
+
+---
+
+### 12) FAQ block (SEO)
+
+Add an FAQ section (accordion preferred if consistent with site):
+
+* Q: Does LearnPack replace our LMS?
+  A: No. LearnPack integrates with existing LMS platforms through SCORM exports or embedding, allowing organizations to keep their current infrastructure.
+* Q: What kind of analytics does LearnPack provide?
+  A: LearnPack provides real-time insights into learner engagement, progression, and friction points, including interactions with the AI Tutor.
+* Q: Is LearnPack suitable for regulated industries?
+  A: Yes. LearnPack is designed to operate in compliance-oriented environments and supports secure deployment through standard LMS integrations.
+
+Add “Last updated: December 2025” near the FAQ header.
+
+---
+
+### 13) Final CTA banner
+
+Full-width banner inside the container:
+
+* H2: **Turn training data into learning decisions.**
+* Subheadline: **See how analytics and compliance work together inside LearnPack.**
+* Buttons: **Book a Demo** and **View Results**
+
+---
+
+#### Final checks
+
+* Ensure headings are semantic (one H1, then H2s).
+* Ensure the definition box is plain text HTML.
+* Ensure the layout does not reuse the same repetitive card grid from other pages.
+* Ensure no em dashes appear in any text.
+
+---
